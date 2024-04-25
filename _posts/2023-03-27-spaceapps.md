@@ -1,7 +1,7 @@
 ---
 title: 'Space Apps Challenge 2022: Congratulations to the winners!'
 date: 2023-03-27
-permalink: /posts/2024/03/spaceapps/
+permalink: /posts/2023/03/spaceapps/
 ---
 
 I was the team lead for Glaxy Hunters which participated in the 2022 Space Apps Challenge and this is an 
