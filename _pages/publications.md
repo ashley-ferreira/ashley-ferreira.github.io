@@ -5,11 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">A bunch of my written work, varying from reports to actual papers.</a>.</div>
-{% endif %}
-
 {% include base_path %}
+
+Some my written work, varying from reports to actual papers.
 
 **Ferreira, A.**, Fabbro, S., & Hudson, M. (2024). Illuminating the Ultraviolet Near Infrared Optical
 Northern Survey with Simple Masked Image Modeling [Final Report for Undergrad Thesis]. [Access](https://drive.google.com/file/d/17jNdRP0ZW9eHmfHxisz6FP_SYjAJoTMs/view?usp=sharing).

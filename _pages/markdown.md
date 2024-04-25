@@ -25,7 +25,7 @@ redirect_from:
 <img src="../images/29er_sailing2.jpg" alt="Image 2" style="max-width: 49%; display: inline-block;">
 <img src="../images/29er_sailing5.jpg" alt="Image 3" style="max-width: 49%; display: inline-block;">
 <img src="../images/29er_sailing4.jpg" alt="Image 4" style="max-width: 49%; display: inline-block;">
-<img src="../images/29er_sailing6.jpg" alt="Image 5" style="max-width: 50%; display: inline-block;">
+<img src="../images/29er_sailing6.jpg" alt="Image 5" style="max-width: 49%; display: inline-block;">
 <img src="../images/29er_sailing3.jpg" alt="Image 6" style="max-width: 49%; display: inline-block;">
 
 To learn more visit my old sailing [FaceBook page](https://www.facebook.com/SophAndAsh/).
