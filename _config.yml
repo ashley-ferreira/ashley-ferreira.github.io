@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Ashley's Webpage'"
+title                    : "Ashley's Webpage"
 title_separator          : "-"
 name                     : &name "Ashley Ferreira"
 description              : &description "data scientist and researcher"

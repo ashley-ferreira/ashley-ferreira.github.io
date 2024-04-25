@@ -8,26 +8,25 @@ redirect_from:
 
 {% include base_path %}
 
-
 ## TRIUMF: Canada’s Particle Accelerator Center (1 yr)
 
-* Incoming: ALPHA Junior Machine Learning Architect Student @ Particle Physics Group
+* Incoming: Machine Learning Architect Student @ Particle Physics Group
 
-* Research Student @ Particle Physics Group | 05/2023  - 01/2023 
+* Research Student @ Particle Physics Group (05/2023 - 01/2023) 
 
-* Photosensor Detector Researcher @ Particle Physics Group | 01/2020  - 04/2020 
+* Photosensor Detector Researcher @ Particle Physics Group (01/2020 - 04/2020) 
 
 ## Government of Canada (3.5 yrs)
 
-* Junior Data Scientist @ Canadian Space Agency | 01/2023 - Present
+* Junior Data Scientist @ Canadian Space Agency (01/2023 - Present)
 
-* Data Scientist / Analyst @ Global Affairs Canada | 05/2022 - 01/2023
+* Data Scientist / Analyst @ Global Affairs Canada (05/2022 - 01/2023)
 
-* Student Researcher @ Herzberg Astronomy & Astrophysics Research Centre | 09/2021 - 04/2022
+* Student Researcher @ Herzberg Astronomy & Astrophysics Research Centre (09/2021 - 04/2022)
 
-* Defence Data Science Assistant @ Defence Research and Development Canada | 01/2021 - 04/2021
+* Defence Data Science Assistant @ Defence Research and Development Canada (01/2021 - 04/2021)
 
-* Renewable Energy Data Research Assistant / CanmetENERGY-Ottawa | 09/2020 - 12/2020
+* Renewable Energy Data Research Assistant @ CanmetENERGY-Ottawa (09/2020 - 12/2020)
 
 ## Notes
 
