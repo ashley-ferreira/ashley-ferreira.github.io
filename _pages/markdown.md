@@ -21,43 +21,27 @@ redirect_from:
     * Best Female Performance at Royal Candian Yacht Club’s Junior Club Award Ceremony (2018)
 
 
-<div class="row">
-  <div class="col-md-4">
-    <img src="../images/29er_sailing2.jpg" class="img-fluid rounded" alt="29er Sailing">
-  </div>
-  <div class="col-md-4">
-    <img src="../images/29er_sailing4.jpg" class="img-fluid rounded" alt="29er Sailing">
-  </div>
-  <div class="col-md-4">
-    <img src="../images/29er_sailing3.jpg" class="img-fluid rounded" alt="29er Sailing">
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-4">
-    <img src="../images/29er_sailing1.jpg" class="img-fluid rounded" alt="29er Sailing">
-  </div>
-  <div class="col-md-4">
-    <img src="../images/29er_sailing5.jpg" class="img-fluid rounded" alt="29er Sailing">
-  </div>
-  <div class="col-md-4">
-    <img src="../images/29er_sailing6.jpg" class="img-fluid rounded" alt="29er Sailing">
-  </div>
-</div>
+<img src="../images/29er_sailing1.jpg" alt="Image 1" style="max-width: 49%; display: inline-block;">
+<img src="../images/29er_sailing2.jpg" alt="Image 2" style="max-width: 49%; display: inline-block;">
+<img src="../images/29er_sailing5.jpg" alt="Image 3" style="max-width: 49%; display: inline-block;">
+<img src="../images/29er_sailing4.jpg" alt="Image 4" style="max-width: 49%; display: inline-block;">
+<img src="../images/29er_sailing6.jpg" alt="Image 5" style="max-width: 50%; display: inline-block;">
+<img src="../images/29er_sailing3.jpg" alt="Image 6" style="max-width: 49%; display: inline-block;">
 
 To learn more visit my old sailing [FaceBook page](https://www.facebook.com/SophAndAsh/).
 
-## Central Okanagan Sailing Association - Summer 2019
+## Central Okanagan Sailing Association - 4 months
 
 * Senior Sailing Instructor & Race Team Coach (05/2019 - 08/2019)
 
-## Collegiate Sailing - 8 Months
-
-* Crew @ Canadian Collegiate Sailing National Keelboat Development Team (10/2023 - Present)
+## Collegiate Sailing - 8 months
 
 * Skipper @ University of British Columbia Sailing Team (09/2023 - Present)
 
+* Crew @ Canadian Collegiate Sailing National Keelboat Development Team (10/2023 - Present)
+
 <img src="../images/UBC_sailing0.png" alt="Image 1" style="max-width: 26%; display: inline-block;">
 <img src="../images/UBC_sailing1.png" alt="Image 2" style="max-width: 35%; display: inline-block;">
-<img src="../images/UBC_sailing2.png" alt="Image 2" style="max-width: 31.5%; display: inline-block;">
+<img src="../images/UBC_sailing2.png" alt="Image 3" style="max-width: 31.5%; display: inline-block;">
 
 To learn more check out the UBC Sailing Team's [Instagram](https://www.instagram.com/ubcsailing/) or the UBC Thunderbird Sports Club's [Instagram]().
