@@ -7,9 +7,65 @@ redirect_from:
   - /markdown.html
 ---
 
-## 29er Crew @ Royal Canadian Yacht Club Race Team & Ontario Sailing Team | 09/2015 - 08/2018
+## Royal Canadian Yacht Club - 3.5 years
 
-* Top Female & 3rd overall at 29er Canadian Championship (2017)
-* Top Female & 3rd overall at Canadian Double-handed Youth Championship (2017)
-* Represented Canada at 29er World Championship (2017)
-* Best Female Performance at Royal Candian Yacht Club’s Junior Club Award Ceremony (2018)
+* Race Management Supervisor (05/2021 - 10/2021)
+    * Oversaw racing operations for 35 sailing events including Canada’s Cup and WASZP Canadians
+    * Learned many aspects of race management and course setting under challenging conditions
+
+* 29er Crew @ High Performance Race Team  (09/2015 - 08/2018)
+    * Selected for Ontario Provincial Sailing Team (2015-2018)
+    * Top Female & 3rd overall at 29er Canadian Championship (2017)
+    * Top Female & 3rd overall at Canadian Double-handed Youth Championship (2017)
+    * Represented Canada at 29er World Championship (2017)
+    * Best Female Performance at Royal Candian Yacht Club’s Junior Club Award Ceremony (2018)
+
+
+<div class="row">
+  <div class="col-md-4">
+    <img src="../images/29er_sailing2.jpg" class="img-fluid rounded" alt="29er Sailing">
+  </div>
+  <div class="col-md-4">
+    <img src="../images/29er_sailing4.jpg" class="img-fluid rounded" alt="29er Sailing">
+  </div>
+  <div class="col-md-4">
+    <img src="../images/29er_sailing3.jpg" class="img-fluid rounded" alt="29er Sailing">
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+    <img src="../images/29er_sailing1.jpg" class="img-fluid rounded" alt="29er Sailing">
+  </div>
+  <div class="col-md-4">
+    <img src="../images/29er_sailing5.jpg" class="img-fluid rounded" alt="29er Sailing">
+  </div>
+  <div class="col-md-4">
+    <img src="../images/29er_sailing6.jpg" class="img-fluid rounded" alt="29er Sailing">
+  </div>
+</div>
+
+To learn more visit my old sailing [FaceBook page](https://www.facebook.com/SophAndAsh/).
+
+## Central Okanagan Sailing Association - Summer 2019
+
+* Senior Sailing Instructor & Race Team Coach (05/2019 - 08/2019)
+
+## Collegiate Sailing - 8 Months
+
+* Crew @ Canadian Collegiate Sailing National Keelboat Development Team (10/2023 - Present)
+
+* Skipper @ University of British Columbia Sailing Team (09/2023 - Present)
+
+<div class="row">
+  <div class="col-md-4">
+    <img src="../images/UBC_sailing0.png" class="img-fluid rounded" alt="UBC Sailing">
+  </div>
+  <div class="col-md-4">
+    <img src="../images/UBC_sailing1.png" class="img-fluid rounded" alt="UBC Sailing">
+  </div>
+  <div class="col-md-4">
+    <img src="../images/UBC_sailing2.png" class="img-fluid rounded" alt="UBC Sailing">
+  </div>
+</div>
+
+To learn more check out the UBC Sailing Team's [Instagram](https://www.instagram.com/ubcsailing/) or the UBC Thunderbird Sports Club's [Instagram]().

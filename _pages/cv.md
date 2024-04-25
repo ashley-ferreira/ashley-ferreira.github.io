@@ -8,15 +8,7 @@ redirect_from:
 
 {% include base_path %}
 
-## TRIUMF: Canada’s Particle Accelerator Center (1 yr)
-
-* Incoming: Machine Learning Architect Student @ Particle Physics Group
-
-* Research Student @ Particle Physics Group (05/2023 - 01/2023) 
-
-* Photosensor Detector Researcher @ Particle Physics Group (01/2020 - 04/2020) 
-
-## Government of Canada (3.5 yrs)
+## Government of Canada - 3.5 years
 
 * Junior Data Scientist @ Canadian Space Agency (01/2023 - Present)
 
@@ -26,7 +18,35 @@ redirect_from:
 
 * Defence Data Science Assistant @ Defence Research and Development Canada (01/2021 - 04/2021)
 
-* Renewable Energy Data Research Assistant @ CanmetENERGY-Ottawa (09/2020 - 12/2020)
+* Renewable Energy Data Research Assistant @ CanmetENERGY (09/2020 - 12/2020)
+
+## TRIUMF: Canada’s Particle Accelerator Center - 1 year
+
+* Incoming: Machine Learning Architect Student @ Particle Physics Group
+
+* Research Student @ Particle Physics Group (05/2023 - 01/2023) 
+
+* Photosensor Detector Researcher @ Particle Physics Group (01/2020 - 04/2020) 
+
+<div class="row">
+  </div>
+  <div class="col-md-4">
+    <img src="../images/TRIUMF_work2.jpg" class="img-fluid rounded">
+  </div>
+  <div class="col-md-4">
+    <img src="../images/CERN_work1.jpg" class="img-fluid rounded">
+  </div>
+</div>
+
+<div class="row">
+  </div>
+  <div class="col-md-4">
+    <img src="../images/CERN_work2.jpg" class="img-fluid rounded">
+  </div>
+  <div class="col-md-4">
+    <img src="../images/CERN_work3.jpeg" class="img-fluid rounded">
+  </div>
+</div>
 
 ## Notes
 
