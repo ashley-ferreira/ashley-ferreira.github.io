@@ -28,25 +28,11 @@ redirect_from:
 
 * Photosensor Detector Researcher @ Particle Physics Group (01/2020 - 04/2020) 
 
-<div class="row">
-  </div>
-  <div class="col-md-4">
-    <img src="../images/TRIUMF_work2.jpg" class="img-fluid rounded">
-  </div>
-  <div class="col-md-4">
-    <img src="../images/CERN_work1.jpg" class="img-fluid rounded">
-  </div>
-</div>
+<img src="../images/TRIUMF_work2.jpg" alt="Image 1" style="max-width: 42%; display: inline-block;">
+<img src="../images/CERN_work1.jpg" alt="Image 2" style="max-width: 55%; display: inline-block;">
 
-<div class="row">
-  </div>
-  <div class="col-md-4">
-    <img src="../images/CERN_work2.jpg" class="img-fluid rounded">
-  </div>
-  <div class="col-md-4">
-    <img src="../images/CERN_work3.jpeg" class="img-fluid rounded">
-  </div>
-</div>
+<img src="../images/CERN_work2.jpg" alt="Image 3" style="max-width: 47%; display: inline-block;">
+<img src="../images/CERN_work3.jpeg" alt="Image 4" style="max-width: 47%; display: inline-block;">
 
 ## Notes
 

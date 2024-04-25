@@ -56,16 +56,8 @@ To learn more visit my old sailing [FaceBook page](https://www.facebook.com/Soph
 
 * Skipper @ University of British Columbia Sailing Team (09/2023 - Present)
 
-<div class="row">
-  <div class="col-md-4">
-    <img src="../images/UBC_sailing0.png" class="img-fluid rounded" alt="UBC Sailing">
-  </div>
-  <div class="col-md-4">
-    <img src="../images/UBC_sailing1.png" class="img-fluid rounded" alt="UBC Sailing">
-  </div>
-  <div class="col-md-4">
-    <img src="../images/UBC_sailing2.png" class="img-fluid rounded" alt="UBC Sailing">
-  </div>
-</div>
+<img src="../images/UBC_sailing0.png" alt="Image 1" style="max-width: 26%; display: inline-block;">
+<img src="../images/UBC_sailing1.png" alt="Image 2" style="max-width: 35%; display: inline-block;">
+<img src="../images/UBC_sailing2.png" alt="Image 2" style="max-width: 31.5%; display: inline-block;">
 
 To learn more check out the UBC Sailing Team's [Instagram](https://www.instagram.com/ubcsailing/) or the UBC Thunderbird Sports Club's [Instagram]().
