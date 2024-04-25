@@ -21,7 +21,7 @@ repository               : "ashley-ferreira/ashley-ferreira.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "headshot.png"
+  avatar           : "headshot.jpg"
   name             : "Ashley Ferreira"
   pronouns         : # example: "she/her"  
   bio              : "Data Scientist & Researcher"
@@ -55,7 +55,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : 'ashleydcferreira' # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

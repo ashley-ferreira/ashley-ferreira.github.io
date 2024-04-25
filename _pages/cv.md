@@ -1,7 +1,6 @@
 ---
-layout: archive
-title: "CV"
 permalink: /cv/
+title: "Work Experience"
 author_profile: true
 redirect_from:
   - /resume
@@ -9,56 +8,27 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## TRIUMF: Canada’s Particle Accelerator Center (1 yr)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Incoming: ALPHA Junior Machine Learning Architect Student @ Particle Physics Group
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Research Student @ Particle Physics Group | 05/2023  - 01/2023 
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Photosensor Detector Researcher @ Particle Physics Group | 01/2020  - 04/2020 
+
+## Government of Canada (3.5 yrs)
+
+* Junior Data Scientist @ Canadian Space Agency | 01/2023 - Present
+
+* Data Scientist / Analyst @ Global Affairs Canada | 05/2022 - 01/2023
+
+* Student Researcher @ Herzberg Astronomy & Astrophysics Research Centre | 09/2021 - 04/2022
+
+* Defence Data Science Assistant @ Defence Research and Development Canada | 01/2021 - 04/2021
+
+* Renewable Energy Data Research Assistant / CanmetENERGY-Ottawa | 09/2020 - 12/2020
+
+## Notes
+
+Most of this work experience was gained through the University of Waterloo co-op program, where we would alternate between school and work for our entire degree. This also included a 4-month work experience as a Robotics & Space Operations Intern @ MDA. You can learn more about my co-op work experiences through an [article](https://uwaterloo.ca/co-operative-education/blog/post/co-op-time-try-things) the University of Waterloo co-op prgram wrote about me.

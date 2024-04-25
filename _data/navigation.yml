@@ -1,13 +1,13 @@
 # main links links
 main:
-  - title: "CV"
+  - title: "Experience"
     url: /cv/
 
   - title: "Presentations"
     url: /talks/    
 
-  - title: "Awards"
-    url: /teaching/    
+  - title: "Publications"
+    url: /publications/    
     
   - title: "Portfolio"
     url: /portfolio/
@@ -17,3 +17,6 @@ main:
     
   - title: "Sailing"
     url: /markdown/
+
+  - title: "Media"
+    url: /year-archive/
