@@ -1,9 +1,9 @@
 ---
-permalink: /cv/
-title: "Work Experience"
+permalink: /awards/
+title: "Awards Recieved"
 author_profile: true
 redirect_from:
-  - /resume
+  - /awards/
 ---
 
 {% include base_path %}
