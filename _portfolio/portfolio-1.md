@@ -33,7 +33,9 @@ Most recently, a SSL masked image modeling method called SimMIM was implemented 
 ## Results
 
 The model is able to reconstruct the astronomy images pretty well:
-<img src="../../images/simmim_reconstructions.png" alt="Image 6" style="max-width: 60%; display: inline-block;">
+
+
+<img src="../../images/simmim_reconstructions.png" alt="Image 6" style="max-width: 40%; display: inline-block;">
 
 More importantly, useful repesentations are learned!
 
