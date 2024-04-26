@@ -25,11 +25,11 @@ Awards given to me individually unless otherwise noted.
 
 * 2nd Place Poster Presentation in Astrophysics and Cosmology Group at Canadian Conference for Undergraduate Women in Physics 2024
 
-* Best Presentation Award for Team Canada at US Joint Special Operations Command 2021 Data Challenge (2021, as group I was one of presentors for)
+* Best Presentation Award for Team Canada at US Joint Special Operations Command 2021 Data Challenge (2021, group I was one of presentors for)
 
 ## Hackathons
 
-* 1st Place Overall for Galaxy Hunters at Space Apps 2022 Canadian Space Agency Moonwalker Challenges (2023, as gorup I was team lead for)
+* 1st Place Overall for Galaxy Hunters at Space Apps 2022 Canadian Space Agency Moonwalker Challenges (2023, group I was team lead for)
 
 * 2nd Place for Best Use of Prompt Engineering from Cohere at SheHacks+7 (2023)
 

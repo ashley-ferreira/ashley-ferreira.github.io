@@ -8,7 +8,7 @@ redirect_from:
 
 {% include base_path %}
 
-# Work Experience
+## Work Experience
 
 ### Government of Canada - 3.5 years
 
