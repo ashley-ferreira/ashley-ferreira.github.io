@@ -1,6 +1,6 @@
 ---
 title: "Self-Supervised Learning for Astronomy Discoveries"
-excerpt: "Specifically exploring reconstruction-based methods like masked image modelling<br/><img src='../images/tsne.png' style='max-width: 10%; display: inline-block;'>"
+excerpt: "Specifically exploring reconstruction-based methods like masked image modelling<br/><img src='../images/tsne.png' style='max-width: 50%; display: inline-block;'>"
 collection: portfolio
 ---
 
