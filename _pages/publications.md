@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-Some my written work, varying from reports and blogs to actual papers.
+Some of my written work, varying from reports and blogs to actual papers.
 
 **Ferreira, A.** (2024). Illuminating the Ultraviolet Near Infrared Optical
 Northern Survey with Simple Masked Image Modeling [PHYS 437B report]. [Access](https://drive.google.com/file/d/17jNdRP0ZW9eHmfHxisz6FP_SYjAJoTMs/view?usp=sharing).\\(^1\\)

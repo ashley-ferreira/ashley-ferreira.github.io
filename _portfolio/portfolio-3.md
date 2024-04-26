@@ -14,26 +14,6 @@ tags:
 
 Masking images and making a model reconstruct the missing pixels is a meaningful task to get a deep learning model to learn some fundamental patterns in astronomy data. 
 
-## Built With
-
-[![Python][python]][python-url]
-[![Notebook][notebook]][notebook-url] 
-[![PyTorch][pytorch]][pytorch-url]
-[![WandB][wandb]][wandb-url] 
-
-[python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
-[python-url]: https://www.python.org/
-
-[notebook]: https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter
-[notebook-url]: https://jupyter.org/
-
-[wandb]: https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white
-[wandb-url]: https://wandb.ai/site
-
-[pytorch]: https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white
-[pytorch-url]: https://pytorch.org/
-
-
 ## Background
 
 The Ultraviolet Near Infrared Optical Northern Survey (UNIONS) uses observations from three telescopes in Hawaii to investigate some of the most fundamental questions in astrophysics, such as determining the properties of dark matter and dark energy, as well as the growth of structure in the Universe. However, it is difficult to effectively search through and categorize UNIONS data to address these questions due to the volume of data produced. 

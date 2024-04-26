@@ -28,7 +28,7 @@ redirect_from:
 <img src="../images/29er_sailing6.jpg" alt="Image 5" style="max-width: 49%; display: inline-block;">
 <img src="../images/29er_sailing3.jpg" alt="Image 6" style="max-width: 49%; display: inline-block;">
 
-To learn more visit my old sailing [FaceBook page](https://www.facebook.com/SophAndAsh/).
+To learn more visit my old sailing [Facebook page](https://www.facebook.com/SophAndAsh/).
 
 ## Collegiate Sailing - 8 months
 

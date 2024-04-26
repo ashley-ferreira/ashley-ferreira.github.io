@@ -6,6 +6,10 @@ author_profile: true
 
 {% include base_path %}
 
+<img src="../images/CASST.jpeg" alt="Image 1" style="max-width: 38.3%; display: inline-block;">
+<img src="../images/SheHacks.jpeg" alt="Image 2" style="max-width: 59%; display: inline-block;">
+
+
 Awards given to me individually unless otherwise noted.
 
 ## Fellowships & Scholarships
@@ -49,8 +53,3 @@ Awards given to me individually unless otherwise noted.
 * Astromatic 2022 run by the Ciela Institute
 
 * Canadian Astroparticle Physics Summer School 2021 run by the McDonald Institute
-
-<img src="../images/CASST.jpeg" alt="Image 1" style="max-width: 38.3%; display: inline-block;">
-<img src="../images/SheHacks.jpeg" alt="Image 2" style="max-width: 59%; display: inline-block;">
-
-Above are some pics of me looking very happy from winning my awards.
