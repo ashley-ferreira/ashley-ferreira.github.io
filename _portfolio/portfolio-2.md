@@ -1,14 +1,12 @@
 ---
 title: "Lowering Uncertainties on Antimatter Gravity with Deep Learning"
-excerpt: "<img src='../images/alpha.png' style='max-width: 60%; display: inline-block;'>"
+excerpt: "<img src='../images/valid_compare.png' style='max-width: 60%; display: inline-block;'>"
 collection: portfolio
 tags:
 - python
 - pytorch
 - multi-GPU
 ---
-
-
 
 ## Built With
 
