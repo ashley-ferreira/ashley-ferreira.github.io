@@ -36,8 +36,7 @@ To learn more visit my old sailing [Facebook page](https://www.facebook.com/Soph
 
 * Crew @ Canadian Collegiate Sailing National Keelboat Development Team (10/2023 - Present)
 
-<img src="../images/UBC_sailing0.png" alt="Image 1" style="max-width: 26%; display: inline-block;">
-<img src="../images/UBC_sailing1.png" alt="Image 2" style="max-width: 35%; display: inline-block;">
-<img src="../images/UBC_sailing2.png" alt="Image 3" style="max-width: 31.5%; display: inline-block;">
+<img src="../images/UBC_sailing0.png" alt="Image 1" style="max-width: 42%; display: inline-block;">
+<img src="../images/UBC_sailing1.png" alt="Image 2" style="max-width: 57%; display: inline-block;">
 
-To learn more check out the UBC Sailing Team's [Instagram](https://www.instagram.com/ubcsailing/) or the UBC Thunderbird Sports Club's [Instagram]().
+To learn more check out the UBC Sailing Team's [Instagram](https://www.instagram.com/ubcsailing/) or the UBC Thunderbird Sports Club's [Instagram](https://www.instagram.com/ubctsc/?hl=en).
