@@ -6,6 +6,7 @@ tags:
 - python
 - pytorch
 - multi-GPU
+- git
 ---
 
 \* * * super preliminary work * * * 

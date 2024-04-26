@@ -2,11 +2,15 @@
 title: "ML-PSF: Tool to Pick Good Sources for PSF Generation"
 excerpt: "<img src='../images/ml_psf_method2.png' style='max-width: 50%; display: inline-block;'>"
 collection: portfolio
+tags:
+- python
+- keras
+- git
 ---
 
 ## TL;DR
 
-We can maybe use machine learning to help pick stars for Point Spread Function creation to save time in the data processing pipeline. 
+We can maybe use machine learning to help pick stars for Point Spread Function creation to save time in astronomy data processing pipelines. 
 
 ## Built With
 
@@ -85,8 +89,8 @@ CPU time of the non-CNN method:
 
 ## Conclusion 
 
-Makes the PSF's faster but not nessisarily better. Some form of unsupervised learning is likely needed as a next step.
+This machine learning-based method allows for faster PSF generation but not nessisarily better. Some form of unsupervised learning is likely needed as a next step.
 
 ## Code
 
-Publically available on GitHub: [github.com/ashley-ferreira/ML-PSF/](https://github.com/ashley-ferreira/ML-PSF/)
+Project is publically available on GitHub: [github.com/ashley-ferreira/ML-PSF/](https://github.com/ashley-ferreira/ML-PSF/)

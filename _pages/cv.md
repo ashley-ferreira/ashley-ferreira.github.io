@@ -46,7 +46,7 @@ Most of this work experience was gained through the University of Waterloo co-op
 
 ### [University of Waterloo Data Science Club](https://www.uwdatascience.ca/) - 1.3 years
 * Reading Group Lead (01/2023 - Present)
-* Podcast Host & Edittor (01/2024 - Present)
+* Podcast Host & Editor (01/2024 - Present)
 
 ###  [SEDS-Canada](https://seds.ca/can-sbx/) - 2.3 years
 * Canadian Stratospheric Balloon Experiment Design Challenge (CAN-SBX) Assistant Project Manager (11/2021 - 01/2024)

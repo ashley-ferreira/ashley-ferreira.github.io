@@ -5,7 +5,7 @@ collection: portfolio
 tags:
 - python
 - pytorch
-- multi-GPU
+- git
 ---
 
 ## Built With
@@ -32,7 +32,7 @@ tags:
 
 The goal of this project is to create a machine learning based model to predict the anihilation positions of antihydrogen for the ALPHA-g antimatter experiment at CERN.
 
-First, we trained on real data, but then decided to train on instead simulations so currently all of this code is geared towards training on the simulations but it shouldn't be too hard to apply to real data again.
+First, we trained on real data, but then decided to instead train on simulations but plan to adapt it back to real data in the future.
 
 ## Method
 
@@ -54,9 +54,7 @@ With the model's loss being mostly converged before epoch 200, below is a zoomed
 
 <img src="../../images/MAE_atEpoch200.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
 
-One thing that should stand out is that the validation loss is consistently lower than the training loss, and I'm pretty sure this is due to non-zero dropout being used as increasing dropout increases this effect and decreasing the dropout to zero makes the training loss drop to lower than the validation loss as would be expected. 
-
-Note that this is on normalized data, with 0 being the bottom of the detector and 1 being the top. So in real terms a validation loss of 0.0065 means an unnormalized MAE of much larger value when in mm.
+One thing that should stand out is that the validation loss is consistently lower than the training loss, and I'm pretty sure this is due dropout being used.
 
 ### Predictions
 What is most interesting, is taking the unnormalized predictions and comparing them to the known real z values. There are two main plots we have been using to do this, with the first being a plot of predicted versus true z and shown below:
@@ -69,14 +67,11 @@ And a more granular way of analyzing this plot is by calculating the residuals a
 
 The good news about this plot is it means in the majority of cases, the predicted z value of anihilation is within 15 mm of the real z position of anihilation.
 
-Note that the mean is not consistent with zero in the latter plot and there is some clear z-bias in the former plot and these are features we do not want and that Yukiya has been able to create a model that not only has a smaller standard deviation but does not have these issues with the mean and z-bias.
-
-The evaluation notebook also shows how to generate a similar residual analysis for the test set but we are hoping to not focus much on the test set since we know we can make the validation results better and are still tweaking the model. Ideally, a new test set is used from the additional simmulation data we have available to us so that it is never used until the very end. 
-
+Note that the mean is not consistent with zero in the latter plot and there is some clear z-bias in the former plot and these are features we do not want.
 
 ## Conclusion 
 
-These results are very promissing and more peole have done work on this since, leading to even more promissing results.
+These results are very promissing and more peole have done work on this since, leading to even more promissing results so keep your eye out for a paper about this!
 
 
 ## Code
