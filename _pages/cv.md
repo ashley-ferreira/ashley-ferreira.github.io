@@ -30,18 +30,16 @@ redirect_from:
 
 * Photosensor Detector Researcher @ Particle Physics Group (01/2020 - 04/2020) 
 
-<img src="../images/TRIUMF_work2.jpg" alt="Image 1" style="max-width: 42%; display: inline-block;">
-<img src="../images/CERN_work1.jpg" alt="Image 2" style="max-width: 55%; display: inline-block;">
+<img src="../../images/TRIUMF_work2.jpg" alt="Image 1" style="max-width: 42%; display: inline-block;">
+<img src="../../images/CERN_work1.jpg" alt="Image 2" style="max-width: 55%; display: inline-block;">
 
-<img src="../images/CERN_work2.jpg" alt="Image 3" style="max-width: 47%; display: inline-block;">
-<img src="../images/CERN_work3.jpeg" alt="Image 4" style="max-width: 47%; display: inline-block;">
-
-Above are some rare pics of me doing work at CERN and TRIUMF while coding at a desk.
+<img src="../../images/CERN_work2.jpg" alt="Image 3" style="max-width: 47%; display: inline-block;">
+<img src="../../images/CERN_work3.jpeg" alt="Image 4" style="max-width: 47%; display: inline-block;">
 
 
 ### Notes
 
-Most of this work experience was gained through the University of Waterloo co-op program, where we would alternate between school and work for our entire degree. This also included a 4-month work experience as a Robotics & Space Operations Intern @ MDA. You can learn more about my co-op work experiences through an [article](https://uwaterloo.ca/co-operative-education/blog/post/co-op-time-try-things) the University of Waterloo co-op prgram wrote about me.
+Most of this work experience was gained through the University of Waterloo co-op program, where we would alternate between school and work for our entire degree. This also included a 4-month work experience as a **Robotics & Space Operations Intern @ MDA**. You can learn more about my co-op work experiences through an [article](https://uwaterloo.ca/co-operative-education/blog/post/co-op-time-try-things) the University of Waterloo co-op prgram wrote about me.
 
 
 ## Volunteer Experience
@@ -54,4 +52,4 @@ Most of this work experience was gained through the University of Waterloo co-op
 * Canadian Stratospheric Balloon Experiment Design Challenge (CAN-SBX) Assistant Project Manager (11/2021 - 01/2024)
 
 
-<img src="../images/seds.jpg" alt="Image 5" style="max-width: 100%; display: inline-block;">
+<img src="../../images/seds.jpg" alt="Image 5" style="max-width: 100%; display: inline-block;">

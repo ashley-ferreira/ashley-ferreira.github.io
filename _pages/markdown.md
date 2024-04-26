@@ -30,10 +30,6 @@ redirect_from:
 
 To learn more visit my old sailing [FaceBook page](https://www.facebook.com/SophAndAsh/).
 
-## Central Okanagan Sailing Association - 4 months
-
-* Senior Sailing Instructor & Race Team Coach (05/2019 - 08/2019)
-
 ## Collegiate Sailing - 8 months
 
 * Skipper @ University of British Columbia Sailing Team (09/2023 - Present)
