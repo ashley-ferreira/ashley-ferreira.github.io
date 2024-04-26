@@ -1,6 +1,6 @@
 ---
 title: "ML-PSF: Tool to Pick Good Sources for PSF Generation"
-excerpt: "<img src='../images/un_search.jpeg' style='max-width: 70%; display: inline-block;'>"
+excerpt: "<img src='../images/ml_psf_method2.png' style='max-width: 50%; display: inline-block;'>"
 collection: portfolio
 ---
 
@@ -59,15 +59,28 @@ ones and so a random selection of bad sources is made such
 that the 0 and 1 class sizes are equal.
 
 
-<img src="../../images/ml_psf_method1.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
+<img src="../../images/ml_psf_method1.png" alt="Image 5" style="max-width: 90%; display: inline-block;">
 
 A simple 2D Convolutional Neural Network (CNN) was developed for
 this binary classification problem:
 
-<img src="../../images/ml_psf_method2.png" alt="Image 6" style="max-width: 100%; display: inline-block;">
+<img src="../../images/ml_psf_method2.png" alt="Image 6" style="max-width: 90%; display: inline-block;">
 
 ## Results
 
+The accuracy on the test set was found to be 89.12% overall. 
+
+We can raise the confidence threshold beyond which the model
+labels a source as good. A threshold of 90% was adopted such that
+we can achieve a precision of 93.87% while still having a significant
+number of sources classified as good:
+
+<img src="../../images/ml_psf_results1.png" alt="Image 6" style="max-width: 60%; display: inline-block;">
+
+Once the model is trained, the CNN method takes only ~6% the
+CPU time of the non-CNN method:
+
+<img src="../../images/ml_psf_results2.png" alt="Image 6" style="max-width: 90%; display: inline-block;">
 
 
 ## Conclusion 

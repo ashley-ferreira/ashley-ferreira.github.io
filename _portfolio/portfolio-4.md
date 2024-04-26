@@ -1,6 +1,6 @@
 ---
 title: "United Nation General Assembly Resolutions: Search & Summarize"
-excerpt: "<img src='../images/un_search.jpeg' style='max-width: 70%; display: inline-block;'>"
+excerpt: "<img src='../images/un_search.jpeg' style='max-width: 60%; display: inline-block;'>"
 collection: portfolio
 ---
 

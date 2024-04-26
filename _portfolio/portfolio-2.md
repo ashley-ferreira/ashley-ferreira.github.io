@@ -1,6 +1,6 @@
 ---
-title: "Lowering Uncertainties on Antimatter Gravity with Deep Learning"
-excerpt: "<img src='../images/valid_compare.png' style='max-width: 60%; display: inline-block;'>"
+title: "Reconstructing Antimatter Events with Deep Learning"
+excerpt: "<img src='../images/valid_compare.png' style='max-width: 40%; display: inline-block;'>"
 collection: portfolio
 tags:
 - python
