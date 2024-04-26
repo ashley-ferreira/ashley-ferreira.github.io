@@ -52,3 +52,5 @@ Awards given to me individually unless otherwise noted.
 
 <img src="../images/CASST.jpeg" alt="Image 1" style="max-width: 38.3%; display: inline-block;">
 <img src="../images/SheHacks.jpeg" alt="Image 2" style="max-width: 59%; display: inline-block;">
+
+Above are some pics of me looking very happy from winning my awards.

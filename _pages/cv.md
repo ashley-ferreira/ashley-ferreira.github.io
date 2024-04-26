@@ -8,7 +8,9 @@ redirect_from:
 
 {% include base_path %}
 
-## Government of Canada - 3.5 years
+# Work Experience
+
+### Government of Canada - 3.5 years
 
 * Junior Data Scientist @ Canadian Space Agency (01/2023 - Present)
 
@@ -20,7 +22,7 @@ redirect_from:
 
 * Renewable Energy Data Research Assistant @ CanmetENERGY (09/2020 - 12/2020)
 
-## TRIUMF: Canada’s Particle Accelerator Center - 1 year
+### TRIUMF: Canada’s Particle Accelerator Center - 1 year
 
 * Incoming: Machine Learning Architect Student @ Particle Physics Group
 
@@ -36,6 +38,20 @@ redirect_from:
 
 Above are some rare pics of me doing work at CERN and TRIUMF while coding at a desk.
 
-## Notes
+
+### Notes
 
 Most of this work experience was gained through the University of Waterloo co-op program, where we would alternate between school and work for our entire degree. This also included a 4-month work experience as a Robotics & Space Operations Intern @ MDA. You can learn more about my co-op work experiences through an [article](https://uwaterloo.ca/co-operative-education/blog/post/co-op-time-try-things) the University of Waterloo co-op prgram wrote about me.
+
+
+## Volunteer Experience
+
+### University of Waterloo Data Science Club - 1.3 years
+* Reading Group Lead (01/2023 - Present)
+* Podcast Host & Edittor (01/2024 - Present)
+
+###  SEDS-Canada - 2.3 years
+* Canadian Stratospheric Balloon Experiment Design Challenge (CAN-SBX) Assistant Project Manager (11/2021 - 01/2024)
+
+
+<img src="../images/seds.jpg" alt="Image 5" style="max-width: 100%; display: inline-block;">
