@@ -79,6 +79,7 @@ number of sources classified as good:
 
 Once the model is trained, the CNN method takes only ~6% the
 CPU time of the non-CNN method:
+
 <img src="../../images/ml_psf_results2.png" alt="Image 6" style="max-width: 90%; display: inline-block;">
 
 
