@@ -4,7 +4,7 @@ excerpt: "Specifically exploring reconstruction-based methods like masked image 
 collection: portfolio
 ---
 
-\* * * super pre-liminary work * * * 
+\* * * super preliminary work * * * 
 
 ## TL;DR
 
@@ -52,5 +52,3 @@ These results prove this method is a promising avenue to explore for not only th
 * Initial effort with MAE: [github.com/ashley-ferreira/AstroMASK](https://github.com/ashley-ferreira/AstroMASK)
 
 * Most recent work with SimMIM: [github.com/teaghan/sky_embeddings](https://github.com/teaghan/sky_embeddings)
-
-# pand of exmaple tools to put up here???
