@@ -1,19 +1,19 @@
 ---
-title: "ML-PSF: Tool to Pick Good Sources for PSF Generation"
-excerpt: "<img src='../images/ml_psf_method2.png' style='max-width: 50%; display: inline-block;'>"
+title: "Reconstructing Antimatter Events with Deep Learning"
+excerpt: "<img src='../images/valid_compare.png' style='max-width: 40%; display: inline-block;'>"
 collection: portfolio
+tags:
+- python
+- pytorch
+- multi-GPU
 ---
-
-## TL;DR
-
-We can maybe use machine learning to help pick stars for Point Spread Function creation to save time in the data processing pipeline. 
 
 ## Built With
 
 [![Python][python]][python-url]
 [![Notebook][notebook]][notebook-url] 
-[![Keras][keras]][keras-url]
-[![TensorFlow][tensorflow]][tensorflow-url]
+[![PyTorch][pytorch]][pytorch-url]
+[![WandB][wandb]][wandb-url] 
 
 [python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [python-url]: https://www.python.org/
@@ -21,72 +21,66 @@ We can maybe use machine learning to help pick stars for Point Spread Function c
 [notebook]: https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter
 [notebook-url]: https://jupyter.org/
 
-[keras]: https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white
-[keras-url]: https://keras.io/
+[wandb]: https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white
+[wandb-url]: https://wandb.ai/site
 
-[tensorflow]: https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white
-[tensorflow-url]: https://www.tensorflow.org/
+[pytorch]: https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white
+[pytorch-url]: https://pytorch.org/
 
-
-## Background
-
-### What is a Point Spread Function (PSF)?
-PSFs mathematically describe how point source objects are distorted in an image. Images are a convolution between the true object and its PSF.
-
-### Why are PSFs important to astronomy?
-PSFs are necessary to study any object close to the resolution limit of a telescope with high precision.
-
-### What do we need in order to create PSFs?
-Examples of point-like sources in the image of interest are needed as inputs to PSF generation software. In astronomy, good point-like sources would be stars that are
-bright, round, and well isolated from other sources. The task of selecting these good sources for PSF generation is
-what this deep learning model has been trained to do. 
 
 ## Goal
 
-Given cutout of each source in an image along with their respective x and y coordinates, this program calls on a pre-trained machine learnining model that will return a subset of cutouts of sources to use for point spread function (PSF) creation. It also returns the x and y coordinates of these sources that can be used to pass into the python module TRIPPy in order to create the desired PSF. 
+The goal of this project is to create a machine learning based model to predict the anihilation positions of antihydrogen for the ALPHA-g antimatter experiment at CERN.
+
+First, we trained on real data, but then decided to train on instead simulations so currently all of this code is geared towards training on the simulations but it shouldn't be too hard to apply to real data again.
 
 ## Method
 
-For this project, images from 2020 taken by the Hyper SuprimeCam (HSC). For each image, the top 25 sources were selected as those with
-the lowest flux outside the central source, as inferred by the flux
-of the most discrepant pixel in the source-PSF residual, and the
-standard deviation of all residual pixels.
-Of these top 25, the ones which fell in the accepted range of
-pixel brightness values were deemed good and labelled 1. All
-other sources were considered bad and labelled 0.
-Using this approach, there are far more bad sources than good
-ones and so a random selection of bad sources is made such
-that the 0 and 1 class sizes are equal.
-
-
-<img src="../../images/ml_psf_method1.png" alt="Image 5" style="max-width: 90%; display: inline-block;">
-
-A simple 2D Convolutional Neural Network (CNN) was developed for
-this binary classification problem:
-
-<img src="../../images/ml_psf_method2.png" alt="Image 6" style="max-width: 90%; display: inline-block;">
+<img src="../../images/alpha_method.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
 
 ## Results
 
-The accuracy on the test set was found to be 89.12% overall. 
+The results of this project are always slowly improving and below I outline the results you should get if you follow the quick start steps in the code provided. Note that further improvement can be made by training the model more after convergence of the loss but at a lower learning rate, and implimenting learning rate decay would be a more grown up way to approach this. 
 
-We can raise the confidence threshold beyond which the model
-labels a source as good. A threshold of 90% was adopted such that
-we can achieve a precision of 93.87% while still having a significant
-number of sources classified as good:
 
-<img src="../../images/ml_psf_results1.png" alt="Image 6" style="max-width: 60%; display: inline-block;">
+### Loss 
+Two straightforward choices for the loss function in a regression problem like this one is Mean Squared Error (MSE) or Mean Absolute Error (MAE). MAE is what I have been using for the most part. 
 
-Once the model is trained, the CNN method takes only ~6% the
-CPU time of the non-CNN method:
+We see a relatively healthy loss curve during training, as shown in, where the loss converges for both the training and validation datasets as shown below:
 
-<img src="../../images/ml_psf_results2.png" alt="Image 6" style="max-width: 90%; display: inline-block;">
+<img src="../../images/MAE_overall.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
+
+With the model's loss being mostly converged before epoch 200, below is a zoomed in plot of this early section:
+
+<img src="../../images/MAE_atEpoch200.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
+
+One thing that should stand out is that the validation loss is consistently lower than the training loss, and I'm pretty sure this is due to non-zero dropout being used as increasing dropout increases this effect and decreasing the dropout to zero makes the training loss drop to lower than the validation loss as would be expected. 
+
+Note that this is on normalized data, with 0 being the bottom of the detector and 1 being the top. So in real terms a validation loss of 0.0065 means an unnormalized MAE of much larger value when in mm.
+
+### Predictions
+What is most interesting, is taking the unnormalized predictions and comparing them to the known real z values. There are two main plots we have been using to do this, with the first being a plot of predicted versus true z and shown below:
+
+<img src="../../images/valid_compare.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
+
+And a more granular way of analyzing this plot is by calculating the residuals and doing a guassian fit, which is shown below:
+
+<img src="../../images/valid_residuals.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
+
+The good news about this plot is it means in the majority of cases, the predicted z value of anihilation is within 15 mm of the real z position of anihilation.
+
+Note that the mean is not consistent with zero in the latter plot and there is some clear z-bias in the former plot and these are features we do not want and that Yukiya has been able to create a model that not only has a smaller standard deviation but does not have these issues with the mean and z-bias.
+
+The evaluation notebook also shows how to generate a similar residual analysis for the test set but we are hoping to not focus much on the test set since we know we can make the validation results better and are still tweaking the model. Ideally, a new test set is used from the additional simmulation data we have available to us so that it is never used until the very end. 
 
 
 ## Conclusion 
 
-Makes the PSF's faster but not nessisarily better. Some form of unsupervised learning is likely needed as a next step.
+These results are very promissing and more peole have done work on this since, leading to even more promissing results.
+
 
 ## Code
 
-Publically available on GitHub: [github.com/ashley-ferreira/ML-PSF/](https://github.com/ashley-ferreira/ML-PSF/)
+Code is currently available through the internal TRIUMF GitLab and will hopefully be made publically available too:
+
+<img src="../../images/gitlab.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
