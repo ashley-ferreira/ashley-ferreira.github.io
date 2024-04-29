@@ -23,7 +23,6 @@ Masking images and making a Machine Learning (ML) model reconstruct the missing 
 [![Notebook][notebook]][notebook-url] 
 [![PyTorch][pytorch]][pytorch-url]
 [![WandB][wandb]][wandb-url] 
-[![vscode][vscode]][vscode-url]
 [![github][github]][github-url]
 
 [github]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
