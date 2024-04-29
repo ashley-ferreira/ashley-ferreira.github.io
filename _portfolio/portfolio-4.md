@@ -12,7 +12,7 @@ tags:
 
 ## TL;DR
 
-We can maybe use Machine Learning (ML) to help pick stars for Point Spread Function (PSF) creation to save time in astronomy data processing pipelines. 
+It is no big news that LLMs are useful at summarizing text and can be useful for semantic search. This project demonstrates how these strengths can be applied to important but dense documents such as the United Nations General Assembly (UNGA) Resolutions.
 
 
 ## Built With
@@ -30,6 +30,15 @@ We can maybe use Machine Learning (ML) to help pick stars for Point Spread Funct
 [notebook]: https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter
 [notebook-url]: https://jupyter.org/
 
+## Background
+
+## Goal
+
+## Method
+
+## Results
+
+## Conclusion 
 
 ## Overview 
 Created a Python tool using Cohere’s LLMs for Retrieval-Augmented Generation (RAG) to summarize United Nations resolutions.
