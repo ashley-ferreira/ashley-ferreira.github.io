@@ -66,14 +66,14 @@ Most recently, a SSL masked image modeling method called SimMIM was implemented 
 The model is able to reconstruct the astronomy images pretty well:
 
 
-<img src="../../images/simmim_reconstructions.png" alt="Image 6" style="max-width: 40%; display: inline-block;">
+<img src="../../images/simmim_reconstructions.png" alt="Image 6" style="max-width: 80%; display: inline-block;">
 
 More importantly, useful repesentations are learned!
 
 Similar observations are clustered together (which is super useful for similarity searches):
 
 
-<img src="../../images/tsne.png" alt="Image 7" style="max-width: 100%; display: inline-block;">
+<img src="../../images/tsne_2.png" alt="Image 7" style="max-width: 100%; display: inline-block;">
 
 
 Linear classifiers and regressors can be build on these embeddings to allow for learning from fewer labelled examples thaen is needed train a model of similar performance from scratch for a specific task. The example of a dwarf galaxy classifier is used and achieves 90\% accuracy at identifying known dwarf galaxy candidates with only 200 examples. 

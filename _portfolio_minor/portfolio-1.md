@@ -10,6 +10,7 @@ tags:
 
 ## TL;DR
 
+(ML)
 
 ## Built With
 [![Python][python]][python-url]
@@ -37,6 +38,8 @@ tags:
 [vscode-url]: https://code.visualstudio.com/
 
 ## Background
+
+The Astromatic summer program, run by the Ciela Institute at Université de Montréal and I participated in its innaugural year in 2022. This program selected 15 outstanding undergraduate students from 8 different countries converged in Montréal for three days of expert lectures on foundational topics and research, programming workshops and career activities. The week culminated in an astro-ML hackathon, where I worked as part of a team of 3 to train a ResNet deep learning model to estimate parameters of strong gravitational lensing from simulated images.
 
 ## Goal
 

@@ -57,3 +57,6 @@ We were able to roughly reproduce the results, and even improve them in some are
 - A final presentation is available [here](https://github.com/ashley-ferreira/PHYS449_FinalProject/blob/main/presentations/PHYS%20449%20Final%20Presentation.pdf)
 
 
+* Worked as a team of 5 to successfully reproduce results from Cavanagh et al. “Morphological Classification of Galaxies with Deep Learning: Comparing 3-way and 4-way CNNs” with PyTorch.
+* Improved accuracy of the models by training on a new dataset with a more balanced number of classes using Keras.
+* Received a grade of 100% for my work on this Final Project for PHYS 449: Machine Learning in Physics and every assignment in the course.
