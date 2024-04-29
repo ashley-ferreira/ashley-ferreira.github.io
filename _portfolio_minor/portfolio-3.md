@@ -1,15 +1,13 @@
 ---
-title: "Webb Galaxy Counter: A Simple Notebook for JWST Data Analysis and Visualization"
+title: "WACO: A Simple Notebook for JWST Data Analysis and Visualization"
+excerpt: "<img src='../images/waco_preview.png' style='max-width: 60%; display: inline-block;'>"
 collection: portfolio_minor
 tags:
 - python
-- pytorch
-- keras
 - git
 ---
 
 ## TL;DR
-
 
 
 ## Built With

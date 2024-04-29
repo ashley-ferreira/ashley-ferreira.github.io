@@ -1,7 +1,7 @@
 ---
 title: "ML-PSF: Tool to Pick Good Sources for PSF Generation"
 excerpt: "<img src='../images/ml_psf_method2.png' style='max-width: 40%; display: inline-block;'>"
-collection: portfolio_major
+collection: portfolio
 tags:
 - python
 - keras

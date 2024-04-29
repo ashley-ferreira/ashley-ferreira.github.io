@@ -1,7 +1,7 @@
 ---
 title: "Self-Supervised Learning for Astronomy Discoveries"
 excerpt: "<img src='../images/tsne.png' style='max-width: 60%; display: inline-block;'>"
-collection: portfolio_major
+collection: portfolio
 tags:
 - python
 - pytorch
