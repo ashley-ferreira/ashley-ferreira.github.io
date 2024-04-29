@@ -1,11 +1,12 @@
 ---
 title: "Reconstructing Antimatter Events with Deep Learning"
 excerpt: "<img src='../images/alpha_preview.png' style='max-width: 60%; display: inline-block;'>"
-collection: portfolio
+collection: portfolio_major
 tags:
 - python
 - pytorch
 - git
+- computer vision
 ---
 
 ## TL;DR

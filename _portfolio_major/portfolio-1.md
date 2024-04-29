@@ -1,12 +1,14 @@
 ---
 title: "Self-Supervised Learning for Astronomy Discoveries"
 excerpt: "<img src='../images/tsne.png' style='max-width: 60%; display: inline-block;'>"
-collection: portfolio
+collection: portfolio_major
 tags:
 - python
 - pytorch
 - multi-GPU
 - git
+- computer vision
+- representation learning
 ---
 
 \* * * preliminary + in-progress work * * * 

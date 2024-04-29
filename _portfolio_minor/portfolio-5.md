@@ -1,6 +1,6 @@
 ---
 title: "More to come!"
-collection: portfolio
+collection: portfolio_minor
 ---
 
 Including: 
@@ -18,3 +18,6 @@ Including:
 ### Strong-Smiling: Analysis of Strong Gravitational Lenses 
 * Astromatic is a fully-funded week-long program hosted by the Ciela Institute at Université de Montréal to bring together a group of 15 outstanding undergraduate students interested in artificial intelligence, machine learning, and astrophysics from around the world.
 * Worked as a team of 3 to train a ResNet deep learning model using PyTorch to estimate parameters of strong gravitational lensing from simulated images.
+
+- other phys 449 stuff
+- adiabatic index
