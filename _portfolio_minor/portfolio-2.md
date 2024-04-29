@@ -1,6 +1,6 @@
 ---
-title: "Reproducing Results of Galaxy Morphology Classification Paper"
-excerpt: "<img src='../images/strong_lens_sim.png' style='max-width: 60%; display: inline-block;'>"
+title: "Reproducing Results of Galaxy Classification Paper"
+excerpt: "<img src='../images/morphology_preview.png' style='max-width: 60%; display: inline-block;'>"
 collection: portfolio_minor
 tags:
 - python
@@ -10,8 +10,6 @@ tags:
 ---
 
 ## TL;DR
-
-managed to improve
 
 
 ## Built With
@@ -40,12 +38,9 @@ managed to improve
 
 ## Background
 
-This repository reproduces the results from the 2D Convolutional Neural Networks C1 and C2 denoted from "Morphological classification of galaxies with deep learning: comparing 3-way and 4-way CNNs" by Mitchell K. Cavanagh, Kenji Bekki and Brent A. Groves (https://academic.oup.com/mnras/article/506/1/659/6291200), as well as further exploring their application through the use of the Galaxy10 SDSS dataset.
+For a final-year undergraduate physics class, PHYS 449: Machine Learning in Physics, myself and some peers teamed up to work on classifying images of glaxies with ML. This is a well worn path as ML has time and time again showed to be an exellent tool at classifyig galaxies based on their morphologies. 
 
-The results of Cavanagh et al. are replicated in this repository for the new "C2" network introduced in the paper, and their old "C1" network they used previously, using both PyTorch and Keras for each. Cavanagh et al. had originally used Keras to run their neural networks. This repository runs both neural networks using PyTorch and Keras, in order to compare the models further.
-
-The main work completed did for this project is located in the notebooks folder. Its contents contain the code and structure used to train and test the models. In order to minimize their completion time the code is set up to be initially run using Google Collab, which utilises their computing resources. However, the files containing the Pytorch code can all be run locally, as the code has been adapted to run in python files provided in this repository.
-
+Specifically, part of the project was to sucessfully reproduce the results in a published paper. Our group chose [Morphological classification of galaxies with deep learning: comparing 3-way and 4-way CNNs](https://academic.oup.com/mnras/article/506/1/659/6291200) by Mitchell K. Cavanagh, Kenji Bekki and Brent A. Groves. 
 ## Goal
 
 ## Method
@@ -53,6 +48,8 @@ The main work completed did for this project is located in the notebooks folder.
 ## Results
 
 ## Conclusion 
+We were able to roughly reproduce the results, and even improve them in some areas, as well as further exploring their application through the use of the Galaxy10 SDSS dataset.
+
 
 ## Code
 
