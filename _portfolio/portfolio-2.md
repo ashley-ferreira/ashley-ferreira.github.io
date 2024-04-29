@@ -1,6 +1,6 @@
 ---
 title: "ML-PSF: Tool to Pick Good Sources for PSF Generation"
-excerpt: "<img src='../images/ml_psf_method2.png' style='max-width: 40%; display: inline-block;'>"
+excerpt: "<img src='../images/ml_psf_method2.png' style='max-width: 50%; display: inline-block;'>"
 collection: portfolio
 tags:
 - python
@@ -19,7 +19,6 @@ We can maybe use Machine Learning (ML) to help pick stars for Point Spread Funct
 [![Keras][keras]][keras-url]
 [![TensorFlow][tensorflow]][tensorflow-url]
 [![SkLearn][sklearn]][sklearn-url]
-[![Vim][vim]][vim-url]
 [![github][github]][github-url]
 
 [github]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
