@@ -5,13 +5,19 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-<md-block>## Major Projects</md-block>
+<h2>Major Projects</h2>
 
 {% include base_path %}
 
-{% for post in site.portfolio %}
+{% for post in site.portfolio_major %}
   {% include archive-single.html %}
 {% endfor %}
 
 
-<md-block>## Minor Projects</md-block>
+<h2>Minor Projects</h2>
+
+{% for post in site.portfolio_minor %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2>Open-Source Contributions</h2>
