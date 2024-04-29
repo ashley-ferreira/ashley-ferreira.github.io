@@ -22,7 +22,6 @@ One of my biggest hobbies is sailing and so I've dedicated a whole page to it on
 [![html][html]][html-url]
 [![css][css]][css-url]
 [![yaml][yaml]][yaml-url]
-[![vscode][vscode]][vscode-url]
 [![github][github]][github-url]
 
 [github]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white

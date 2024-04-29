@@ -1,12 +1,15 @@
 ---
 title: "Reconstructing Antimatter Events with Deep Learning"
-excerpt: "<img src='../images/valid_compare.png' style='max-width: 40%; display: inline-block;'>"
+excerpt: "<img src='../images/valid_compare.png' style='max-width: 35%; display: inline-block;'><img src='../images/valid_residuals.png' style='max-width: 35%; display: inline-block;'>"
 collection: portfolio
 tags:
 - python
 - pytorch
 - git
 ---
+
+## TL;DR
+Reconstructing antimatter events with Machine Learning (ML) is a relatively untouched approach and my work has shown it to be viable using data from the leading experiment located at CERN.
 
 ## Built With
 
@@ -36,10 +39,14 @@ tags:
 [vscode]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
 [vscode-url]: https://code.visualstudio.com/
 
+## Background
+Antimatter is similar to normal matter but has the opposite charge and is much more rare. When a particle and its antiparticle meet, they annihilate, so the fact that the universe seems to be dominated by matter is not well understood since equal amounts of matter and antimatter are thought to have been produced during the Big Bang. Some of the most compelling theories to explain this suggest that matter and antimatter must react differently to a force like gravity. 
+
+ALPHA is a leading experiment in the study of antimatter, with a track record of publishing [major breakthroughs](https://alpha.web.cern.ch/publications) in Nature. The most recent of which was [Observation of the effect of gravity on the motion of antimatter](https://www.nature.com/articles/s41586-023-06527-1) in September 2023 which detailed the first-ever measurements of the effect of gravity on antimatter, providing that it does fall down, and not up, but leaving large uncertatinties ranges that nessisitate antimatter be measured further before it can be said if gravity effects a particle and its antiparticle differently. 
 
 ## Goal
 
-The goal of this project is to create a Machine Learning (ML) based model to predict the anihilation positions of antihydrogen for the ALPHA-g antimatter experiment at CERN.
+ML-based event reconstruction may be one way to lower these uncertainty bounds and so the goal of this project is to create a ML model that predicts the anihilation positions of antihydrogen for the ALPHA-g antimatter experiment at CERN.
 
 Currently, the model is trained on simulations but the plan is to adapt it to real data in the future.
 
@@ -52,8 +59,7 @@ Method used is a fully-supervised implimentation of PointNet:
 The results of this project are always slowly improving and below I outline the results you should get if you follow the quick start steps in the code provided. Note that further improvement can be made by training the model more after convergence of the loss but at a lower learning rate, and implimenting learning rate decay would be a more grown up way to approach this. 
 
 
-### Loss 
-Two straightforward choices for the loss function in a regression problem like this one is Mean Squared Error (MSE) or Mean Absolute Error (MAE). MAE is what I have been using for the most part. 
+### Mean Absolute Error Loss in Training
 
 We see a relatively healthy loss curve during training, as shown in, where the loss converges for both the training and validation datasets as shown below:
 
@@ -65,14 +71,14 @@ With the model's loss being mostly converged before epoch 200, below is a zoomed
 
 One thing that should stand out is that the validation loss is consistently lower than the training loss, and I'm pretty sure this is due dropout being used.
 
-### Predictions
+### Antimatter Position Predictions
 What is most interesting, is taking the unnormalized predictions and comparing them to the known real z values. There are two main plots we have been using to do this, with the first being a plot of predicted versus true z and shown below:
 
-<img src="../../images/valid_compare.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
+<img src="../../images/valid_compare.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
 
 And a more granular way of analyzing this plot is by calculating the residuals and doing a guassian fit, which is shown below:
 
-<img src="../../images/valid_residuals.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
+<img src="../../images/valid_residuals.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
 
 The good news about this plot is it means in the majority of cases, the predicted z value of anihilation is within 15 mm of the real z position of anihilation.
 

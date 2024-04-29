@@ -1,6 +1,6 @@
 ---
 title: "ML-PSF: Tool to Pick Good Sources for PSF Generation"
-excerpt: "<img src='../images/ml_psf_method2.png' style='max-width: 50%; display: inline-block;'>"
+excerpt: "<img src='../images/ml_psf_method2.png' style='max-width: 40%; display: inline-block;'>"
 collection: portfolio
 tags:
 - python
@@ -76,12 +76,12 @@ ones and so a random selection of bad sources is made such
 that the 0 and 1 class sizes are equal.
 
 
-<img src="../../images/ml_psf_method1.png" alt="Image 5" style="max-width: 90%; display: inline-block;">
+<img src="../../images/ml_psf_method1.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
 
 A simple 2D Convolutional Neural Network (CNN) was developed for
 this binary classification problem:
 
-<img src="../../images/ml_psf_method2.png" alt="Image 6" style="max-width: 90%; display: inline-block;">
+<img src="../../images/ml_psf_method2.png" alt="Image 6" style="max-width: 70%; display: inline-block;">
 
 ## Results
 

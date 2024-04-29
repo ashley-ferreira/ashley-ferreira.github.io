@@ -16,7 +16,6 @@ Each resolution was also given an embedding which was used to create a semantic 
 
 Hosted results online using Tableau visualization and presented slide deck to judges.
 
-
 ## Code
 
 - Code, tableau visualizations, and presentation publically available on GitHub: [github.com/ashley-ferreira/SheHacks_7](https://github.com/ashley-ferreira/SheHacks_7)
