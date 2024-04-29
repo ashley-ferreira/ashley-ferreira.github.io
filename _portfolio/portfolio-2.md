@@ -94,6 +94,6 @@ This machine learning-based method allows for faster PSF generation but not ness
 ## Code
 
 - Project is publically available on GitHub: [github.com/ashley-ferreira/ML-PSF/](https://github.com/ashley-ferreira/ML-PSF/)
-- Poster available [here]()
+- Poster available [here](https://github.com/ashley-ferreira/ML-PSF/blob/main/PosterPresentations/CUPC22_poster_AshleyFerreira.pdf)
 
 <img src="../../images/ml_psf_poster.jpeg" alt="Image 6" style="max-width: 80%; display: inline-block;">
