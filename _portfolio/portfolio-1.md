@@ -13,7 +13,7 @@ tags:
 
 ## TL;DR
 
-Masking images and making a model reconstruct the missing pixels is a meaningful task to get a deep learning model to learn some fundamental patterns in astronomy data. 
+Masking images and making a Machine Learning (ML) model reconstruct the missing pixels is a meaningful task to get a model to learn cetain fundamental patterns in astronomy data. 
 
 ## Built With
 
@@ -41,7 +41,7 @@ The Ultraviolet Near Infrared Optical Northern Survey (UNIONS) uses observations
 
 ## Goal
 
-This project aims to exploit advances in a sub-field of Machine Learning (ML) called Self-Supervised Learning (SSL), to train a model to produce astrophysically meaningful representations of astronomy observations. 
+This project aims to exploit advances in a sub-field of ML called Self-Supervised Learning (SSL), to train a model to produce astrophysically meaningful representations of astronomy observations. 
 
 ## Method
 
@@ -81,3 +81,5 @@ These results prove this method is a promising avenue to explore for not only th
 * Initial effort with MAE: [github.com/ashley-ferreira/AstroMASK](https://github.com/ashley-ferreira/AstroMASK)
 
 * Most recent work with SimMIM: [github.com/teaghan/sky_embeddings](https://github.com/teaghan/sky_embeddings)
+
+<img src="../../images/ssl_poster.001.jpeg" alt="Image 8" style="max-width: 100%; display: inline-block;">

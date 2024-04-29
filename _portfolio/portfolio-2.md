@@ -10,7 +10,7 @@ tags:
 
 ## TL;DR
 
-We can maybe use machine learning to help pick stars for Point Spread Function creation to save time in astronomy data processing pipelines. 
+We can maybe use Machine Learning (ML) to help pick stars for Point Spread Function (PSF) creation to save time in astronomy data processing pipelines. 
 
 ## Built With
 
@@ -34,7 +34,7 @@ We can maybe use machine learning to help pick stars for Point Spread Function c
 
 ## Background
 
-### What is a Point Spread Function (PSF)?
+### What is a PSF?
 PSFs mathematically describe how point source objects are distorted in an image. Images are a convolution between the true object and its PSF.
 
 ### Why are PSFs important to astronomy?
@@ -46,8 +46,7 @@ bright, round, and well isolated from other sources. The task of selecting these
 what this deep learning model has been trained to do. 
 
 ## Goal
-
-Given cutout of each source in an image along with their respective x and y coordinates, this program calls on a pre-trained machine learnining model that will return a subset of cutouts of sources to use for point spread function (PSF) creation. It also returns the x and y coordinates of these sources that can be used to pass into the python module TRIPPy in order to create the desired PSF. 
+Given cutout of each source in an image along with their respective x and y coordinates, this program calls on an already trained ML model that will return a subset of cutouts of sources to use for PSF creation. It also returns the x and y coordinates of these sources that can be used to pass into the python module TRIPPy in order to create the desired PSF. 
 
 ## Method
 
@@ -55,6 +54,8 @@ For this project, images from 2020 taken by the Hyper SuprimeCam (HSC). For each
 the lowest flux outside the central source, as inferred by the flux
 of the most discrepant pixel in the source-PSF residual, and the
 standard deviation of all residual pixels.
+
+
 Of these top 25, the ones which fell in the accepted range of
 pixel brightness values were deemed good and labelled 1. All
 other sources were considered bad and labelled 0.
@@ -75,14 +76,13 @@ this binary classification problem:
 The accuracy on the test set was found to be 89.12% overall. 
 
 We can raise the confidence threshold beyond which the model
-labels a source as good. A threshold of 90% was adopted such that
-we can achieve a precision of 93.87% while still having a significant
+labels a source as good. The default threshold is 50%, however, since we care much more about achieving a low false positive rate than a low false negative rate, the threshold of 90% was adopted such that
+we can achieve a false positive rate of 93.87% while still having a significant
 number of sources classified as good:
 
 <img src="../../images/ml_psf_results1.png" alt="Image 6" style="max-width: 60%; display: inline-block;">
 
-Once the model is trained, the CNN method takes only ~6% the
-CPU time of the non-CNN method:
+Once the model is trained, the CNN method takes only ~6% the CPU time of the non-CNN method, dramatically speeding up the pipeline:
 
 <img src="../../images/ml_psf_results2.png" alt="Image 6" style="max-width: 90%; display: inline-block;">
 
@@ -93,4 +93,7 @@ This machine learning-based method allows for faster PSF generation but not ness
 
 ## Code
 
-Project is publically available on GitHub: [github.com/ashley-ferreira/ML-PSF/](https://github.com/ashley-ferreira/ML-PSF/)
+- Project is publically available on GitHub: [github.com/ashley-ferreira/ML-PSF/](https://github.com/ashley-ferreira/ML-PSF/)
+- Poster available [here]()
+
+<img src="../../images/ml_psf_poster.jpeg" alt="Image 6" style="max-width: 80%; display: inline-block;">

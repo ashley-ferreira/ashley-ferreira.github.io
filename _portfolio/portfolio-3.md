@@ -30,12 +30,12 @@ tags:
 
 ## Goal
 
-The goal of this project is to create a machine learning based model to predict the anihilation positions of antihydrogen for the ALPHA-g antimatter experiment at CERN.
+The goal of this project is to create a Machine Learning (ML) based model to predict the anihilation positions of antihydrogen for the ALPHA-g antimatter experiment at CERN.
 
-First, we trained on real data, but then decided to instead train on simulations but plan to adapt it back to real data in the future.
+Currently, the model is trained on simulations but the plan is to adapt it to real data in the future.
 
 ## Method
-
+Method used is a fully-supervised implimentation of PointNet:
 <img src="../../images/alpha_method.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
 
 ## Results
