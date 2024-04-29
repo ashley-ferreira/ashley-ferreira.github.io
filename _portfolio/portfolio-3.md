@@ -6,6 +6,7 @@ tags:
 - python
 - pytorch
 - git
+- computer vision
 ---
 
 ## TL;DR
@@ -17,6 +18,7 @@ Reconstructing antimatter events with Machine Learning (ML) is a relatively unto
 [![Notebook][notebook]][notebook-url] 
 [![PyTorch][pytorch]][pytorch-url]
 [![WandB][wandb]][wandb-url] 
+[![vscode][vscode]][vscode-url]
 [![gitlab][gitlab]][gitlab-url]
 
 [gitlab]: https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white

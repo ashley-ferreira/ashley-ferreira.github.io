@@ -6,6 +6,7 @@ tags:
 - python
 - keras
 - git
+- computer vision
 ---
 
 ## TL;DR
@@ -19,6 +20,7 @@ We can maybe use Machine Learning (ML) to help pick stars for Point Spread Funct
 [![Keras][keras]][keras-url]
 [![TensorFlow][tensorflow]][tensorflow-url]
 [![SkLearn][sklearn]][sklearn-url]
+[![Vim][vim]][vim-url]
 [![github][github]][github-url]
 
 [github]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
