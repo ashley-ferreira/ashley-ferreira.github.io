@@ -268,7 +268,7 @@ defaults:
   # _portfolio_major
   - scope:
       path: ""
-      type: portfolio
+      type: portfolio_major
     values:
       layout: single
       author_profile: true
@@ -277,7 +277,7 @@ defaults:
   # _portfolio_minor
   - scope:
       path: ""
-      type: portfolio
+      type: portfolio_minor
     values:
       layout: single
       author_profile: true
