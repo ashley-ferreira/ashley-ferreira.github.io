@@ -1,6 +1,6 @@
 ---
 title: "Reconstructing Antimatter Events with Deep Learning"
-excerpt: "<img src='../images/valid_compare.png' style='max-width: 35%; display: inline-block;'><img src='../images/valid_residuals.png' style='max-width: 35%; display: inline-block;'>"
+excerpt: "<img src='../images/alpha_preview.png' style='max-width: 60%; display: inline-block;'>"
 collection: portfolio
 tags:
 - python
@@ -9,7 +9,7 @@ tags:
 ---
 
 ## TL;DR
-Reconstructing antimatter events with Machine Learning (ML) is a relatively untouched approach and my work has shown it to be viable using data from the leading experiment located at CERN.
+Reconstructing antimatter events with Machine Learning (ML) is a relatively untouched approach and my work has shown it to be viable using simulations from the leading experiment located at CERN.
 
 ## Built With
 
@@ -82,11 +82,12 @@ And a more granular way of analyzing this plot is by calculating the residuals a
 
 The good news about this plot is it means in the majority of cases, the predicted z value of anihilation is within 15 mm of the real z position of anihilation.
 
-Note that the mean is not consistent with zero in the latter plot and there is some clear z-bias in the former plot and these are features we do not want.
+The bad news is that these results still lag behind the tradiaitonal computational method and so more work needs to be done for the ML method to beat and not just compliment, or backup, the traditional method. 
+
 
 ## Conclusion 
 
-These results are very promissing and more peole have done work on this since, leading to even more promissing results so keep your eye out for a paper about this!
+These results are very promissing and more peole have done work on this since, leading to even more promissing results like the reduction in standard deviation as well as bias in z. Keep your eye out for a paper about this!
 
 
 ## Code
