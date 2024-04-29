@@ -9,7 +9,7 @@ tags:
 - git
 ---
 
-\* * * super preliminary work * * * 
+\* * * preliminary + in-progress work * * * 
 
 ## TL;DR
 
@@ -21,6 +21,11 @@ Masking images and making a Machine Learning (ML) model reconstruct the missing 
 [![Notebook][notebook]][notebook-url] 
 [![PyTorch][pytorch]][pytorch-url]
 [![WandB][wandb]][wandb-url] 
+[![vscode][vscode]][vscode-url]
+[![github][github]][github-url]
+
+[github]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
+[github-url]: https://github.com/
 
 [python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [python-url]: https://www.python.org/
@@ -33,6 +38,9 @@ Masking images and making a Machine Learning (ML) model reconstruct the missing 
 
 [pytorch]: https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white
 [pytorch-url]: https://pytorch.org/
+
+[vscode]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
+[vscode-url]: https://code.visualstudio.com/
 
 
 ## Background

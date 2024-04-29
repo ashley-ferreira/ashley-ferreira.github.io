@@ -18,6 +18,12 @@ We can maybe use Machine Learning (ML) to help pick stars for Point Spread Funct
 [![Notebook][notebook]][notebook-url] 
 [![Keras][keras]][keras-url]
 [![TensorFlow][tensorflow]][tensorflow-url]
+[![SkLearn][sklearn]][sklearn-url]
+[![Vim][vim]][vim-url]
+[![github][github]][github-url]
+
+[github]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
+[github-url]: https://github.com/
 
 [python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [python-url]: https://www.python.org/
@@ -30,6 +36,12 @@ We can maybe use Machine Learning (ML) to help pick stars for Point Spread Funct
 
 [tensorflow]: https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white
 [tensorflow-url]: https://www.tensorflow.org/
+
+[sklearn]: https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white
+[sklearn-url]: https://scikit-learn.org/
+
+[vim]: https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white
+[vim-url]: https://www.vim.org/
 
 
 ## Background
@@ -96,4 +108,4 @@ This machine learning-based method allows for faster PSF generation but not ness
 - Project is publically available on GitHub: [github.com/ashley-ferreira/ML-PSF/](https://github.com/ashley-ferreira/ML-PSF/)
 - Poster available [here](https://github.com/ashley-ferreira/ML-PSF/blob/main/PosterPresentations/CUPC22_poster_AshleyFerreira.pdf)
 
-<img src="../../images/ml_psf_poster.jpeg" alt="Image 6" style="max-width: 80%; display: inline-block;">
+<img src="../../images/ml_psf_poster.jpg" alt="Image 6" style="max-width: 80%; display: inline-block;">

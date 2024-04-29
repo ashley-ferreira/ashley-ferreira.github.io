@@ -14,6 +14,11 @@ tags:
 [![Notebook][notebook]][notebook-url] 
 [![PyTorch][pytorch]][pytorch-url]
 [![WandB][wandb]][wandb-url] 
+[![vscode][vscode]][vscode-url]
+[![gitlab][gitlab]][gitlab-url]
+
+[gitlab]: https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white
+[gitlab-url]: https://about.gitlab.com/
 
 [python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [python-url]: https://www.python.org/
@@ -26,6 +31,10 @@ tags:
 
 [pytorch]: https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white
 [pytorch-url]: https://pytorch.org/
+
+
+[vscode]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
+[vscode-url]: https://code.visualstudio.com/
 
 
 ## Goal
