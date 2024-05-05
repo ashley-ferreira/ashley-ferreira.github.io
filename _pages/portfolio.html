@@ -9,15 +9,21 @@ author_profile: true
 
 <h2>Major Projects</h2>
 
+{% assign count = 0 %}
 {% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
-** below this line is still heavily under construction * *
-<h2>Minor Projects</h2>
-
-{% for post in site.portfolio_minor %}
-  {% include archive-single.html %}
+  {% if count < 3 %}
+    {% if count == 0 %}
+      <h2>Major Projects</h2>
+    {% endif %}
+    {% include archive-single.html %}
+    {% assign count = count | plus: 1 %}
+  {% else %}
+    {% if count == 3 %}
+      <h2>Minor Projects</h2>
+    {% endif %}
+    {% include archive-single.html %}
+    {% assign count = count | plus: 1 %}
+  {% endif %}
 {% endfor %}
 
 <h2>Open-Source Contributions</h2>

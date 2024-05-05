@@ -10,9 +10,9 @@ redirect_from:
 
 ## Work Experience
 
-### Government of Canada - 3.5 years
+### Government of Canada - 3.3 years
 
-* Junior Data Scientist @ Canadian Space Agency (01/2023 - Present)
+* Junior Data Scientist @ Canadian Space Agency (01/2023 - 04/2024)
 
 * Data Scientist / Analyst @ Global Affairs Canada (05/2022 - 01/2023)
 
@@ -24,7 +24,7 @@ redirect_from:
 
 ### TRIUMF: Canada’s Particle Accelerator Center - 1 year
 
-* Incoming: Machine Learning Architect Student @ Particle Physics Group
+* Machine Learning Architect Student @ Particle Physics Group (05/2024 - Present)
 
 * Research Student @ Particle Physics Group (05/2023 - 01/2023) 
 
@@ -45,8 +45,8 @@ Most of this work experience was gained through the University of Waterloo co-op
 ## Volunteer Experience
 
 ### [University of Waterloo Data Science Club](https://www.uwdatascience.ca/) - 1.3 years
-* Reading Group Lead (01/2023 - Present)
 * Podcast Host & Editor (01/2024 - Present)
+* Reading Group Lead (01/2023 - 04/2024)
 
 ###  [SEDS-Canada](https://seds.ca/can-sbx/) - 2.3 years
 * Canadian Stratospheric Balloon Experiment Design Challenge (CAN-SBX) Assistant Project Manager (11/2021 - 01/2024)
