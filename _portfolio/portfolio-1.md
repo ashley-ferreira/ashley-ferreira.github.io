@@ -65,7 +65,7 @@ Most recently, a SSL masked image modeling method called SimMIM was implemented 
 The model is able to reconstruct the astronomy images pretty well:
 
 
-<img src="../../images/simmim_reconstructions.png" alt="Image 6" style="max-width: 80%; display: inline-block;">
+<img src="../../images/simmim_reconstructions.png" alt="Image 6" style="max-width: 70%; display: inline-block;">
 
 More importantly, useful repesentations are learned!
 
@@ -80,6 +80,10 @@ Linear classifiers and regressors can be build on these embeddings to allow for 
 Further, a similarity search is performed using the representations of just a handful of dwarf galaxies and 23 of the top 25 most similar sources are found to be dwarf galaxies:
 
 <img src="../../images/sim_search_dwarf.png" alt="Image 8" style="max-width: 95%; display: inline-block;">
+
+And here is an example of how the similarity search functionality can be useful when searching for other examples of similar dwarfs given just one query image:
+
+<img src="../../images/dwarf_simsearch.png" alt="Image 9" style="max-width: 95%; display: inline-block;">
 
 ## Conclusion 
 

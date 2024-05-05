@@ -16,7 +16,7 @@ author_profile: true
 
 * TRIUMF Richard E. Azuma Fellowship (2023)
 
-* NSERC-CREATE New Technologies for Canadian Observatories Training Program (2022 & 2023)
+* NSERC-CREATE New Technologies for Canadian Observatories Training Program (2021 & 2023)
 
 ## Top Presentations
 
