@@ -16,7 +16,7 @@ main:
     url: /awards/
     
   - title: "Sailing"
-    url: /markdown/
+    url: /sailing/
 
   - title: "Media"
-    url: /year-archive/
+    url: /media/

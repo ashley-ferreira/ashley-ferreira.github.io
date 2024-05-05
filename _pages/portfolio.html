@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>Major Projects</h2>
-
 {% assign count = 0 %}
 {% for post in site.portfolio %}
   {% if count < 3 %}
@@ -17,13 +15,18 @@ author_profile: true
     {% endif %}
     {% include archive-single.html %}
     {% assign count = count | plus: 1 %}
-  {% else %}
+  {% elsif count < 8 %}
     {% if count == 3 %}
       <h2>Minor Projects</h2>
     {% endif %}
     {% include archive-single.html %}
     {% assign count = count | plus: 1 %}
+  {% elsif count == 8 %}
+    <h2>Open Source Contributions</h2>
+    {% include archive-single.html %}
+    {% assign count = count | plus: 1 %}
+  {% else %}
+    {% include archive-single.html %}
+    {% assign count = count | plus: 1 %}
   {% endif %}
 {% endfor %}
-
-<h2>Open-Source Contributions</h2>
