@@ -16,9 +16,6 @@ Alouette-1 is satellite that initiated Canada’s participation in space. At a t
 
 I helped contribute to the effort to the effort to digitize this data, primairily by providing estimates of the mapping quality from the tape scans to arrays of numbers and by performance optimization of the machine learning based optical character recognition (OCR) using multiprocessing and GPUs.
 
-
-<img src="../../images/alouette.png" alt="Image 5" style="max-width: 90%; display: inline-block;">
-
 ## Built With
 [![Python][python]][python-url]
 [![Keras][keras]][keras-url]

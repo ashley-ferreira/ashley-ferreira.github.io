@@ -32,6 +32,6 @@ It is no big news that LLMs are useful at summarizing text and can be useful for
 
 ## Code
 
-- Code, tableau visualizations, and presentation publically available on GitHub: [github.com/ashley-ferreira/SheHacks_7](https://github.com/ashley-ferreira/SheHacks_7)
+- Code, tableau visualizations, and presentation publically available on GitHub: [ashley-ferreira/SheHacks_7](https://github.com/ashley-ferreira/SheHacks_7)
 
 - Devpost submission [here](https://devpost.com/software/unga-resolutions-search-summarize)
