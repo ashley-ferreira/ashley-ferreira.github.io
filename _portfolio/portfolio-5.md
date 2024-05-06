@@ -1,7 +1,7 @@
 ---
 title: "Reproducing Results of Galaxy Classification Paper"
 excerpt: "<img src='../images/morphology_preview.png' style='max-width: 60%; display: inline-block;'>"
-collection: portfolio_minor
+collection: portfolio
 tags:
 - python
 - pytorch

@@ -1,16 +1,26 @@
 ---
 title: "Strong-Smiling: Analysis of Strong Gravitational Lenses"
 excerpt: "<img src='../images/strong_lens_sim.png' style='max-width: 60%; display: inline-block;'>"
-collection: portfolio_minor
+collection: portfolio
 tags:
 - python
 - pytorch
 - computer vision
 ---
 
-## TL;DR
+## Overview 
 
-(ML)
+ML
+
+The Astromatic summer program, run by the Ciela Institute at Université de Montréal and I participated in its innaugural year in 2022. This program selected 15 outstanding undergraduate students from 8 different countries converged in Montréal for three days of expert lectures on foundational topics and research, programming workshops and career activities. The week culminated in an astro-ML hackathon, where I worked as part of a team of 3 to train a ResNet deep learning model to estimate parameters of strong gravitational lensing from simulated images.
+
+... 
+
+<img src="../../images/strong_lens_sim.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
+
+<img src="../../images/lens_results_1.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
+
+<img src="../../images/lens_results_2.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
 
 ## Built With
 [![Python][python]][python-url]
@@ -37,14 +47,7 @@ tags:
 [vscode]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
 [vscode-url]: https://code.visualstudio.com/
 
-## Background
 
-The Astromatic summer program, run by the Ciela Institute at Université de Montréal and I participated in its innaugural year in 2022. This program selected 15 outstanding undergraduate students from 8 different countries converged in Montréal for three days of expert lectures on foundational topics and research, programming workshops and career activities. The week culminated in an astro-ML hackathon, where I worked as part of a team of 3 to train a ResNet deep learning model to estimate parameters of strong gravitational lensing from simulated images.
+## Code
 
-## Goal
-
-## Method
-
-## Results
-
-## Conclusion 
+Sadly code is not publically available as it directly builds on private lens modelling code from a graduate student.

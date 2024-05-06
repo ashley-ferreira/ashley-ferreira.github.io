@@ -1,7 +1,7 @@
 ---
 title: "WACO: Notebook for JWST Data Analysis and Visualization"
 excerpt: "<img src='../images/waco_preview.png' style='max-width: 60%; display: inline-block;'>"
-collection: portfolio_minor
+collection: portfolio
 tags:
 - python
 - git

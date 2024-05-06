@@ -1,7 +1,7 @@
 ---
 title: "UNGA Resolutions: Search & Summarize"
 excerpt: "<img src='../images/un_search.jpeg' style='max-width: 60%; display: inline-block;'>"
-collection: portfolio_minor
+collection: portfolio
 tags:
 - python
 - API
