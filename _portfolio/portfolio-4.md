@@ -10,15 +10,19 @@ tags:
 
 ## Overview 
 
-ML
+The Astromatic summer program, run by the Ciela Institute at Université de Montréal and I participated in its innaugural year in 2022. This program selected 15 outstanding undergraduate students from 8 different countries converged in Montréal for three days of expert lectures on foundational topics and research, programming workshops and career activities.\\(^1\\) 
 
-The Astromatic summer program, run by the Ciela Institute at Université de Montréal and I participated in its innaugural year in 2022. This program selected 15 outstanding undergraduate students from 8 different countries converged in Montréal for three days of expert lectures on foundational topics and research, programming workshops and career activities. The week culminated in an astro-ML hackathon, where I worked as part of a team of 3 to train a ResNet deep learning model to estimate parameters of strong gravitational lensing from simulated images.
-
-... 
+The week culminated in an astro-ML hackathon, where I worked as part of a team of 3 to train a ResNet deep learning model to estimate parameters of strong gravitational lensing from simulated images:
 
 <img src="../../images/strong_lens_sim.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
 
-<img src="../../images/lens_results_1.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
+Strong gravitational lensing is a rare and extremely interesting astrophysical event where space-time itself it warped by the emmense graviaty of celestial objects. Observing and analyzing examples of this give us insight into areas of high interest such as dark matter.
+
+For the most part, most variables representing various characteristics of the strong lenses were resonably reconstructed by the model:
+
+<img src="../../images/lens_results_1.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
+
+While there were still significant errors, certain variables were completely failed at being reconstructed by the model. However, on closer inspection these characteristics had much to due with the object being lensed and so once the foreground object was removed, and the variables were also parameterized differently, more resonable, yet still lacking, predictions were possible:
 
 <img src="../../images/lens_results_2.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
 
@@ -51,3 +55,6 @@ The Astromatic summer program, run by the Ciela Institute at Université de Mont
 ## Code
 
 Sadly code is not publically available as it directly builds on private lens modelling code from a graduate student.
+
+
+\\(^1\\) [www.astro.umontreal.ca/astromatic/2022/](https://www.astro.umontreal.ca/astromatic/2022/)

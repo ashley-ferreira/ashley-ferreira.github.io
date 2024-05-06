@@ -7,8 +7,9 @@ tags:
 - git
 ---
 
-## TL;DR
+## Overview 
 
+I was the team lead for a group of four who tackled the moonwalker (advanced) Canadian Space Agency (CSA) challenge called “Exploring the distant universe with the James Webb Space Telescope”. ver one weekend, with help from Space Apps mentors and existing JWST resources developed by the Space Telescope Science Institute, we created a Python notebook for JWST data analysis and visualization as well as a children’s story book using generative AI. Our team won 1st place at the Hamilton event and the overall CSA advanced challenge division.
 
 ## Built With
 
@@ -25,20 +26,7 @@ tags:
 [notebook]: https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter
 [notebook-url]: https://jupyter.org/
 
-## Background
-
-## Goal
-
-## Method
-
-## Results
-
-## Conclusion 
-
 ## Code
 
-
-### Webb Galaxy Counter: A Simple Notebook for JWST Data Analysis and Visualization 
-* Team lead for a group of 4 who tackled the moonwalker (advanced) Canadian Space Agency (CSA) challenge called “Exploring the distant universe with the James Webb Space Telescope”.
-* Over one weekend, with help from Space Apps mentors and existing JWST resources developed by the Space Telescope Science Institute, we created a Python notebook for JWST data analysis and visualization as well as a children’s story book using generative AI.
-* Our team won 1st place at the Hamilton event and the overall CSA advanced challenge division.
+- Project is publically available on GitHub: [ashley-ferreira/]()
+- A final presentation is available [here]()

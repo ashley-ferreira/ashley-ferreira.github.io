@@ -9,8 +9,13 @@ tags:
 - git
 ---
 
-## TL;DR
+## Overview 
 
+For a final-year undergraduate physics class, PHYS 449: Machine Learning in Physics, myself and four of my peers teamed up to work on classifying images of glaxies with ML. This is a well worn path as ML has time and time again showed to be an exellent tool at classifyig galaxies based on their morphologies. 
+
+Specifically, part of the project was to sucessfully reproduce the results in a published paper. Our group chose [Morphological classification of galaxies with deep learning: comparing 3-way and 4-way CNNs](https://academic.oup.com/mnras/article/506/1/659/6291200) by Mitchell K. Cavanagh, Kenji Bekki and Brent A. Groves. 
+
+We were able to roughly reproduce the results, and even improve them in some areas, as well as further exploring their application through the use of the Galaxy10 SDSS dataset. I received a grade of 100% for my work on this final project and every assignment in the course.
 
 ## Built With
 
@@ -36,27 +41,7 @@ tags:
 [keras-url]: https://keras.io/
 
 
-## Background
-
-For a final-year undergraduate physics class, PHYS 449: Machine Learning in Physics, myself and some peers teamed up to work on classifying images of glaxies with ML. This is a well worn path as ML has time and time again showed to be an exellent tool at classifyig galaxies based on their morphologies. 
-
-Specifically, part of the project was to sucessfully reproduce the results in a published paper. Our group chose [Morphological classification of galaxies with deep learning: comparing 3-way and 4-way CNNs](https://academic.oup.com/mnras/article/506/1/659/6291200) by Mitchell K. Cavanagh, Kenji Bekki and Brent A. Groves. 
-## Goal
-
-## Method
-
-## Results
-
-## Conclusion 
-We were able to roughly reproduce the results, and even improve them in some areas, as well as further exploring their application through the use of the Galaxy10 SDSS dataset.
-
-
 ## Code
 
-- Project is publically available on GitHub: [github.com/ashley-ferreira/PHYS449_FinalProject](https://github.com/ashley-ferreira/PHYS449_FinalProject)
+- Project is publically available on GitHub: [ashley-ferreira/PHYS449_FinalProject](https://github.com/ashley-ferreira/PHYS449_FinalProject)
 - A final presentation is available [here](https://github.com/ashley-ferreira/PHYS449_FinalProject/blob/main/presentations/PHYS%20449%20Final%20Presentation.pdf)
-
-
-* Worked as a team of 5 to successfully reproduce results from Cavanagh et al. “Morphological Classification of Galaxies with Deep Learning: Comparing 3-way and 4-way CNNs” with PyTorch.
-* Improved accuracy of the models by training on a new dataset with a more balanced number of classes using Keras.
-* Received a grade of 100% for my work on this Final Project for PHYS 449: Machine Learning in Physics and every assignment in the course.

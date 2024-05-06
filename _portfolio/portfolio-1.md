@@ -91,9 +91,9 @@ These results prove this method is a promising avenue to explore for not only th
 
 ## Code
 
-* Initial effort with MAE: [github.com/ashley-ferreira/AstroMASK](https://github.com/ashley-ferreira/AstroMASK)
+* Initial effort with MAE: [ashley-ferreira/AstroMASK](https://github.com/ashley-ferreira/AstroMASK)
 
-* Most recent work with SimMIM: [github.com/teaghan/sky_embeddings](https://github.com/teaghan/sky_embeddings)
+* Most recent work with SimMIM: [teaghan/sky_embeddings](https://github.com/teaghan/sky_embeddings)
 
 * Poster available [here](https://drive.google.com/file/d/1pCPDfRXtnYHVPDUMBkf0NiLSKzdy5JFE/view?usp=sharing)
 
