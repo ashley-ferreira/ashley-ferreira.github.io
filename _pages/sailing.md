@@ -1,5 +1,5 @@
 ---
-permalink: /markdown/
+permalink: /sailing/
 title: "Sailing Experience"
 author_profile: true
 redirect_from: 
