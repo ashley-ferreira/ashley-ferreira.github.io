@@ -22,7 +22,7 @@ redirect_from:
 
 * Renewable Energy Data Research Assistant @ CanmetENERGY (09/2020 - 12/2020)
 
-### TRIUMF: Canada’s Particle Accelerator Center - 1 year
+### TRIUMF: Canada’s Particle Accelerator Center - 1+ year
 
 * Machine Learning Architect Student @ Particle Physics Group (05/2024 - Present)
 
@@ -36,10 +36,18 @@ redirect_from:
 <img src="../../images/CERN_work2.jpg" alt="Image 3" style="max-width: 47%; display: inline-block;">
 <img src="../../images/CERN_work3.jpeg" alt="Image 4" style="max-width: 47%; display: inline-block;">
 
+### University of Waterloo - 1.6 years
+
+* Residence Don @ Residence University College (01/2022 - 04/2023)
+
+* Climbing Wall Staff @ Athletics (01/2022 - 04/2022) 
+
+* Residence Ambassador @ Camopus Housing (09/2018 - 04/2019) 
+
 
 ### Notes
 
-Most of this work experience was gained through the University of Waterloo co-op program, where we would alternate between school and work for our entire degree. This also included a 4-month work experience as a **Robotics & Space Operations Intern @ MDA**. You can learn more about my co-op work experiences through an [article](https://uwaterloo.ca/co-operative-education/blog/post/co-op-time-try-things) the University of Waterloo co-op prgram wrote about me.
+Most of this work experience was gained through the University of Waterloo co-op program, where we would alternate between school and work for our entire degree. This also included a 4-month work experience as a **Robotics & Space Operations Intern @ MDA**. You can learn more about my co-op work experiences through an [article](https://uwaterloo.ca/co-operative-education/blog/post/co-op-time-try-things) the University of Waterloo co-op prgram wrote about me. I then also worked for my University directly during most of my in-person school terms.
 
 
 ## Volunteer Experience

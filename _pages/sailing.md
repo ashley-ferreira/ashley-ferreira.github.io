@@ -30,7 +30,7 @@ redirect_from:
 
 To learn more visit my old sailing [Facebook page](https://www.facebook.com/SophAndAsh/).
 
-## Collegiate Sailing - 8 months
+## Collegiate Sailing - 8+ months
 
 * Skipper @ University of British Columbia Sailing Team (09/2023 - Present)
 
