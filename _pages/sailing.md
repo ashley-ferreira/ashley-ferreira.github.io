@@ -10,7 +10,7 @@ redirect_from:
 ## Royal Canadian Yacht Club - 3.5 years
 
 * Race Management Supervisor (05/2021 - 10/2021)
-    * Oversaw racing operations for 35 sailing events including Canada’s Cup and WASZP Canadians
+    * Oversaw racing operations for 35 sailing events including nation and international level events such as Canada’s Cup and the WASZP Canadian Championship
     * Learned many aspects of race management and course setting under challenging conditions
 
 * 29er Crew @ High Performance Race Team  (09/2015 - 08/2018)

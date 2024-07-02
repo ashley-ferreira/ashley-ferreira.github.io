@@ -13,7 +13,7 @@ author_profile: true
 
 * University of Waterloo Science IDEAL Scholar Cobalt Medal (2024)
     * "IDEAL Scholars are graduating undergraduate students who participated in activities that go above and beyond their course load during their undergraduate degrees."
-    * One of the 8 inaugural students from the graduating class to be awarded the highest level of the IDEAL (Innovation, Discovery, Engagement, Application, and Leadership) Scholar medallion
+    * One of the 8 inaugural students from my graduating class to be awarded the highest level of the IDEAL (Innovation, Discovery, Engagement, Application, and Leadership) Scholar medallion
 
 * Digital Government Community Award for Excellence in Data and Information Stewardship (2024, awarded to team I was part of)
     * "This award recognizes an individual or group for outstanding achievement in data and information stewardship"
@@ -58,7 +58,7 @@ author_profile: true
 
 * University of Waterloo funding to participate in: 
     * Canadian Undergraduate Physics Conference 2022
-    * Canadian Undergraduate Physics Conference 2024
+    * Canadian Undergraduate Physics Conference 2023
     * Canadian Conference for Undergraduate Women in Physics 2024
 
 ## Fully Funded Summer Schools

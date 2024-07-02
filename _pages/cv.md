@@ -42,17 +42,17 @@ redirect_from:
 
 * Climbing Wall Staff @ Athletics (01/2022 - 04/2022) 
 
-* Residence Ambassador @ Camopus Housing (09/2018 - 04/2019) 
+* Residence Ambassador @ Campus Housing (09/2018 - 04/2019) 
 
 
 ### Notes
 
-Most of this work experience was gained through the University of Waterloo co-op program, where we would alternate between school and work for our entire degree. This also included a 4-month work experience as a **Robotics & Space Operations Intern @ MDA**. You can learn more about my co-op work experiences through an [article](https://uwaterloo.ca/co-operative-education/blog/post/co-op-time-try-things) the University of Waterloo co-op prgram wrote about me. I then also worked for my University directly during most of my in-person school terms.
+Most of this work experience was gained through the University of Waterloo co-op program, where we would alternate between school and work each 4 months for throughout our degree. This also included a 4-month work experience as a **Robotics & Space Operations Intern @ MDA**. You can learn more about my co-op work experiences through an [article](https://uwaterloo.ca/co-operative-education/blog/post/co-op-time-try-things) the University of Waterloo co-op prgram wrote about me. I then also worked for my University directly during most of my in-person school terms.
 
 
 ## Volunteer Experience
 
-### [University of Waterloo Data Science Club](https://www.uwdatascience.ca/) - 1.3 years
+### [University of Waterloo Data Science Club](https://www.uwdatascience.ca/) - 1.3+ years
 * Podcast Host & Editor (01/2024 - Present)
 * Reading Group Lead (01/2023 - 04/2024)
 

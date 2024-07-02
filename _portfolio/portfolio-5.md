@@ -11,7 +11,7 @@ tags:
 
 ## Overview 
 
-For a final-year undergraduate physics class, PHYS 449: Machine Learning in Physics, myself and four of my peers teamed up to work on classifying images of glaxies with ML. This is a well worn path as ML has time and time again showed to be an exellent tool at classifyig galaxies based on their morphologies. 
+For a final-year undergraduate physics class, PHYS 449: Machine Learning in Physics, myself and four of my peers teamed up to work on classifying images of glaxies with ML. This is a well worn path as ML has time and time again showed to be an exellent tool at classifying galaxies based on their morphologies. 
 
 Specifically, part of the project was to sucessfully reproduce the results in a published paper. Our group chose [Morphological classification of galaxies with deep learning: comparing 3-way and 4-way CNNs](https://academic.oup.com/mnras/article/506/1/659/6291200) by Mitchell K. Cavanagh, Kenji Bekki and Brent A. Groves. 
 
