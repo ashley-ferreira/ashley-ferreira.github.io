@@ -1,24 +1,29 @@
 ---
-title: "ML-PSF: Tool to Pick Good Sources for PSF Generation"
-excerpt: "<img src='../images/ml_psf_method2.png' style='max-width: 50%; display: inline-block;'>"
+title: "Self-Supervised Learning for Astronomy Discoveries"
+excerpt: "<img src='../images/tsne.png' style='max-width: 60%; display: inline-block;'>"
 collection: portfolio
 tags:
 - python
-- keras
+- pytorch
+- multi-GPU
 - git
 - computer vision
+- representation learning
 ---
+
+## Status Update
+This is super preliminary and in-progress work from the winter of 2024 and more progress has been made so I will update this page later with a more up to date set of results in the coming months!
 
 ## TL;DR
 
-We can maybe use Machine Learning (ML) to help pick stars for Point Spread Function (PSF) creation to save time in astronomy data processing pipelines. 
+Masking images and making a Machine Learning (ML) model reconstruct the missing pixels is a meaningful task to get a model to learn cetain fundamental patterns in astronomy data. 
 
 ## Built With
 
 [![Python][python]][python-url]
 [![Notebook][notebook]][notebook-url] 
-[![Keras][keras]][keras-url]
-[![SkLearn][sklearn]][sklearn-url]
+[![PyTorch][pytorch]][pytorch-url]
+[![WandB][wandb]][wandb-url] 
 [![github][github]][github-url]
 
 [github]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
@@ -30,81 +35,67 @@ We can maybe use Machine Learning (ML) to help pick stars for Point Spread Funct
 [notebook]: https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter
 [notebook-url]: https://jupyter.org/
 
-[keras]: https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white
-[keras-url]: https://keras.io/
+[wandb]: https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white
+[wandb-url]: https://wandb.ai/site
 
-[tensorflow]: https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white
-[tensorflow-url]: https://www.tensorflow.org/
+[pytorch]: https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white
+[pytorch-url]: https://pytorch.org/
 
-[sklearn]: https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white
-[sklearn-url]: https://scikit-learn.org/
-
-[vim]: https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white
-[vim-url]: https://www.vim.org/
+[vscode]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
+[vscode-url]: https://code.visualstudio.com/
 
 
 ## Background
 
-### What is a PSF?
-PSFs mathematically describe how point source objects are distorted in an image. Images are a convolution between the true object and its PSF.
-
-### Why are PSFs important to astronomy?
-PSFs are necessary to study any object close to the resolution limit of a telescope with high precision.
-
-### What do we need in order to create PSFs?
-Examples of point-like sources in the image of interest are needed as inputs to PSF generation software. In astronomy, good point-like sources would be stars that are
-bright, round, and well isolated from other sources. The task of selecting these good sources for PSF generation is
-what this deep learning model has been trained to do. 
+The Ultraviolet Near Infrared Optical Northern Survey (UNIONS) uses observations from three telescopes in Hawaii to investigate some of the most fundamental questions in astrophysics, such as determining the properties of dark matter and dark energy, as well as the growth of structure in the Universe. However, it is difficult to effectively search through and categorize UNIONS data to address these questions due to the volume of data produced. 
 
 ## Goal
-Given cutout of each source in an image along with their respective x and y coordinates, this program calls on an already trained ML model that will return a subset of cutouts of sources to use for PSF creation. It also returns the x and y coordinates of these sources that can be used to pass into the python module TRIPPy in order to create the desired PSF. 
+
+This project aims to exploit advances in a sub-field of ML called Self-Supervised Learning (SSL), to train a model to produce astrophysically meaningful representations of astronomy observations. 
 
 ## Method
 
-For this project, images from 2020 taken by the Hyper SuprimeCam (HSC). For each image, the top 25 sources were selected as those with
-the lowest flux outside the central source, as inferred by the flux
-of the most discrepant pixel in the source-PSF residual, and the
-standard deviation of all residual pixels.
+This work is done solely by training it on images of the sky, without the need for explicit labels indicating what source is being observed. When paired with a small number of labelled examples, these representations are useful in downstream tasks such as similarity searches for rare astronomical objects, or as inputs to a linear regression layer to predict redshifts. 
 
+Most recently, a SSL masked image modeling method called SimMIM was implemented and evaluated on a specific use case of dwarf galaxy identification. 
 
-Of these top 25, the ones which fell in the accepted range of
-pixel brightness values were deemed good and labelled 1. All
-other sources were considered bad and labelled 0.
-Using this approach, there are far more bad sources than good
-ones and so a random selection of bad sources is made such
-that the 0 and 1 class sizes are equal.
-
-
-<img src="../../images/ml_psf_method1.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
-
-A simple 2D Convolutional Neural Network (CNN) was developed for
-this binary classification problem:
-
-<img src="../../images/ml_psf_method2.png" alt="Image 6" style="max-width: 70%; display: inline-block;">
+<img src="../../images/project_goal3.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
 
 ## Results
 
-The accuracy on the test set was found to be 89.12% overall. 
+The model is able to reconstruct the astronomy images pretty well:
 
-We can raise the confidence threshold beyond which the model
-labels a source as good. The default threshold is 50%, however, since we care much more about achieving a low false positive rate than a low false negative rate, the threshold of 90% was adopted such that
-we can achieve a false positive rate of 93.87% while still having a significant
-number of sources classified as good:
 
-<img src="../../images/ml_psf_results1.png" alt="Image 6" style="max-width: 60%; display: inline-block;">
+<img src="../../images/simmim_reconstructions.png" alt="Image 6" style="max-width: 70%; display: inline-block;">
 
-Once the model is trained, the CNN method takes only ~6% the CPU time of the non-CNN method, dramatically speeding up the pipeline:
+More importantly, useful repesentations are learned!
 
-<img src="../../images/ml_psf_results2.png" alt="Image 6" style="max-width: 90%; display: inline-block;">
+Similar observations are clustered together (which is super useful for similarity searches):
 
+
+<img src="../../images/tsne_2.png" alt="Image 7" style="max-width: 100%; display: inline-block;">
+
+
+Linear classifiers and regressors can be build on these embeddings to allow for learning from fewer labelled examples thaen is needed train a model of similar performance from scratch for a specific task. The example of a dwarf galaxy classifier is used and achieves 90\% accuracy at identifying known dwarf galaxy candidates with only 200 examples. 
+
+Further, a similarity search is performed using the representations of just a handful of dwarf galaxies and 23 of the top 25 most similar sources are found to be dwarf galaxies:
+
+<img src="../../images/sim_search_dwarf.png" alt="Image 8" style="max-width: 95%; display: inline-block;">
+
+And here is an example of how the similarity search functionality can be useful when searching for other examples of similar dwarfs given just one query image:
+
+<img src="../../images/dwarf_simsearch.png" alt="Image 9" style="max-width: 95%; display: inline-block;">
 
 ## Conclusion 
 
-This machine learning-based method allows for faster PSF generation but not nessisarily better. Some form of unsupervised learning is likely needed as a next step.
+These results prove this method is a promising avenue to explore for not only the discovery of more dwarf galaxies but various other tasks of interest to astronomers. 
 
 ## Code
 
-- Project is publically available on GitHub: [ashley-ferreira/ML-PSF](https://github.com/ashley-ferreira/ML-PSF/)
-- Poster available [here](https://github.com/ashley-ferreira/ML-PSF/blob/main/PosterPresentations/CUPC22_poster_AshleyFerreira.pdf)
+* Initial effort with MAE: [ashley-ferreira/AstroMASK](https://github.com/ashley-ferreira/AstroMASK)
 
-<img src="../../images/ml_psf_poster.jpg" alt="Image 6" style="max-width: 80%; display: inline-block;">
+* Most recent work with SimMIM: [teaghan/sky_embeddings](https://github.com/teaghan/sky_embeddings)
+
+* Poster available [here](https://drive.google.com/file/d/1pCPDfRXtnYHVPDUMBkf0NiLSKzdy5JFE/view?usp=sharing)
+
+<img src="../../images/ssl_poster.001.jpeg" alt="Image 8" style="max-width: 100%; display: inline-block;">

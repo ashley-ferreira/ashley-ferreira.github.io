@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm just getting started on my personal website so apologies that it is still a bit under construction but feel free to look around.
-
-I'm a keen young researcher with strong data science skills and an interest in using AI to enable scientific discoveries. So far, my main focus has been scientific discoveries in space and the field of particle physics. 
+I'm a keen young researcher with strong data science skills and an interest in applying AI to enable scientific discoveries. So far, my main focus has been scientific discoveries in space and the field of particle physics. 
 
 I'm also interested in data-driven policy and international security, which has led me to working with some awesome teams within the Government of Canada.
 

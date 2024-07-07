@@ -1,27 +1,28 @@
 ---
-title: "Reconstructing Antimatter Events with Deep Learning"
-excerpt: "<img src='../images/alpha_preview.png' style='max-width: 60%; display: inline-block;'>"
+title: "ML-PSF: Tool to Pick Good Sources for PSF Generation"
+excerpt: "<img src='../images/ml_psf_method2.png' style='max-width: 50%; display: inline-block;'>"
 collection: portfolio
 tags:
 - python
-- pytorch
+- keras
 - git
 - computer vision
 ---
 
 ## TL;DR
-Reconstructing antimatter events with Machine Learning (ML) is a relatively untouched approach and my work has shown it to be viable using simulations from the leading experiment located at CERN.
+
+We can maybe use Machine Learning (ML) to help pick stars for Point Spread Function (PSF) creation to save time in astronomy data processing pipelines. 
 
 ## Built With
 
 [![Python][python]][python-url]
 [![Notebook][notebook]][notebook-url] 
-[![PyTorch][pytorch]][pytorch-url]
-[![WandB][wandb]][wandb-url]
-[![gitlab][gitlab]][gitlab-url]
+[![Keras][keras]][keras-url]
+[![SkLearn][sklearn]][sklearn-url]
+[![github][github]][github-url]
 
-[gitlab]: https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white
-[gitlab-url]: https://about.gitlab.com/
+[github]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
+[github-url]: https://github.com/
 
 [python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [python-url]: https://www.python.org/
@@ -29,69 +30,81 @@ Reconstructing antimatter events with Machine Learning (ML) is a relatively unto
 [notebook]: https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter
 [notebook-url]: https://jupyter.org/
 
-[wandb]: https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white
-[wandb-url]: https://wandb.ai/site
+[keras]: https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white
+[keras-url]: https://keras.io/
 
-[pytorch]: https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white
-[pytorch-url]: https://pytorch.org/
+[tensorflow]: https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white
+[tensorflow-url]: https://www.tensorflow.org/
 
+[sklearn]: https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white
+[sklearn-url]: https://scikit-learn.org/
 
-[vscode]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
-[vscode-url]: https://code.visualstudio.com/
+[vim]: https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white
+[vim-url]: https://www.vim.org/
+
 
 ## Background
-Antimatter is similar to normal matter but has the opposite charge and is much more rare. When a particle and its antiparticle meet, they annihilate, so the fact that the universe seems to be dominated by matter is not well understood since equal amounts of matter and antimatter are thought to have been produced during the Big Bang. Some of the most compelling theories to explain this suggest that matter and antimatter must react differently to a force like gravity. 
 
-ALPHA is a leading experiment in the study of antimatter, with a track record of publishing [major breakthroughs](https://alpha.web.cern.ch/publications) in Nature. The most recent of which was [Observation of the effect of gravity on the motion of antimatter](https://www.nature.com/articles/s41586-023-06527-1) in September 2023 which detailed the first-ever measurements of the effect of gravity on antimatter, providing that it does fall down, and not up, but leaving large uncertatinties ranges that nessisitate antimatter be measured further before it can be said if gravity effects a particle and its antiparticle differently. 
+### What is a PSF?
+PSFs mathematically describe how point source objects are distorted in an image. Images are a convolution between the true object and its PSF.
+
+### Why are PSFs important to astronomy?
+PSFs are necessary to study any object close to the resolution limit of a telescope with high precision.
+
+### What do we need in order to create PSFs?
+Examples of point-like sources in the image of interest are needed as inputs to PSF generation software. In astronomy, good point-like sources would be stars that are
+bright, round, and well isolated from other sources. The task of selecting these good sources for PSF generation is
+what this deep learning model has been trained to do. 
 
 ## Goal
-
-ML-based event reconstruction may be one way to lower these uncertainty bounds and so the goal of this project is to create a ML model that predicts the anihilation positions of antihydrogen for the ALPHA-g antimatter experiment at CERN.
-
-Currently, the model is trained on simulations but the plan is to adapt it to real data in the future.
+Given cutout of each source in an image along with their respective x and y coordinates, this program calls on an already trained ML model that will return a subset of cutouts of sources to use for PSF creation. It also returns the x and y coordinates of these sources that can be used to pass into the python module TRIPPy in order to create the desired PSF. 
 
 ## Method
-Method used is a fully-supervised implimentation of PointNet:
-<img src="../../images/alpha_method.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
+
+For this project, images from 2020 taken by the Hyper SuprimeCam (HSC). For each image, the top 25 sources were selected as those with
+the lowest flux outside the central source, as inferred by the flux
+of the most discrepant pixel in the source-PSF residual, and the
+standard deviation of all residual pixels.
+
+
+Of these top 25, the ones which fell in the accepted range of
+pixel brightness values were deemed good and labelled 1. All
+other sources were considered bad and labelled 0.
+Using this approach, there are far more bad sources than good
+ones and so a random selection of bad sources is made such
+that the 0 and 1 class sizes are equal.
+
+
+<img src="../../images/ml_psf_method1.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
+
+A simple 2D Convolutional Neural Network (CNN) was developed for
+this binary classification problem:
+
+<img src="../../images/ml_psf_method2.png" alt="Image 6" style="max-width: 70%; display: inline-block;">
 
 ## Results
 
-The results of this project are always slowly improving and below I outline the results you should get if you follow the quick start steps in the code provided. Note that further improvement can be made by training the model more after convergence of the loss but at a lower learning rate, and implimenting learning rate decay would be a more grown up way to approach this. 
+The accuracy on the test set was found to be 89.12% overall. 
 
+We can raise the confidence threshold beyond which the model
+labels a source as good. The default threshold is 50%, however, since we care much more about achieving a low false positive rate than a low false negative rate, the threshold of 90% was adopted such that
+we can achieve a false positive rate of 93.87% while still having a significant
+number of sources classified as good:
 
-### Mean Absolute Error Loss in Training
+<img src="../../images/ml_psf_results1.png" alt="Image 6" style="max-width: 60%; display: inline-block;">
 
-We see a relatively healthy loss curve during training, as shown in, where the loss converges for both the training and validation datasets as shown below:
+Once the model is trained, the CNN method takes only ~6% the CPU time of the non-CNN method, dramatically speeding up the pipeline:
 
-<img src="../../images/MAE_overall.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
-
-With the model's loss being mostly converged before epoch 200, below is a zoomed in plot of this early section:
-
-<img src="../../images/MAE_atEpoch200.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
-
-One thing that should stand out is that the validation loss is consistently lower than the training loss, and I'm pretty sure this is due dropout being used.
-
-### Antimatter Position Predictions
-What is most interesting, is taking the unnormalized predictions and comparing them to the known real z values. There are two main plots we have been using to do this, with the first being a plot of predicted versus true z and shown below:
-
-<img src="../../images/valid_compare.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
-
-And a more granular way of analyzing this plot is by calculating the residuals and doing a guassian fit, which is shown below:
-
-<img src="../../images/valid_residuals.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
-
-The good news about this plot is it means in the majority of cases, the predicted z value of anihilation is within 15 mm of the real z position of anihilation.
-
-The bad news is that these results still lag behind the tradiaitonal computational method and so more work needs to be done for the ML method to beat and not just compliment, or backup, the traditional method. 
+<img src="../../images/ml_psf_results2.png" alt="Image 6" style="max-width: 90%; display: inline-block;">
 
 
 ## Conclusion 
 
-These results are very promissing and more peole have done work on this since, leading to even more promissing results like the reduction in standard deviation as well as bias in z. Keep your eye out for a paper about this!
-
+This machine learning-based method allows for faster PSF generation but not nessisarily better. Some form of unsupervised learning is likely needed as a next step.
 
 ## Code
 
-Code is currently available through the internal TRIUMF GitLab and will hopefully be made publically available too:
+- Project is publically available on GitHub: [ashley-ferreira/ML-PSF](https://github.com/ashley-ferreira/ML-PSF/)
+- Poster available [here](https://github.com/ashley-ferreira/ML-PSF/blob/main/PosterPresentations/CUPC22_poster_AshleyFerreira.pdf)
 
-<img src="../../images/gitlab.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
+<img src="../../images/ml_psf_poster.jpg" alt="Image 6" style="max-width: 80%; display: inline-block;">

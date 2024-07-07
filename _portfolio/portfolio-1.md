@@ -1,32 +1,29 @@
 ---
-title: "Self-Supervised Learning for Astronomy Discoveries"
-excerpt: "<img src='../images/tsne.png' style='max-width: 60%; display: inline-block;'>"
+title: "Reconstructing Antimatter Events with Deep Learning"
+excerpt: "<img src='../images/alpha_preview.png' style='max-width: 60%; display: inline-block;'>"
 collection: portfolio
 tags:
 - python
 - pytorch
-- multi-GPU
 - git
 - computer vision
-- representation learning
 ---
-
-\* * * preliminary + in-progress work * * * 
+## Status Update
+This is super preliminary and in-progress work from the summer of 2023 and now that I am back on this project we have been able to dramatically increase the resolution and lower the z-dependant bias of the model such that it is beating the conventional method and has the potential to be used for real physics analysis. I will update this page towards the end of summer 2024 with the final results and hopefully details on a publication.
 
 ## TL;DR
-
-Masking images and making a Machine Learning (ML) model reconstruct the missing pixels is a meaningful task to get a model to learn cetain fundamental patterns in astronomy data. 
+Reconstructing antimatter events with Machine Learning (ML) is a relatively untouched approach and my work has shown it to be viable using simulations from the leading experiment located at CERN.
 
 ## Built With
 
 [![Python][python]][python-url]
 [![Notebook][notebook]][notebook-url] 
 [![PyTorch][pytorch]][pytorch-url]
-[![WandB][wandb]][wandb-url] 
-[![github][github]][github-url]
+[![WandB][wandb]][wandb-url]
+[![gitlab][gitlab]][gitlab-url]
 
-[github]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
-[github-url]: https://github.com/
+[gitlab]: https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white
+[gitlab-url]: https://about.gitlab.com/
 
 [python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [python-url]: https://www.python.org/
@@ -40,61 +37,63 @@ Masking images and making a Machine Learning (ML) model reconstruct the missing 
 [pytorch]: https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white
 [pytorch-url]: https://pytorch.org/
 
+
 [vscode]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
 [vscode-url]: https://code.visualstudio.com/
 
-
 ## Background
+Antimatter is similar to normal matter but has the opposite charge and is much more rare. When a particle and its antiparticle meet, they annihilate, so the fact that the universe seems to be dominated by matter is not well understood since equal amounts of matter and antimatter are thought to have been produced during the Big Bang. Some of the most compelling theories to explain this suggest that matter and antimatter must react differently to a force like gravity. 
 
-The Ultraviolet Near Infrared Optical Northern Survey (UNIONS) uses observations from three telescopes in Hawaii to investigate some of the most fundamental questions in astrophysics, such as determining the properties of dark matter and dark energy, as well as the growth of structure in the Universe. However, it is difficult to effectively search through and categorize UNIONS data to address these questions due to the volume of data produced. 
+ALPHA is a leading experiment in the study of antimatter, with a track record of publishing [major breakthroughs](https://alpha.web.cern.ch/publications) in Nature. The most recent of which was [Observation of the effect of gravity on the motion of antimatter](https://www.nature.com/articles/s41586-023-06527-1) in September 2023 which detailed the first-ever measurements of the effect of gravity on antimatter, providing that it does fall down, and not up, but leaving large uncertainties ranges that necessitate antimatter be measured further before it can be said if gravity effects a particle and its antiparticle differently. 
 
 ## Goal
 
-This project aims to exploit advances in a sub-field of ML called Self-Supervised Learning (SSL), to train a model to produce astrophysically meaningful representations of astronomy observations. 
+ML-based event reconstruction may be one way to lower these uncertainty bounds and so the goal of this project is to create a ML model that predicts the annihilation positions of antihydrogen for the ALPHA-g antimatter experiment at CERN.
+
+Currently, the model is trained on simulations but the plan is to adapt it to real data in the future.
 
 ## Method
-
-This work is done solely by training it on images of the sky, without the need for explicit labels indicating what source is being observed. When paired with a small number of labelled examples, these representations are useful in downstream tasks such as similarity searches for rare astronomical objects, or as inputs to a linear regression layer to predict redshifts. 
-
-Most recently, a SSL masked image modeling method called SimMIM was implemented and evaluated on a specific use case of dwarf galaxy identification. 
-
-<img src="../../images/project_goal3.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
+Method used is a fully-supervised implementation of PointNet:
+<img src="../../images/alpha_method.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
 
 ## Results
 
-The model is able to reconstruct the astronomy images pretty well:
+The results of this project are always slowly improving and below I outline the results you should get if you follow the quick start steps in the code provided. Note that further improvement can be made by training the model more after convergence of the loss but at a lower learning rate, and implementing learning rate decay would be a more grown up way to approach this. 
 
 
-<img src="../../images/simmim_reconstructions.png" alt="Image 6" style="max-width: 70%; display: inline-block;">
+### Mean Absolute Error Loss in Training
 
-More importantly, useful repesentations are learned!
+We see a relatively healthy loss curve during training, as shown in, where the loss converges for both the training and validation datasets as shown below:
 
-Similar observations are clustered together (which is super useful for similarity searches):
+<img src="../../images/MAE_overall.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
 
+With the model's loss being mostly converged before epoch 200, below is a zoomed in plot of this early section:
 
-<img src="../../images/tsne_2.png" alt="Image 7" style="max-width: 100%; display: inline-block;">
+<img src="../../images/MAE_atEpoch200.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
 
+One thing that should stand out is that the validation loss is consistently lower than the training loss, and I'm pretty sure this is due dropout being used.
 
-Linear classifiers and regressors can be build on these embeddings to allow for learning from fewer labelled examples thaen is needed train a model of similar performance from scratch for a specific task. The example of a dwarf galaxy classifier is used and achieves 90\% accuracy at identifying known dwarf galaxy candidates with only 200 examples. 
+### Antimatter Position Predictions
+What is most interesting, is taking the unnormalized predictions and comparing them to the known real z values. There are two main plots we have been using to do this, with the first being a plot of predicted versus true z and shown below:
 
-Further, a similarity search is performed using the representations of just a handful of dwarf galaxies and 23 of the top 25 most similar sources are found to be dwarf galaxies:
+<img src="../../images/valid_compare.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
 
-<img src="../../images/sim_search_dwarf.png" alt="Image 8" style="max-width: 95%; display: inline-block;">
+And a more granular way of analyzing this plot is by calculating the residuals and doing a guassian fit, which is shown below:
 
-And here is an example of how the similarity search functionality can be useful when searching for other examples of similar dwarfs given just one query image:
+<img src="../../images/valid_residuals.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
 
-<img src="../../images/dwarf_simsearch.png" alt="Image 9" style="max-width: 95%; display: inline-block;">
+The good news about this plot is it means in the majority of cases, the predicted z value of annihilation is within 15 mm of the real z position of annihilation.
+
+The bad news is that these results still lag behind the tradiaitonal computational method and so more work needs to be done for the ML method to beat and not just compliment, or backup, the traditional method. 
+
 
 ## Conclusion 
 
-These results prove this method is a promising avenue to explore for not only the discovery of more dwarf galaxies but various other tasks of interest to astronomers. 
+These results are very promissing and more peole have done work on this since, leading to even more promissing results like the reduction in standard deviation as well as bias in z. Keep your eye out for a paper about this!
+
 
 ## Code
 
-* Initial effort with MAE: [ashley-ferreira/AstroMASK](https://github.com/ashley-ferreira/AstroMASK)
+Code is currently available through the internal TRIUMF GitLab and will hopefully be made publically available too:
 
-* Most recent work with SimMIM: [teaghan/sky_embeddings](https://github.com/teaghan/sky_embeddings)
-
-* Poster available [here](https://drive.google.com/file/d/1pCPDfRXtnYHVPDUMBkf0NiLSKzdy5JFE/view?usp=sharing)
-
-<img src="../../images/ssl_poster.001.jpeg" alt="Image 8" style="max-width: 100%; display: inline-block;">
+<img src="../../images/gitlab.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
