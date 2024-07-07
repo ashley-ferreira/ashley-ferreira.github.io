@@ -12,7 +12,7 @@ tags:
 ---
 
 ## Status Update
-This is super preliminary and in-progress work from the winter of 2024 and more progress has been made so I will update this page later with a more up to date set of results in the coming months!
+This is super preliminary and in-progress work from the fall of 2023 and winter of 2024 and more progress has been made so I will update this page later with a more up to date set of results in the coming months!
 
 ## TL;DR
 
