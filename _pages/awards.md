@@ -17,7 +17,7 @@ author_profile: true
 
 * Digital Government Community Award for Excellence in Data and Information Stewardship (2024, awarded to team I was part of)
     * "This award recognizes an individual or group for outstanding achievement in data and information stewardship"
-    * Specifically awarded to Alouette-1 project contributors at the CSA which was the prodominent project I worked on during my time there
+    * Specifically awarded to Alouette-1 project contributors at the CSA which was the predominant project I worked on during my time there
 
 ## Fellowships & Scholarships
 

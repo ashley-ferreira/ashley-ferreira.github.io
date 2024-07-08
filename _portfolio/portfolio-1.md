@@ -84,16 +84,16 @@ And a more granular way of analyzing this plot is by calculating the residuals a
 
 The good news about this plot is it means in the majority of cases, the predicted z value of annihilation is within 15 mm of the real z position of annihilation.
 
-The bad news is that these results still lag behind the tradiaitonal computational method and so more work needs to be done for the ML method to beat and not just compliment, or backup, the traditional method. 
+The bad news is that these results still lag behind the traditional computational method and so more work needs to be done for the ML method to beat and not just compliment, or backup, the traditional method. 
 
 
 ## Conclusion 
 
-These results are very promissing and more peole have done work on this since, leading to even more promissing results like the reduction in standard deviation as well as bias in z. Keep your eye out for a paper about this!
+These results are very promising and more people have done work on this since, leading to even more promising results like the reduction in standard deviation as well as bias in z. Keep your eye out for a paper about this!
 
 
 ## Code
 
-Code is currently available through the internal TRIUMF GitLab and will hopefully be made publically available too:
+Code is currently available through the internal TRIUMF GitLab and will hopefully be made publicly available too:
 
 <img src="../../images/gitlab.png" alt="Image 5" style="max-width: 100%; display: inline-block;">

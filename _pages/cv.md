@@ -26,7 +26,7 @@ redirect_from:
 
 * Machine Learning Architect Student @ Particle Physics Group (05/2024 - Present)
 
-* Research Student @ Particle Physics Group (05/2023 - 01/2023) 
+* Student Researcher @ Particle Physics Group (05/2023 - 01/2023) 
 
 * Photosensor Detector Researcher @ Particle Physics Group (01/2020 - 04/2020) 
 
@@ -47,8 +47,10 @@ redirect_from:
 
 ### Notes
 
-Most of this work experience was gained through the University of Waterloo co-op program, where we would alternate between school and work each 4 months for throughout our degree. This also included a 4-month work experience as a **Robotics & Space Operations Intern @ MDA**. You can learn more about my co-op work experiences through an [article](https://uwaterloo.ca/co-operative-education/blog/post/co-op-time-try-things) the University of Waterloo co-op prgram wrote about me. I then also worked for my University directly during most of my in-person school terms.
+Most of this work experience was gained through the University of Waterloo co-op program, where we would alternate between school and work each 4 months for throughout our degree. This also included a 4-month work experience as a **Robotics & Space Operations Intern @ MDA**. You can learn more about my co-op work experiences through an [article](https://uwaterloo.ca/co-operative-education/blog/post/co-op-time-try-things) the University of Waterloo co-op program wrote about me. I then also worked for my University directly during most of my in-person school terms. Note that so far, most of my non co-op term work has been part-time. 
 
+
+PART TIME
 
 ## Volunteer Experience
 
