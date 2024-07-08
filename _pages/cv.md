@@ -50,8 +50,6 @@ redirect_from:
 Most of this work experience was gained through the University of Waterloo co-op program, where we would alternate between school and work each 4 months for throughout our degree. This also included a 4-month work experience as a **Robotics & Space Operations Intern @ MDA**. You can learn more about my co-op work experiences through an [article](https://uwaterloo.ca/co-operative-education/blog/post/co-op-time-try-things) the University of Waterloo co-op program wrote about me. I then also worked for my University directly during most of my in-person school terms. Note that so far, most of my non co-op term work has been part-time as I was juggling classes at the same time and for my role at the Canadian Space Agency I took a couple of months off in the summer to pursue research abroad at CERN. 
 
 
-PART TIME
-
 ## Volunteer Experience
 
 ### [University of Waterloo Data Science Club](https://www.uwdatascience.ca/) - 1.3+ years
