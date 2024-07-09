@@ -38,9 +38,9 @@ author_profile: true
 
 * 1st Place Talk at Canadian Astroparticle Summer Student Talk Competition hosted by SNOLAB & McDonald Institute (2023) 
 
-* 1st Place Oral Presentation in Particle Physics Group at Canadian Conference for Undergraduate Women in Physics 2024
+* 1st Place Oral Presentation in Particle Physics Group at Canadian Conference for Undergraduate Women in Physics (2024)
 
-* 2nd Place Poster Presentation in Astrophysics and Cosmology Group at Canadian Conference for Undergraduate Women in Physics 2024
+* 2nd Place Poster Presentation in Astrophysics and Cosmology Group at Canadian Conference for Undergraduate Women in Physics (2024)
 
 * Best Presentation Award for Team Canada at US Joint Special Operations Command 2021 Data Challenge (2021, awarded to team I was one of presentors for)
 
@@ -52,21 +52,21 @@ author_profile: true
 
 ## Conference Travel 
 
-* Conference on Computer Vision and Pattern Recognition (CVPR) DEI funding to participate in CVPR 2024
+* Conference on Computer Vision and Pattern Recognition (CVPR) DEI funding to participate in CVPR (2024)
 
-* SNOLAB & McDonald Institute funding to participate in 2024 Canadian Association of Physicists Congress
+* SNOLAB & McDonald Institute funding to participate in Canadian Association of Physicists Congress (2024)
 
 * University of Waterloo funding to participate in: 
-    * Canadian Undergraduate Physics Conference 2022
-    * Canadian Undergraduate Physics Conference 2023
-    * Canadian Conference for Undergraduate Women in Physics 2024
+    * Canadian Undergraduate Physics Conference (2022)
+    * Canadian Undergraduate Physics Conference (2023)
+    * Canadian Conference for Undergraduate Women in Physics (2024)
 
-## Fully Funded Summer Schools
+## Fully-Funded Summer Schools
 
-* Astromatic 2022 run by the Ciela Institute
+* Astromatic (2022), run by the Ciela Institute
     * "the first edition of a week-long undergrad hackathon combining machine learning and astrophysics. 15 outstanding undergraduate students from 8 different countries"
 
-* Canadian Astroparticle Physics Summer School 2021 run by the McDonald Institute
+* Canadian Astroparticle Physics Summer School (2021), run by the McDonald Institute
 
 
 Awards given to me individually unless otherwise noted.
