@@ -54,10 +54,23 @@ Most of this work experience was gained through the University of Waterloo co-op
 
 ### [University of Waterloo Data Science Club](https://www.uwdatascience.ca/) - 1.3+ years
 * Podcast Host & Editor (01/2024 - Present)
+  * Edited [podcasts](https://open.spotify.com/show/4iWipypyDClyRHM47JIMzg) with guests from OpenAI and Weights & Biases
+  * Hosted soon-to-be-released podcasts with guests from Cohere and Google DeepMind
+
 * Reading Group Lead (01/2023 - 04/2024)
+  * Co-lead the reading group for four terms, where we focused specifically on Large Language Models (LLMs) for all [sessions](https://www.youtube.com/watch?v=jU84dgcRVbs) during one term
+  * Co-ran [workshop](https://www.youtube.com/watch?v=d33B81bMPVc&list=PLIb-eoNx9CWuXaOmOtVv0SV3swhkka2UV&index=6) on Transformers and LLM APIs in collaboration with Cohere
+  * Wrote a data science [blog](https://medium.com/@waterloodatascience/can-artificial-intelligence-bots-sail-better-than-humans-e24ae73b2097) for the club’s Medium page
+
 
 ###  [SEDS-Canada](https://seds.ca/can-sbx/) - 2.3 years
 * Canadian Stratospheric Balloon Experiment Design Challenge (CAN-SBX) Assistant Project Manager (11/2021 - 01/2024)
+  * Assisting with logistics for students to fly experiment payloads on high-altitude balloons
+  * Provided feedback for proposals and design reviews and answered applicant questions [live](https://www.youtube.com/watch?v=e3wBFYSiCDE)
+  * Organized and hosted [live](https://www.youtube.com/watch?v=UZWWjCbwOdk) post-flight student presentations
+  * Was liasion between student teams and the Canadian Space Agency
+  * Led revamping of application process to diversify and increase number of applicant teams to record level
+
 
 
 <img src="../../images/seds.jpg" alt="Image 5" style="max-width: 100%; display: inline-block;">
