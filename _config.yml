@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "headshot.jpg"
   name             : "Ashley Ferreira"
-  pronouns         : "she/her"  
+  pronouns         : #"(she/her/hers)"  
   bio              : "Data Scientist & Researcher"
   location         : "Toronto / Vancouver"
   employer         : "UWaterloo BSc '24"
