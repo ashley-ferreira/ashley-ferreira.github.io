@@ -9,7 +9,7 @@ tags:
 - computer vision
 ---
 ## Status Update
-This is super preliminary and in-progress work from the summer of 2023 and now that I am back on this project we have been able to dramatically increase the resolution and lower the z-dependant bias of the model such that it is beating the conventional method and has the potential to be used for real physics analysis. I will update this page towards the end of summer 2024 with the final results and hopefully details on a publication.
+This is super preliminary and in-progress work from the summer of 2023 and now that I am back on this project we have been able to dramatically increase the resolution and lower the z-dependant bias of the model such that it is beating the conventional method and has the potential to be used for real physics analysis. I will update this page towards the end of summer 2024 with the final results and hopefully details on a publication. You can see the exciting and most up-to-date results [here](https://indico.triumf.ca/event/509/contributions/5908/).
 
 ## TL;DR
 Reconstructing antimatter events with Machine Learning (ML) is a relatively untouched approach and my work has shown it to be viable using simulations from the leading experiment located at CERN.

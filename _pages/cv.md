@@ -55,7 +55,7 @@ Most of this work experience was gained through the University of Waterloo co-op
 ### [University of Waterloo Data Science Club](https://www.uwdatascience.ca/) - 1.3+ years
 * Podcast Host & Editor (01/2024 - Present)
   * Edited [podcasts](https://open.spotify.com/show/4iWipypyDClyRHM47JIMzg) with guests from OpenAI and Weights & Biases
-  * Hosted soon-to-be-released podcasts with guests from Cohere and Google DeepMind
+  * Hosted podcasts with guests from Cohere and Google DeepMind
 
 * Reading Group Lead (01/2023 - 04/2024)
   * Co-lead the reading group for four terms, where we focused specifically on Large Language Models (LLMs) for all [sessions](https://www.youtube.com/watch?v=jU84dgcRVbs) during one term
