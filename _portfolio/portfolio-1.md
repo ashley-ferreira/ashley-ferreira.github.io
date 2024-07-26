@@ -101,4 +101,4 @@ Code is currently available through the internal TRIUMF GitLab and will hopefull
 
 * Poster (**with more up-to-date results**) available [here](https://indico.triumf.ca/event/509/contributions/5908/)
 
-<img src="../../images/sci_weeek_poster.png" alt="Image 8" style="max-width: 80%; display: inline-block;">
+<img src="../../images/sci_week_poster.png" alt="Image 8" style="max-width: 80%; display: inline-block;">
