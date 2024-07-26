@@ -9,7 +9,7 @@ tags:
 - computer vision
 ---
 ## Status Update
-This is super preliminary and in-progress work from the summer of 2023 and now that I am back on this project we have been able to dramatically increase the resolution and lower the z-dependant bias of the model such that it is beating the conventional method and has the potential to be used for real physics analysis. I will update this page towards the end of summer 2024 with the final results and hopefully details on a publication. You can see the exciting and most up-to-date results [here](https://indico.triumf.ca/event/509/contributions/5908/).
+This is super preliminary and in-progress work from the summer of 2023 and now that I am back on this project we have been able to dramatically increase the resolution and lower the z-dependant bias of the model such that it is beating the conventional method and has the potential to be used for real physics analysis. I will update this page towards the end of summer 2024 with the final results and hopefully details on a publication.
 
 ## TL;DR
 Reconstructing antimatter events with Machine Learning (ML) is a relatively untouched approach and my work has shown it to be viable using simulations from the leading experiment located at CERN.
@@ -97,3 +97,8 @@ These results are very promising and more people have done work on this since, l
 Code is currently available through the internal TRIUMF GitLab and will hopefully be made publicly available too:
 
 <img src="../../images/gitlab.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
+
+
+* Poster (**with more up-to-date results**) available [here](https://indico.triumf.ca/event/509/contributions/5908/)
+
+<img src="../../images/sci_weeek_poster.png" alt="Image 8" style="max-width: 80%; display: inline-block;">
