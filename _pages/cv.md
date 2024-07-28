@@ -12,13 +12,17 @@ redirect_from:
 
 ### Government of Canada - 3.3 years
 
-* Junior Data Scientist @ Canadian Space Agency (01/2023 - 04/2024)
-
-* Data Scientist / Analyst @ Global Affairs Canada (05/2022 - 01/2023)
+* Junior Data Scientist <br> {% raw %}<details>
+  <summary> <strong>Canadian Space Agency</strong> | 01/2023 - 04/2024</summary>
+  <p> Was part of the Data and Emerging Technologies team working on various open science initiatives. </p>
+  <ul>
+    <li>Created computer vision algorithms in <strong>Python</strong> to perform quality analysis of digitization and feature extraction on millions of ionogram films from the Alouette and ISIS satellite missions, for which my team was given the top Government of Canada data award.</li>
+    <li>Sped up Alouette data pipeline 9x by implementing <strong>Keras</strong> OCR processing on <strong>GPUs</strong> using <strong>CUDA</strong>.</li>
+    <li>Spearheaded effort to create agency-wide bilateral MOU tracker dashboard on <strong>PowerBI</strong>.</li>
     <li>Contributing to both the data strategy working group and options analysis for modern data lakehouse infrastructure solutions for institutional & scientific data repositories.</li>
-    <li>Chosen to be an official mentor and judge for the 2023 Space Apps Hackathon.</li>
+    <li>Chosen to be an official mentor and judge for the 2023 Space Apps Challenge.</li>
   </ul>
-</details>
+</details>{% endraw %}
 
 * Data Scientist / Analyst @ Global Affairs Canada (05/2022 - 01/2023, co-op)
 
