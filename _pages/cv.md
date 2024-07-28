@@ -14,7 +14,6 @@ details {
 }
 
 summary {
-  font-weight: bold;
   cursor: pointer;
 }
 
@@ -26,6 +25,14 @@ details p,
 details ul {
   margin: 0 0 0.5em 1em;
 }
+
+summary strong {
+  font-weight: bold;
+}
+
+summary span {
+  font-weight: normal;
+}
 </style>
 
 ## Work Experience
@@ -34,7 +41,7 @@ details ul {
 
 * Junior Data Scientist <br>
   <details>
-    <summary> <strong>Canadian Space Agency</strong> | 01/2023 - 04/2024</summary>
+    <summary> <strong>Canadian Space Agency</strong> | <span>01/2023 - 04/2024</span></summary>
     <p> Was part of the Data and Emerging Technologies team working on various open science initiatives. </p>
     <ul>
       <li>Created computer vision algorithms in <strong>Python</strong> to perform quality analysis of digitization and feature extraction on millions of ionogram films from the Alouette and ISIS satellite missions, for which my team was given the top Government of Canada data award.</li>
