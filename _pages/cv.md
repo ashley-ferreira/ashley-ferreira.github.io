@@ -12,7 +12,7 @@ redirect_from:
 
 ### Government of Canada - 3.3 years
 
-* Junior Data Scientist <br> {% raw %}<details>
+* Junior Data Scientist <br> {% raw %} <details>
   <summary> <strong>Canadian Space Agency</strong> | 01/2023 - 04/2024</summary>
   <p> Was part of the Data and Emerging Technologies team working on various open science initiatives. </p>
   <ul>
@@ -22,7 +22,7 @@ redirect_from:
     <li>Contributing to both the data strategy working group and options analysis for modern data lakehouse infrastructure solutions for institutional & scientific data repositories.</li>
     <li>Chosen to be an official mentor and judge for the 2023 Space Apps Challenge.</li>
   </ul>
-</details>{% endraw %}
+</details> {% endraw %}
 
 * Data Scientist / Analyst @ Global Affairs Canada (05/2022 - 01/2023, co-op)
 
