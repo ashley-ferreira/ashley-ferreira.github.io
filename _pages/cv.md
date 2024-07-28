@@ -15,12 +15,18 @@ redirect_from:
 * Junior Data Scientist @ Canadian Space Agency (01/2023 - 04/2024)
 
 * Data Scientist / Analyst @ Global Affairs Canada (05/2022 - 01/2023)
+    <li>Contributing to both the data strategy working group and options analysis for modern data lakehouse infrastructure solutions for institutional & scientific data repositories.</li>
+    <li>Chosen to be an official mentor and judge for the 2023 Space Apps Hackathon.</li>
+  </ul>
+</details>
+
+* Data Scientist / Analyst @ Global Affairs Canada (05/2022 - 01/2023, co-op)
 
 * Student Researcher @ Herzberg Astronomy & Astrophysics Research Centre (09/2021 - 04/2022)
 
-* Defence Data Science Assistant @ Defence Research and Development Canada (01/2021 - 04/2021)
+* Defence Data Science Assistant @ Defence Research and Development Canada (01/2021 - 04/2021, co-op)
 
-* Renewable Energy Data Research Assistant @ CanmetENERGY (09/2020 - 12/2020)
+* Renewable Energy Data Research Assistant @ CanmetENERGY (09/2020 - 12/2020, co-op)
 
 ### TRIUMF: Canada’s Particle Accelerator Center - 1+ year
 
@@ -28,7 +34,7 @@ redirect_from:
 
 * Student Researcher @ Particle Physics Group (05/2023 - 01/2023) 
 
-* Photosensor Detector Researcher @ Particle Physics Group (01/2020 - 04/2020) 
+* Photosensor Detector Researcher @ Particle Physics Group (01/2020 - 04/2020, co-op) 
 
 <img src="../../images/TRIUMF_work2.jpg" alt="Image 1" style="max-width: 42%; display: inline-block;">
 <img src="../../images/CERN_work1.jpg" alt="Image 2" style="max-width: 55%; display: inline-block;">
