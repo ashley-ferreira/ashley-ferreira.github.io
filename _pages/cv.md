@@ -185,7 +185,7 @@ summary span {
     <ul>
       <li>Most of this work experience was gained through the University of Waterloo co-op program, where we would alternate between school and work each 4 months for throughout our degree.</li>
       <li>You can learn more about my co-op work experiences through an <a href="https://uwaterloo.ca/co-operative-education/blog/post/co-op-time-try-things">article</a> the University of Waterloo co-op program wrote about me.</li>
-      <li>Pretty much all of my technical roles (Government of Canada, TRIUMF, MDA) heavily involved <strong>Python</strong> programming, version control with <strong>git</strong> (e.g. GitHub, GitLab, and both GUI's and command line tools), as well as working in <strong>Linux-like<strong> systems (e.g. Linux).</li>
+      <li>Pretty much all of my technical roles (Government of Canada, TRIUMF, MDA) heavily involved <strong>Python</strong> programming, version control with <strong>git</strong> (e.g. GitHub, GitLab, and both GUI's and command line tools), as well as working in <strong>Linux-like</strong> systems (e.g. Linux).</li>
       <li>I then also worked for my University directly during most of my in-person school terms.</li>
       <li>Also note that so far, most of my non co-op term work has been part-time as I was juggling classes at the same time and for my role at the Canadian Space Agency I took a couple of months off in the summer to pursue research abroad at CERN.</li>
     </ul>
