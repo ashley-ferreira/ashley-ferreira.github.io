@@ -42,10 +42,10 @@ summary span {
 * Junior Data Scientist <br>
   <details>
     <summary> <strong>Canadian Space Agency</strong> | <span>01/2023 - 04/2024</span></summary>
-    <p> Was part of the Data and Emerging Technologies team working on various open science initiatives. </p>
+    <p>Was part of the Data and Emerging Technologies team working on various open science initiatives.</p>
     <ul>
       <li>Created computer vision algorithms in <strong>Python</strong> to perform quality analysis of digitization and feature extraction on millions of ionogram films from the Alouette and ISIS satellite missions, for which my team was given the top Government of Canada data award.</li>
-      <li>Sped up Alouette data pipeline 9x by implementing <strong>Keras</strong> OCR processing on <strong>GPUs</strong> using <strong>CUDA</strong>.</li>
+      <li>Sped up Alouette data pipeline 9x by implementing <strong>Keras</strong> Optical Character Recognition (OCR) processing on <strong>GPUs</strong> using <strong>CUDA</strong>.</li>
       <li>Spearheaded effort to create agency-wide bilateral MOU tracker dashboard on <strong>PowerBI</strong>.</li>
       <li>Contributing to both the data strategy working group and options analysis for modern data lakehouse infrastructure solutions for institutional & scientific data repositories.</li>
       <li>Chosen to be an official mentor and judge for the 2023 Space Apps Challenge.</li>
@@ -55,86 +55,77 @@ summary span {
 * Data Scientist / Analyst  <br>
   <details>
     <summary> <strong>Global Affairs Canada</strong> | <span>05/2022 - 01/2023 (co-op)</span></summary>
-    <p>   </p>
+    <p>Made models and visualizations to enhance data-driven decision-making on various files in the Asia Pacific Branch and in support of the Centre for China Policy Research and Coherence.</p>
     <ul>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-      <li> </li>
+      <li>Used <strong>Python</strong> to fine-tune <strong>GPT-3</strong> and used GPT-3 <strong>embeddings</strong> for a variety of national security projects including Retrieval Augmented Generation (<strong>RAG</strong>) to aid with text summarization and grounded question answering using reports from missions abroad.</li>
+      <li>Investigated correlation between the amount of Chinese economic exposure a country has and variables such as their voting trends in the United Nations using <strong>Python</strong> and <strong>PowerBI</strong> dashboards.</li>
+      <li>Used <strong>R</strong> for timeseries forecasting of budget use of diplomatic missions abroad.</li>
     </ul>
   </details>
 
 * Student Researcher  <br>
   <details>
     <summary> <strong>Herzberg Astronomy & Astrophysics Research Centre</strong> | <span>09/2021 - 04/2022</span></summary>
-    <p>   </p>
+    <p>Applied machine learning techniques in <strong>Python</strong>, using <strong>Keras</strong>, to astronomy data processing.</p>
     <ul>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-      <li> </li>
+      <li>Successfully trained a convolutional neural network to select the best stars for point spread function (PSF) creation, taking only 6% the time of the existing method.</li>
+      <li>Begun development of a convolutional neural network to discover new icy minor planets past Neptune using data from the Outer Solar System Origins Survey.</li>
     </ul>
   </details> 
 
 * Defence Data Science Assistant  <br>
   <details>
     <summary> <strong>Defence Research and Development Canada</strong> | <span>01/2021 - 04/2021 (co-op)</span></summary>
-    <p>   </p>
+    <p>Was part of the Joint Targeting group in the Center for Operational Research and Analysis.</p>
     <ul>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-      <li> </li>
+      <li>Developed machine learning binary tree classifiers as well PageRank-like algorithms in <strong>Python</strong> and <strong>Sklearn</strong> to produce a novel way of analyzing Twitter API data for Open Source Intelligence.</li>
+      <li>Team Canada member for US Joint Special Operations Command 2021 Data Challenge, worked on Arabic OCR and tracking Bitcoin transactions for anti-money laundering efforts. I was one of the presenters and our team won the best presentation award out of 22 teams.</li>
     </ul>
   </details> 
 
 * Renewable Energy Data Research Assistant  <br>
   <details>
-    <summary> <strong>CanmetENERGY</strong> | <span>09/2020 - 12/2020 (co-op)</span></summary>
-    <p>   </p>
+    <summary> <strong>CanmetENERGY-Ottawa</strong> | <span>09/2020 - 12/2020 (co-op)</span></summary>
+    <p>Worked on Remote Community Renewable Energy Analysis and Mapping project to bring renewable energy to Canadian northern and remote communities.</p>
     <ul>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-      <li> </li>
+      <li>Automated running existing simulations that utilize historical meteorological data to model potential renewable energy generation and GHG reductions for ~200 off-grid communities in Canada in <strong>Python</strong>.</li>
+      <li>Generated capacity and cost estimates to transition individual communities off diesel, and compiled these results for some of the first Canada-wide estimates.</li>
+      <li>Created interactive visualization of results for policymakers using <strong>Tableau</strong>.</li>
     </ul>
   </details>
+
 
 ### TRIUMF: Canada’s Particle Accelerator Center - 1+ year
 
 * Machine Learning Architect Student  <br>
   <details>
     <summary> <strong>Particle Physics Group</strong> | <span>05/2024 - Present</span></summary>
-    <p>   </p>
+    <p>Continuing my work with the ALPHA collaboration (see position below).</p>
     <ul>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-      <li> </li>
+      <li>Together with another student, we have improved the model to reconstruct the vertical position of antimatter annihilation events in ALPHA-g with to a precision twice as good as the conventional method and near-zero bias (on simulation).</li>
+      <li>Currently working on paper to publish results.</li>
     </ul>
   </details>
 
 * Student Researcher  <br>
   <details>
     <summary> <strong>Particle Physics Group</strong> | <span>05/2023 - 01/2023</span></summary>
-    <p>   </p>
+    <p>Joined Antihydrogen Laser PHysics Apparatus (ALPHA), the leading antimatter collaboration at CERN as part of the Azuma Fellowship and then stayed on to work on a similar project for Super-Kamiokande Tokai to Kamioka (T2K) neutrino experiment.</p>
     <ul>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-      <li> </li>
+      <li>Designed and trained PointNet-like models in <strong>PyTorch</strong> to do regression to reconstruct the position of antimatter annihilation events in the ALPHA-g detector based on Monte Carlo simulations.</li>
+      <li>Presenting the above project led me to winning the Canadian Astroparticle Summer Student Talk Competition and being awarded best Particle Physics talk at Canadian Conference for Undergraduate Women in Physics.</li>
+      <li>Participated in shift work for the ALPHA-2 experiment for 2 months which largely involved running physics experiments from the control room and doing real-time data analysis at CERN.</li>
+      <li>Then continued in the fall part-time in the fall to work on a similar project for T2K and having my first introduction to more high performance computing using <strong>multi-GPU</strong> training on our national compute cluster.</li>
     </ul>
   </details> 
 
 * Photosensor Detector Researcher  <br>
   <details>
     <summary> <strong>Particle Physics Group</strong> | <span>01/2020 - 04/2020 (co-op)</span></summary>
-    <p>   </p>
+    <p>Contributed to detector development for Hyper-Kamiokande, a next-generation neutrino observatory.</p>
     <ul>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-      <li> </li>
+      <li>Prototyped a novel neutrino photosensor detector (multi-PMT module) by assembling and testing in the lab, then refining design in SolidWorks, as well as 3D printing and 3D scanning new parts.</li>
+      <li>Used <strong>Python</strong> and <strong>C++</strong> to analyze and visualize detector data to detector efficiency.</li>
     </ul>
   </details>
 
@@ -150,39 +141,28 @@ summary span {
  <br>
   <details>
     <summary> <strong>Residence University College</strong> | <span>01/2022 - 04/2023</span></summary>
-    <p>   </p>
+    <p>As a don, I lived in residence at a small college and engaged in various tasks to help make students' university experience as good as possible.</p>
     <ul>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-      <li> </li>
+      <li>Was directly responsible for the 19 students on my floor and we won the floor of the year award.</li>
+      <li>Patrolled the entire college and responded to emergencies (medical, mental health, etc.) when on duty.</li>
+      <li>Provided support to students and resolved conflicts among residents.</li>
+      <li>Planned residence-wide events and captained the college intramural team.</li>
     </ul>
   </details>
+
 
 * Climbing Wall Staff 
  <br>
   <details>
     <summary> <strong>Athletics</strong> | <span>01/2022 - 04/2022</span></summary>
-    <p>   </p>
-    <ul>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-    </ul>
+    <p>Helped run the climbing wall and take care of the equipment.</p>
   </details>
 
 * Residence Ambassador 
  <br>
   <details>
     <summary> <strong>Campus Housing</strong> | <span>09/2018 - 04/2019</span></summary>
-    <p>   </p>
-    <ul>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-    </ul>
+    <p>Gave tours of residence to prospective students.</p>
   </details>
 
 
@@ -192,25 +172,22 @@ summary span {
  <br>
   <details>
     <summary> <strong>Guidance, Navigation, and Controls Engineering</strong> | <span>09/2021 - 12/2021 (co-op)</span></summary>
-    <p>   </p>
+    <p>Worked on artificial intelligence algorithms to use on Canadarm2 and potentially Canadarm3.</p>
     <ul>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-      <li> </li>
+      <li>Further developed anomaly detection and fault diagnosis programs to run more efficiently using <strong>Python</strong> and <strong>Keras</strong>, trained on both <strong>MATLAB</strong> simulations and real flight data from Canadarm2.</li>
     </ul>
   </details>
 
 
 ### Notes
   <details>
-    <summary> click to expand</summary>
-    <p>   </p>
+    <summary>click to expand</summary>
     <ul>
       <li>Most of this work experience was gained through the University of Waterloo co-op program, where we would alternate between school and work each 4 months for throughout our degree.</li>
       <li>You can learn more about my co-op work experiences through an <a href="https://uwaterloo.ca/co-operative-education/blog/post/co-op-time-try-things">article</a> the University of Waterloo co-op program wrote about me.</li>
+      <li>Pretty much all of my technical roles (Government of Canada, TRIUMF, MDA) heavily involved <strong>Python</strong> programming, version control with <strong>git</strong> (e.g. GitHub, GitLab, and both GUI's and command line tools), as well as working in <strong>Linux-like<strong> systems (e.g. Linux).</li>
       <li>I then also worked for my University directly during most of my in-person school terms.</li>
-      <li>Also note that so far, most of my non co-op term work has been part-time as I was juggling classes at the same time and for my role at the Canadian Space Agency I took a couple of months off in the summer to pursue research abroad at CERN. </li>
+      <li>Also note that so far, most of my non co-op term work has been part-time as I was juggling classes at the same time and for my role at the Canadian Space Agency I took a couple of months off in the summer to pursue research abroad at CERN.</li>
     </ul>
   </details>
 
