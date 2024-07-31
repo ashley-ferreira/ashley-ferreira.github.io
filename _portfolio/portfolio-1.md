@@ -84,11 +84,12 @@ These results are very promising! Good enough that this model will likely be use
 
 ## Resources
 
-- Code is currently available through the internal TRIUMF GitLab and will hopefully be made publicly available too:
+- Code is currently available through the internal TRIUMF GitLab and will hopefully be made publicly available:
 
 <img src="../../images/gitlab.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
 
+- Latest presentation available [here](https://indico.cern.ch/event/1316311/contributions/5844349/)
 
-- Poster (**with more up-to-date results**) available [here](https://indico.triumf.ca/event/509/contributions/5908/)
+- Latest poster available [here](https://indico.triumf.ca/event/509/contributions/5908/)
 
 <img src="../../images/sci_week_poster.png" alt="Image 8" style="max-width: 80%; display: inline-block;">
