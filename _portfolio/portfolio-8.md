@@ -43,9 +43,9 @@ There are still significant errors that need to be reduced before it can fully b
 [pytorch-url]: https://pytorch.org/
 
 
-## Code
+## Resources
 
-Code is publically available through the following GitHub repositories:
+Code is publicly available through the following GitHub repositories:
 - [felix-cormier/WatChMaL](https://github.com/felix-cormier/WatChMaL)
 - [felix-cormier/t2k_ml](https://github.com/felix-cormier/t2k_ml)
 - [felix-cormier/t2k_ml_training](https://github.com/felix-cormier/t2k_ml_training)

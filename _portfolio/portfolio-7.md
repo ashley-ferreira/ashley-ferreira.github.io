@@ -30,8 +30,8 @@ It is no big news that LLMs are useful at summarizing text and can be useful for
 [notebook]: https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter
 [notebook-url]: https://jupyter.org/
 
-## Code
+## Resources
 
-- Code, tableau visualizations, and presentation publically available on GitHub: [ashley-ferreira/SheHacks_7](https://github.com/ashley-ferreira/SheHacks_7)
+- Code, tableau visualizations, and presentation publicly available on GitHub: [ashley-ferreira/SheHacks_7](https://github.com/ashley-ferreira/SheHacks_7)
 
 - Devpost submission [here](https://devpost.com/software/unga-resolutions-search-summarize)

@@ -56,49 +56,39 @@ Currently, the model is trained on simulations but the plan is to adapt it to re
 Method used is a fully-supervised implementation of PointNet:
 <img src="../../images/alpha_method.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
 
+And the goal is that this can replace the existing "Helix Fit" method:
+<img src="../../images/alpha_helix.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
+
 ## Results
-
-The results of this project are always slowly improving and below I outline the results you should get if you follow the quick start steps in the code provided. Note that further improvement can be made by training the model more after convergence of the loss but at a lower learning rate, and implementing learning rate decay would be a more grown up way to approach this. 
-
-
-### Mean Absolute Error Loss in Training
-
-We see a relatively healthy loss curve during training, as shown in, where the loss converges for both the training and validation datasets as shown below:
-
-<img src="../../images/MAE_overall.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
-
-With the model's loss being mostly converged before epoch 200, below is a zoomed in plot of this early section:
-
-<img src="../../images/MAE_atEpoch200.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
-
-One thing that should stand out is that the validation loss is consistently lower than the training loss, and I'm pretty sure this is due dropout being used.
-
-### Antimatter Position Predictions
-What is most interesting, is taking the unnormalized predictions and comparing them to the known real z values. There are two main plots we have been using to do this, with the first being a plot of predicted versus true z and shown below:
+Our results are constantly improving these days but generally, we take the unnormalized predictions and comparing them to the known real z values. They are shown to have a really strong correlation:
 
 <img src="../../images/valid_compare.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
 
-And a more granular way of analyzing this plot is by calculating the residuals and doing a guassian fit, which is shown below:
+And a more granular way of analyzing this plot is by calculating the residuals, throwing those on a histogram, and doing a guassian fit:
 
 <img src="../../images/valid_residuals.png" alt="Image 5" style="max-width: 70%; display: inline-block;">
 
-The good news about this plot is it means in the majority of cases, the predicted z value of annihilation is within 15 mm of the real z position of annihilation.
+The good news about this plot is it means in the majority of cases, the predicted z value of annihilation is within 15 mm of the real z position of annihilation. The bad news is that these results still lag behind the traditional computational method and so more work was needed for the ML method to beat and not just compliment, or backup, the traditional method. 
 
-The bad news is that these results still lag behind the traditional computational method and so more work needs to be done for the ML method to beat and not just compliment, or backup, the traditional method. 
+That has been thoroughly achieved now though, with the ML method having significantly better resolution than the conventional method:
+<img src="../../images/alpha_res.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
+
+And finally, we deeply care about z-dependant bias as this is a scientific experiment where all contributions of systematic bias need to be as low as possible. This bias is something the ML method struggled with for a long time but that recently has been solved:
+<img src="../../images/alpha_bias.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
 
 
 ## Conclusion 
 
-These results are very promising and more people have done work on this since, leading to even more promising results like the reduction in standard deviation as well as bias in z. Keep your eye out for a paper about this!
+These results are very promising! Good enough that this model will likely be used in actual analysis some day which is very exciting to me. 
 
 
-## Code
+## Resources
 
-Code is currently available through the internal TRIUMF GitLab and will hopefully be made publicly available too:
+- Code is currently available through the internal TRIUMF GitLab and will hopefully be made publicly available too:
 
 <img src="../../images/gitlab.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
 
 
-* Poster (**with more up-to-date results**) available [here](https://indico.triumf.ca/event/509/contributions/5908/)
+- Poster (**with more up-to-date results**) available [here](https://indico.triumf.ca/event/509/contributions/5908/)
 
 <img src="../../images/sci_week_poster.png" alt="Image 8" style="max-width: 80%; display: inline-block;">

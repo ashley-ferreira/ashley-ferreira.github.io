@@ -35,6 +35,6 @@ I helped contribute to the effort to the effort to digitize this data, primairil
 [keras-url]: https://keras.io/
 
 
-## Code
+## Resources
 
-Code publically available on GitHub: [asc-csa/Alouette_extract](https://github.com/asc-csa/Alouette_extract)
+Code publicly available on GitHub: [asc-csa/Alouette_extract](https://github.com/asc-csa/Alouette_extract)

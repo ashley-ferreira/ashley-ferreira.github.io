@@ -52,9 +52,9 @@ While there were still significant errors, certain variables were completely fai
 [vscode-url]: https://code.visualstudio.com/
 
 
-## Code
+## Resources
 
-Sadly code is not publically available as it directly builds on private lens modelling code from a graduate student.
+Sadly code is not publicly available as it directly builds on private lens modelling code from a graduate student.
 
 
 \\(^1\\) [www.astro.umontreal.ca/astromatic/2022/](https://www.astro.umontreal.ca/astromatic/2022/)

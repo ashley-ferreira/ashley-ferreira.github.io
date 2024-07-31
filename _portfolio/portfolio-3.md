@@ -102,7 +102,7 @@ Once the model is trained, the CNN method takes only ~6% the CPU time of the non
 
 This machine learning-based method allows for faster PSF generation but not nessisarily better. Some form of unsupervised learning is likely needed as a next step.
 
-## Code
+## Resources
 
 - Project is publically available on GitHub: [ashley-ferreira/ML-PSF](https://github.com/ashley-ferreira/ML-PSF/)
 - Poster available [here](https://github.com/ashley-ferreira/ML-PSF/blob/main/PosterPresentations/CUPC22_poster_AshleyFerreira.pdf)

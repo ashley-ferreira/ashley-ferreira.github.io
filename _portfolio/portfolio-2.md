@@ -90,12 +90,12 @@ And here is an example of how the similarity search functionality can be useful 
 
 These results prove this method is a promising avenue to explore for not only the discovery of more dwarf galaxies but various other tasks of interest to astronomers. 
 
-## Code
+## Resources
 
-* Initial effort with MAE: [ashley-ferreira/AstroMASK](https://github.com/ashley-ferreira/AstroMASK)
+- Initial effort with MAE: [ashley-ferreira/AstroMASK](https://github.com/ashley-ferreira/AstroMASK)
 
-* Most recent work with SimMIM: [teaghan/sky_embeddings](https://github.com/teaghan/sky_embeddings)
+- Most recent work with SimMIM: [teaghan/sky_embeddings](https://github.com/teaghan/sky_embeddings)
 
-* Poster available [here](https://drive.google.com/file/d/1pCPDfRXtnYHVPDUMBkf0NiLSKzdy5JFE/view?usp=sharing)
+- Poster available [here](https://drive.google.com/file/d/1pCPDfRXtnYHVPDUMBkf0NiLSKzdy5JFE/view?usp=sharing)
 
 <img src="../../images/ssl_poster.001.jpeg" alt="Image 8" style="max-width: 100%; display: inline-block;">

@@ -26,7 +26,7 @@ I was the team lead for a group of four who tackled the moonwalker (advanced) Ca
 [notebook]: https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter
 [notebook-url]: https://jupyter.org/
 
-## Code
+## Resources
 
-- Project is publically available on GitHub: [ashley-ferreira/WACO](https://github.com/ashley-ferreira/WACO)
+- Project is publicly available on GitHub: [ashley-ferreira/WACO](https://github.com/ashley-ferreira/WACO)
 - A final presentation and the notebook is available [here](https://drive.google.com/drive/folders/1iaxPjyybwXkv9A39m1G7ZXEn4Mvb7j4M?usp=share_link)

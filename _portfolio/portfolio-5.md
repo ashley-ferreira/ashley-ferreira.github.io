@@ -41,7 +41,7 @@ We were able to roughly reproduce the results, and even improve them in some are
 [keras-url]: https://keras.io/
 
 
-## Code
+## Resources
 
 - Project is publicly available on GitHub: [ashley-ferreira/PHYS449_FinalProject](https://github.com/ashley-ferreira/PHYS449_FinalProject)
 - A final presentation is available [here](https://github.com/ashley-ferreira/PHYS449_FinalProject/blob/main/presentations/PHYS%20449%20Final%20Presentation.pdf)
