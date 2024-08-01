@@ -92,13 +92,11 @@ To learn more check out the UBC Sailing Team's [Instagram](https://www.instagram
 * Senior Sailing Instructor & Race Team Coach <br>
   <details>
     <summary> <strong>Central Okanagan Sailing Association</strong> | <span>05/2019 - 08/2019</span></summary>
-    <p>Had an amazing summer out in Kelowna teaching sailing to disabled and able-bodied people from 4-year to 70-year-olds and further developping the opti and laser youth race program.</li>
-    </ul>
+    <p>Had an amazing summer out in Kelowna teaching sailing to disabled and able-bodied people from 4-year to 70-year-olds and further developping the opti and laser youth race program.</p>
   </details>
 
 * Dock Help <br>
   <details>
     <summary> <strong>Disabled Sailing Association of Ontario</strong> | <span>06/2015 - 09/2016</span></summary>
     <p>Did some on and off volunteering at the Queens Quay Disabled Sailing Program and they eventually hired me on to do some on and off work helping people with disabilities get the chance to do some awesome sailing.</p>
-    </ul>
   </details>
