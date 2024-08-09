@@ -41,8 +41,11 @@ summary span {
 
 * Junior Data Scientist <br>
   <details>
-    <summary> <strong>Canadian Space Agency</strong> | <span>01/2023 - 04/2024</span></summary>
-    <p>Was part of the Data and Emerging Technologies team working on various open science initiatives.</p>
+    <summary> <strong>Canadian Space Agency</strong> | <span>01/2023 - 06/2023, 09/2023 - 04/2024</span></summary>
+    <p>
+    [Worked as an IT-01]
+
+    Was part of the Data and Emerging Technologies team working on various open science initiatives.</p>
     <ul>
       <li>Created computer vision algorithms in <strong>Python</strong> to perform quality analysis of digitization and feature extraction on millions of ionogram films from the Alouette and ISIS satellite missions, for which my team was given the top Government of Canada data award.</li>
       <li>Sped up Alouette data pipeline 9x by implementing <strong>Keras</strong> Optical Character Recognition (OCR) processing on <strong>GPUs</strong> using <strong>CUDA</strong>.</li>
@@ -55,7 +58,10 @@ summary span {
 * Data Scientist / Analyst  <br>
   <details>
     <summary> <strong>Global Affairs Canada</strong> | <span>05/2022 - 01/2023 (co-op)</span></summary>
-    <p>Made models and visualizations to enhance data-driven decision-making on various files in the Asia Pacific Branch and in support of the Centre for China Policy Research and Coherence.</p>
+    <p>
+    [Started as co-op student and was then promoted to EC-04] 
+
+    Made models and visualizations to enhance data-driven decision-making on various files in the Asia Pacific Branch and in support of the Centre for China Policy Research and Coherence.</p>
     <ul>
       <li>Used <strong>Python</strong> to fine-tune <strong>GPT-3</strong> and used GPT-3 <strong>embeddings</strong> for a variety of national security projects including Retrieval Augmented Generation (<strong>RAG</strong>) to aid with text summarization and grounded question answering using reports from missions abroad.</li>
       <li>Investigated correlation between the amount of Chinese economic exposure a country has and variables such as their voting trends in the United Nations using <strong>Python</strong> and <strong>PowerBI</strong> dashboards.</li>
@@ -66,7 +72,10 @@ summary span {
 * Student Researcher  <br>
   <details>
     <summary> <strong>Herzberg Astronomy & Astrophysics Research Centre</strong> | <span>09/2021 - 04/2022</span></summary>
-    <p>Applied machine learning techniques in <strong>Python</strong>, using <strong>Keras</strong>, to astronomy data processing.</p>
+    <p>
+    [Part of the NSERC-CREATE New Technologies for Canadian Observatories Training Program]
+
+    Applied machine learning techniques in <strong>Python</strong>, using <strong>Keras</strong>, to astronomy data processing.</p>
     <ul>
       <li>Successfully trained a convolutional neural network to select the best stars for point spread function (PSF) creation, taking only 6% the time of the existing method.</li>
       <li>Begun development of a convolutional neural network to discover new icy minor planets past Neptune using data from the Outer Solar System Origins Survey.</li>
@@ -95,14 +104,14 @@ summary span {
   </details>
 
 
-### TRIUMF: Canada’s Particle Accelerator Center - 1+ year
+### TRIUMF: Canada’s Particle Accelerator Center - 1.3+ years
 
 * Machine Learning Architect Student  <br>
   <details>
     <summary> <strong>Particle Physics Group</strong> | <span>05/2024 - Present</span></summary>
     <p>Continuing my work with the ALPHA collaboration (see position below).</p>
     <ul>
-      <li>Together with another student, we have improved the model to reconstruct the vertical position of antimatter annihilation events in ALPHA-g with to a precision twice as good as the conventional method and near-zero bias (on simulation).</li>
+      <li>Together with another student, we have improved the model to reconstruct the vertical position (z) of antimatter annihilation events in ALPHA-g with to a precision twice as good as the conventional method and near-zero bias (on simulation) and extended the work to predict the full set of cartesian coordinates (x,y,z) as well.</li>
       <li>Currently working on paper to publish results.</li>
     </ul>
   </details>
@@ -112,7 +121,7 @@ summary span {
     <summary> <strong>Particle Physics Group</strong> | <span>05/2023 - 01/2023</span></summary>
     <p>Joined Antihydrogen Laser PHysics Apparatus (ALPHA), the leading antimatter collaboration at CERN as part of the Azuma Fellowship and then stayed on to work on a similar project for Super-Kamiokande Tokai to Kamioka (T2K) neutrino experiment.</p>
     <ul>
-      <li>Designed and trained PointNet-like models in <strong>PyTorch</strong> to do regression to reconstruct the position of antimatter annihilation events in the ALPHA-g detector based on Monte Carlo simulations.</li>
+      <li>Designed and trained PointNet-like models in <strong>PyTorch</strong> to do regression to reconstruct the vertical position of antimatter annihilation events in the ALPHA-g detector based on Monte Carlo simulations.</li>
       <li>Presenting the above project led me to winning the Canadian Astroparticle Summer Student Talk Competition and being awarded best Particle Physics talk at Canadian Conference for Undergraduate Women in Physics.</li>
       <li>Participated in shift work for the ALPHA-2 experiment for 2 months which largely involved running physics experiments from the control room and doing real-time data analysis at CERN.</li>
       <li>Then continued in the fall part-time in the fall to work on a similar project for T2K and having my first introduction to more high performance computing using <strong>multi-GPU</strong> training on our national compute cluster.</li>
@@ -193,7 +202,7 @@ summary span {
 
 ## Volunteer Experience
 
-### [University of Waterloo Data Science Club](https://www.uwdatascience.ca/) - 1.3+ years
+### [University of Waterloo Data Science Club](https://www.uwdatascience.ca/) - 1.6+ years
 * Host & Editor <br>
   <details>
     <summary> <strong>Podcast Team</strong> | <span>01/2024 - Present</span></summary>
