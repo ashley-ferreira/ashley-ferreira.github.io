@@ -1,5 +1,5 @@
 ---
-title: "Reconstructing Antimatter Events with Deep Learning"
+title: "Reconstructing Antimatter Events at CERN with Deep Learning"
 excerpt: "<img src='../images/alpha_preview.png' style='max-width: 60%; display: inline-block;'>"
 collection: portfolio
 tags:
@@ -76,10 +76,13 @@ That has been thoroughly achieved now though, with the ML method having signific
 And finally, we deeply care about z-dependant bias as this is a scientific experiment where all contributions of systematic bias need to be as low as possible. This bias is something the ML method struggled with for a long time but that recently has been solved:
 <img src="../../images/alpha_bias.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
 
+We are also now working on predicting x and y so that we have the full set of cartesian coordinates (x,y,z) and are currently significantly beating the conventional method on every axis.  
 
 ## Conclusion 
 
 These results are very promising! Good enough that this model will likely be used in actual analysis some day which is very exciting to me. 
+
+A unsolved problem for this work is accurate uncertainty and/or confidence qualification for the predictions. Currently, I am experimenting with some ensemble-based methods and they seem to be very useful for providing a confidence threshold that we can apply a cut on to filter out really bad resolution events to have a clean sample of predictions. This method is able to dynamically estimate uncertainties in a way that is more accurate than using general statistics from the testing analysis and more transferable to real data, however this is still in need of improvement before it can be implemented. 
 
 
 ## Resources

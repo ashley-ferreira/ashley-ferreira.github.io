@@ -59,7 +59,7 @@ This work is done solely by training it on images of the sky, without the need f
 
 Most recently, a SSL masked image modeling method called SimMIM was implemented and evaluated on a specific use case of dwarf galaxy identification. 
 
-<img src="../../images/project_goal3.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
+<img src="../../images/astrossl_method.png" alt="Image 5" style="max-width: 100%; display: inline-block;">
 
 ## Results
 
@@ -96,6 +96,6 @@ These results prove this method is a promising avenue to explore for not only th
 
 - Most recent work with SimMIM: [teaghan/sky_embeddings](https://github.com/teaghan/sky_embeddings)
 
-- Poster available [here](https://drive.google.com/file/d/1pCPDfRXtnYHVPDUMBkf0NiLSKzdy5JFE/view?usp=sharing)
+- Old poster available [here](https://drive.google.com/file/d/1pCPDfRXtnYHVPDUMBkf0NiLSKzdy5JFE/view?usp=sharing)
 
 <img src="../../images/ssl_poster.001.jpeg" alt="Image 8" style="max-width: 100%; display: inline-block;">
