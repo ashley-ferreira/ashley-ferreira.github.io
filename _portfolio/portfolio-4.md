@@ -1,5 +1,5 @@
 ---
-title: "Strong-Smiling: Analysis of Strong Gravitational Lenses"
+title: "Analysis of Strong Gravitational Lenses"
 excerpt: "<img src='../images/strong_lens_sim.png' style='max-width: 60%; display: inline-block;'>"
 collection: portfolio
 tags:

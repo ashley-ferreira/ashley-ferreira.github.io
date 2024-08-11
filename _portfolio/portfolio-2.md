@@ -1,5 +1,5 @@
 ---
-title: "Self-Supervised Learning for Astronomy Discoveries"
+title: "Self-Supervised Learning for Astronomy"
 excerpt: "<img src='../images/tsne.png' style='max-width: 60%; display: inline-block;'>"
 collection: portfolio
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Reconstructing Antimatter Events at CERN with Deep Learning"
+title: "Reconstructing Antimatter Events at CERN"
 excerpt: "<img src='../images/alpha_preview.png' style='max-width: 60%; display: inline-block;'>"
 collection: portfolio
 tags:
