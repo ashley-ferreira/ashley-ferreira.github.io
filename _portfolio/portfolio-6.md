@@ -1,5 +1,5 @@
 ---
-title: "JWST Data Analysis and Visualization"
+title: "JWST Data Analysis and Visualization Notebook"
 excerpt: "<img src='../images/waco_preview.png' style='max-width: 60%; display: inline-block;'>"
 collection: portfolio
 tags:

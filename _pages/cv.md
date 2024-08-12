@@ -202,10 +202,10 @@ summary span {
 
 ## Volunteer Experience
 
-### [University of Waterloo Data Science Club](https://www.uwdatascience.ca/) - 1.6+ years
+### [University of Waterloo Data Science Club](https://www.uwdatascience.ca/) - 1.6 years
 * Host & Editor <br>
   <details>
-    <summary> <strong>Podcast Team</strong> | <span>01/2024 - Present</span></summary>
+    <summary> <strong>Podcast Team</strong> | <span>01/2024 - 09/2024</span></summary>
     <p>Listen to our podcast, The Data Den, almost everywhere you find podcasts including <a href="https://open.spotify.com/show/4iWipypyDClyRHM47JIMzg">Spotify</a>.</p>
     <ul>
       <li>Edited podcasts with guests from OpenAI and Weights & Biases.</li>

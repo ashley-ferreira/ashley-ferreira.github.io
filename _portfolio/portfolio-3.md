@@ -1,5 +1,5 @@
 ---
-title: "ML-PSF: Picking Good Sources for PSFs"
+title: "ML-PSF: Picking Good Sources for PSF Generation"
 excerpt: "<img src='../images/ml_psf_method2.png' style='max-width: 50%; display: inline-block;'>"
 collection: portfolio
 tags:
