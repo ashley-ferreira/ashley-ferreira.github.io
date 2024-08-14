@@ -124,6 +124,7 @@ summary span {
       <li>Designed and trained PointNet-like models in <strong>PyTorch</strong> to do regression to reconstruct the vertical position of antimatter annihilation events in the ALPHA-g detector based on Monte Carlo simulations.</li>
       <li>Presenting the above project led me to winning the Canadian Astroparticle Summer Student Talk Competition and being awarded best Particle Physics talk at Canadian Conference for Undergraduate Women in Physics.</li>
       <li>Participated in shift work for the ALPHA-2 experiment for 2 months which largely involved running physics experiments from the control room and doing real-time data analysis at CERN.</li>
+      <li>Attended the CERN Summer Student Lecture Programme 2023.</li>
       <li>Then continued in the fall part-time in the fall to work on a similar project for T2K and having my first introduction to more high performance computing using <strong>multi-GPU</strong> training on our national compute cluster.</li>
     </ul>
   </details> 
