@@ -99,7 +99,7 @@ summary span {
     <ul>
       <li>Automated running existing simulations that utilize historical meteorological data to model potential renewable energy generation and GHG reductions for ~200 off-grid communities in Canada in <strong>Python</strong>.</li>
       <li>Generated capacity and cost estimates to transition individual communities off diesel, and compiled these results for some of the first Canada-wide estimates.</li>
-      <li>Created interactive visualization of results for policymakers using <strong>Tableau</strong>.</li>
+      <li>Created interactive visualization of results for policymakers using <strong>Tableau</strong> (learn more and see my first dashboard <a href="https://natural-resources.canada.ca/energy/offices-labs/canmet/ottawa-research-centre/northern-and-remote-energy/renewable-energy-for-the-north/23559#:~:text=Figure%202%3A%20Aggregated%20analysis%20output%20indicating%20diesel%20reduction%20potential%20across%20multiple%20communities%20under%20a%2010%25%20wind%20energy%20penetration%20scenario">here</a>).</li>
     </ul>
   </details>
 
