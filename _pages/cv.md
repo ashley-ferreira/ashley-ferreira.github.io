@@ -43,7 +43,7 @@ summary span {
   <details>
     <summary> <strong>Canadian Space Agency</strong> | <span>01/2023 - 06/2023, 09/2023 - 04/2024</span></summary>
     <p>
-    [Worked as an IT-01]
+    [Worked as an IT-01]<br> 
 
     Was part of the Data and Emerging Technologies team working on various open science initiatives.</p>
     <ul>
@@ -59,7 +59,7 @@ summary span {
   <details>
     <summary> <strong>Global Affairs Canada</strong> | <span>05/2022 - 01/2023 (co-op)</span></summary>
     <p>
-    [Started as co-op student and was then promoted to EC-04] 
+    [Started as co-op student and was then promoted to EC-04] <br> 
 
     Made models and visualizations to enhance data-driven decision-making on various files in the Asia Pacific Branch and in support of the Centre for China Policy Research and Coherence.</p>
     <ul>
@@ -211,6 +211,7 @@ summary span {
     <ul>
       <li>Edited podcasts with guests from OpenAI and Weights & Biases.</li>
       <li>Hosted podcasts with guests from Cohere and Google DeepMind.</li>
+      <li>The podcast season I played a leading role in has gone on to be internally referred to as our best season yet!</li>
     </ul>
   </details>
 
