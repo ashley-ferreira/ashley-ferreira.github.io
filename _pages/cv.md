@@ -150,7 +150,7 @@ summary span {
 * Residence Don 
  <br>
   <details>
-    <summary> <strong>Residence University College</strong> | <span>01/2022 - 04/2023</span></summary>
+    <summary> <strong>Residence University College</strong> | <span>08/2022 - 04/2023</span></summary>
     <p>As a don, I lived in residence at a small college and engaged in various tasks to help make students' university experience as good as possible.</p>
     <ul>
       <li>Was directly responsible for the 19 students on my floor and we won the floor of the year award.</li>
