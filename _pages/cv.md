@@ -104,15 +104,15 @@ summary span {
   </details>
 
 
-### TRIUMF: Canada’s Particle Accelerator Center - 1.3+ years
+### TRIUMF: Canada’s Particle Accelerator Center - 1.4 years
 
-* Machine Learning Architect Student  <br>
+* Machine Learning Architect Student <br>
   <details>
-    <summary> <strong>Particle Physics Group</strong> | <span>05/2024 - Present</span></summary>
+    <summary> <strong>Particle Physics Group</strong> | <span>05/2024 - 09/2024</span></summary>
     <p>Continuing my work with the ALPHA collaboration (see position below).</p>
     <ul>
       <li>Together with another student, we have improved the model to reconstruct the vertical position (z) of antimatter annihilation events in ALPHA-g with to a precision twice as good as the conventional method and near-zero bias (on simulation) and extended the work to predict the full set of cartesian coordinates (x,y,z) as well.</li>
-      <li>Currently working on paper to publish results.</li>
+      <li>Summary paper has been accepted to NeurIPS 2024 workshop and full paper is undergoing internal review and going to be submitted to a physics journal shortly.</li>
     </ul>
   </details>
 
@@ -207,7 +207,7 @@ summary span {
 * Host & Editor <br>
   <details>
     <summary> <strong>Podcast Team</strong> | <span>01/2024 - 09/2024</span></summary>
-    <p>Listen to our podcast, The Data Den, almost everywhere you find podcasts including <a href="https://open.spotify.com/show/4iWipypyDClyRHM47JIMzg">Spotify</a>.</p>
+    <p>Listen to our podcast, The Data Den, almost everywhere you find podcasts including <a href="https://open.spotify.com/episode/2LMNWjBUDXQLB9WkbhA4ie">Spotify</a>.</p>
     <ul>
       <li>Edited podcasts with guests from OpenAI and Weights & Biases.</li>
       <li>Hosted podcasts with guests from Cohere and Google DeepMind.</li>

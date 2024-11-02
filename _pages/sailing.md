@@ -73,7 +73,7 @@ To learn more visit my old sailing [Facebook page](https://www.facebook.com/Soph
 
 * Honourary Team Member <br>
   <details>
-    <summary> <strong>University of British Columbia Sailing Team</strong> | <span>09/2023 - Present</span></summary>
+    <summary> <strong>University of British Columbia Sailing Team</strong> | <span>09/2023 - 08/2024</span></summary>
     <p>Sailed boats with UBC students (while technically not a UBC student, but UWaterloo doesn't have a team so I was allowed to compete with UBC).</p>
   </details>
 
