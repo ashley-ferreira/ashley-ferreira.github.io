@@ -69,7 +69,7 @@ summary span {
 
 To learn more visit my old sailing [Facebook page](https://www.facebook.com/SophAndAsh/).
 
-## Collegiate Sailing - 8+ months
+## Collegiate Sailing - 1 year
 
 * Honourary Team Member <br>
   <details>
@@ -79,7 +79,7 @@ To learn more visit my old sailing [Facebook page](https://www.facebook.com/Soph
 
 * Crew <br>
   <details>
-    <summary> <strong>Canadian Collegiate Sailing National Keelboat Development Team</strong> | <span>10/2023 - Present</span></summary>
+    <summary> <strong>Canadian Collegiate Sailing National Keelboat Development Team</strong> | <span>10/2023 - 08/2024</span></summary>
     <p>Sailed boats with some of the best college students from across Canada.</p>
   </details>
 
