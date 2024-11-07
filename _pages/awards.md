@@ -9,17 +9,15 @@ author_profile: true
 <img src="../images/CASST.jpeg" alt="Image 1" style="max-width: 38.3%; display: inline-block;">
 <img src="../images/SheHacks.jpeg" alt="Image 2" style="max-width: 59%; display: inline-block;">
 
-## Highlight
-
-* Digital Government Community Award for Excellence in Data and Information Stewardship (2024, awarded to team I was part of)
-    * "This award recognizes an individual or group for outstanding achievement in data and information stewardship"
-    * Specifically awarded to Alouette-1 project contributors at the CSA which was the predominant project I worked on during my time there
-
-## Academics
+## Work & Academics
 
 * University of Waterloo Science IDEAL Scholar Cobalt Medal (2024)
     * "IDEAL Scholars are graduating undergraduate students who participated in activities that go above and beyond their course load during their undergraduate degrees."
     * One of the 8 inaugural students from my graduating class to be awarded the highest level of the IDEAL (Innovation, Discovery, Engagement, Application, and Leadership) Scholar medallion
+
+* Digital Government Community Award for Excellence in Data and Information Stewardship (2024, awarded to team I was part of)
+    * "This award recognizes an individual or group for outstanding achievement in data and information stewardship"
+    * Specifically awarded to Alouette-1 project contributors at the CSA which was the predominant project I worked on during my time there
 
 * University of Waterloo Term Distinction (2023 & 2024)
     * For my final year research project on self-supervised learning and astronomy
@@ -47,6 +45,8 @@ author_profile: true
 * 1st Place Oral Presentation in Particle Physics Group at Canadian Conference for Undergraduate Women in Physics (2024)
 
 * 2nd Place Poster Presentation in Astrophysics and Cosmology Group at Canadian Conference for Undergraduate Women in Physics (2024)
+
+* 2nd Place Poster Presentation in TRIUMF Summer Students Research Symposium (2024, joint with Mahip Singh)
 
 * Best Presentation Award for Team Canada at US Joint Special Operations Command 2021 Data Challenge (2021, awarded to team I was one of presentors for)
 
