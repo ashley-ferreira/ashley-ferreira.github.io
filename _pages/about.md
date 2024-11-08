@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a keen young software developer and researcher with strong data science skills and have been primarily working on applying AI to enabling scientific discoveries. So far, my main focus has been providing computational support to enable scientific discoveries in space and the field of particle physics. 
+I'm a keen young software developer and researcher with strong data science skills. I have primarily working on applying AI to enabling scientific discoveries in space and the field of particle physics. 
 
 Currently, I work as a **Machine Learning Architect** student at TRIUMF, a national lab in Canada that focuses on particle and nuclear physics. Specifically, I work for ALPHA, the leading antimatter collaboration in the world and on an experiment called ALPHA-g which is located at CERN and is attempting to measure if antimatter reacts the same way to gravity as normal matter. These measurements are potentially of big consequence to our model of the universe and require an incredible amount of accuracy and precision. I collaboratively develop machine learning models that are able to reconstruct these antimatter events better than the state-of-the-art method and therefore can lead us towards new discoveries and our goal of measuring the weight of antimatter quarks. 
 
