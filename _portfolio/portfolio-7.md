@@ -14,6 +14,8 @@ tags:
 
 It is no big news that LLMs are useful at summarizing text and can be useful for semantic search. This project demonstrates how these strengths can be applied to important but dense documents such as the United Nations General Assembly (UNGA) Resolutions. I created a Python tool using Cohere’s LLMs for Retrieval-Augmented Generation (RAG) to summarize United Nations resolutions. Each resolution was also given an embedding which was used to create a semantic search capability and perform Principal Component Analysis to investigate trends in the data further.
 
+This also led me to do some contract work for Cohere to help evaluate their model's performance on STEM-related tasks. 
+
 
 ## Built With
 

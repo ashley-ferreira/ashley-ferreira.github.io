@@ -9,7 +9,7 @@ tags:
 - computer vision
 ---
 ## Status Update
-This is super preliminary and in-progress work from the summer of 2023 and now that I am back on this project we have been able to dramatically increase the resolution and lower the z-dependant bias of the model such that it is beating the conventional method and has the potential to be used for real physics analysis. I will update this page towards the end of summer 2024 with the final results and hopefully details on a publication.
+This page is currently pretty dated, and I'll update it when I have the chance but for now see [arXiv paper](https://arxiv.org/abs/2412.00961). 
 
 ## TL;DR
 Reconstructing antimatter events with Machine Learning (ML) is a relatively untouched approach and my work has shown it to be viable using simulations from the leading experiment located at CERN.
@@ -45,6 +45,8 @@ Reconstructing antimatter events with Machine Learning (ML) is a relatively unto
 Antimatter is similar to normal matter but has the opposite charge and is much more rare. When a particle and its antiparticle meet, they annihilate, so the fact that the universe seems to be dominated by matter is not well understood since equal amounts of matter and antimatter are thought to have been produced during the Big Bang. Some of the most compelling theories to explain this suggest that matter and antimatter must react differently to a force like gravity. 
 
 ALPHA is a leading experiment in the study of antimatter, with a track record of publishing [major breakthroughs](https://alpha.web.cern.ch/publications) in Nature. The most recent of which was [Observation of the effect of gravity on the motion of antimatter](https://www.nature.com/articles/s41586-023-06527-1) in September 2023 which detailed the first-ever measurements of the effect of gravity on antimatter, providing that it does fall down, and not up, but leaving large uncertainties ranges that necessitate antimatter be measured further before it can be said if gravity effects a particle and its antiparticle differently. 
+
+This is super preliminary and in-progress work from the summer of 2023 and now that I am back on this project we have been able to dramatically increase the resolution and lower the z-dependant bias of the model such that it is beating the conventional method and has the potential to be used for real physics analysis. 
 
 ## Goal
 

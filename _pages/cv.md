@@ -37,7 +37,17 @@ summary span {
 
 ## Work Experience
 
-### Government of Canada - 3.3 years
+### Government of Canada - 3.3+ years
+
+* Computational Analyst <br>
+  <details>
+    <summary> <strong>Defence Research and Development Canada</strong> | <span>Incoming!</span></summary>
+    <p>
+    [Bridged as an IT-02]<br>
+    
+    Returning to the Center for Operational Research and Analysis.
+    </p>
+  </details>
 
 * Junior Data Scientist <br>
   <details>
@@ -85,7 +95,7 @@ summary span {
 * Defence Data Science Assistant  <br>
   <details>
     <summary> <strong>Defence Research and Development Canada</strong> | <span>01/2021 - 04/2021 (co-op)</span></summary>
-    <p>Was part of the Joint Targeting group in the Center for Operational Research and Analysis.</p>
+    <p>Was part of the Center for Operational Research and Analysis.</p>
     <ul>
       <li>Developed machine learning binary tree classifiers as well PageRank-like algorithms in <strong>Python</strong> and <strong>Sklearn</strong> to produce a novel way of analyzing Twitter API data for Open Source Intelligence.</li>
       <li>Team Canada member for US Joint Special Operations Command 2021 Data Challenge, worked on Arabic OCR and tracking Bitcoin transactions for anti-money laundering efforts. I was one of the presenters and our team won the best presentation award out of 22 teams.</li>
