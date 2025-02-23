@@ -9,11 +9,11 @@ author_profile: true
 
 Some of my written work, varying from reports and blogs to actual papers.
 
-**Ferreira, A.**, Mahip, S., Capra, A., Carli, I., Duque Quiceno, D., Fedorko, W. T., Fujiwara, M., Li, M., Martin, L., Saito, L., Smith, G., Xu, A. (2024). Vertex reconstruction with Deep Learning for ALPHA-g Radial Time Projection Chamber [Pre-print].
+**Ferreira, A.**, Mahip, S., Capra, A., Carli, I., Duque Quiceno, D., Fedorko, W. T., Fujiwara, M., Li, M., Martin, L., Saito, Y., Smith, G., Xu, A. (2025). Vertex reconstruction with Deep Learning for ALPHA-g Radial Time Projection Chamber [Pre-print]. [Access](https://arxiv.org/abs/2502.12169).
 
-**Ferreira, A.**, Mahip, S., Capra, A., Carli, I., Duque Quiceno, D., Fedorko, W. T., Fujiwara, M., Li, M., Martin, L., Saito, L., Smith, G., Xu, A. (2024). AI Meets Antimatter: Unveiling Antihydrogen Annihilations [Workshop paper]. Machine Learning and the Physical Sciences Workshop at NeurIPS 2024. Available on [arXiv](https://arxiv.org/abs/2412.00961) and [workshop website](https://ml4physicalsciences.github.io/2024/#:~:text=AI%20Meets%20Antimatter%3A%20Unveiling%20Antihydrogen%20Annihilations).
+**Ferreira, A.**, Mahip, S., Capra, A., Carli, I., Duque Quiceno, D., Fedorko, W. T., Fujiwara, M., Li, M., Martin, L., Saito, Y., Smith, G., Xu, A. (2024). AI Meets Antimatter: Unveiling Antihydrogen Annihilations [Workshop paper]. Machine Learning and the Physical Sciences Workshop at NeurIPS 2024. Available on [arXiv](https://arxiv.org/abs/2412.00961) and [workshop website](https://ml4physicalsciences.github.io/2024/#:~:text=AI%20Meets%20Antimatter%3A%20Unveiling%20Antihydrogen%20Annihilations).
 
-**Ferreira, A.**, Mahip, S., Capra, A., Carli, I., Duque Quiceno, D., Fedorko, W. T., Fujiwara, M., Li, M., Martin, L., Saito, L., Smith, G., Xu, A. (2024). ALPHA-g Preprocessed Simmulation Dataset for Machine Learning [Dataset]. Zenodo. [Access](https://zenodo.org/records/13963779).
+**Ferreira, A.**, Mahip, S., Capra, A., Carli, I., Duque Quiceno, D., Fedorko, W. T., Fujiwara, M., Li, M., Martin, L., Saito, Y., Smith, G., Xu, A. (2024). ALPHA-g Preprocessed Simmulation Dataset for Machine Learning [Dataset]. Zenodo. [Access](https://zenodo.org/records/13963779).
 
 **Ferreira, A.** (2024). Illuminating the Ultraviolet Near Infrared Optical
 Northern Survey with Simple Masked Image Modeling [PHYS 437B report]. [Access](https://drive.google.com/file/d/17jNdRP0ZW9eHmfHxisz6FP_SYjAJoTMs/view?usp=sharing).\\(^1\\)

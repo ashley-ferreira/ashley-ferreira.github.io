@@ -69,7 +69,7 @@ summary span {
   <details>
     <summary> <strong>Global Affairs Canada</strong> | <span>05/2022 - 01/2023 (co-op)</span></summary>
     <p>
-    [Started as co-op student and was then promoted to EC-04] <br> 
+    [Started as co-op student and was then promoted to an EC-04] <br> 
 
     Made models and visualizations to enhance data-driven decision-making on various files in the Asia Pacific Branch and in support of the Centre for China Policy Research and Coherence.</p>
     <ul>
@@ -97,8 +97,8 @@ summary span {
     <summary> <strong>Defence Research and Development Canada</strong> | <span>01/2021 - 04/2021 (co-op)</span></summary>
     <p>Was part of the Center for Operational Research and Analysis.</p>
     <ul>
-      <li>Developed machine learning binary tree classifiers as well PageRank-like algorithms in <strong>Python</strong> and <strong>Sklearn</strong> to produce a novel way of analyzing Twitter API data for Open Source Intelligence.</li>
-      <li>Team Canada member for US Joint Special Operations Command 2021 Data Challenge, worked on Arabic OCR and tracking Bitcoin transactions for anti-money laundering efforts. I was one of the presenters and our team won the best presentation award out of 22 teams.</li>
+      <li>Developed Social Network Analysis (SNA) algorithm in <strong>Python</strong> to produce a novel way of analyzing Twitter data.</li>
+      <li>One of the presenting team members for international Data Challenge where we won the best presentation award out of 22 teams.</li>
     </ul>
   </details> 
 

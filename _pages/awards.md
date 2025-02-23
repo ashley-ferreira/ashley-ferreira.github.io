@@ -32,6 +32,7 @@ author_profile: true
 
 * Zenith Pathways Canada Fellowship (2024)
     * "Applicants from 24 institutions across North America underwent a rigorous selection process [...]. The Zenith Fellows were selected for their outstanding commitment to community service, excellent leadership and technical skills, and passion for contributing to the Canadian space sector."
+    * Turned down the internship portion and just participated as a Zenith Fellow Mentee
 
 * TRIUMF Richard E. Azuma Fellowship (2023)
     * "intended to support promising undergraduate students in Canada who are considering a career in research fields associated with TRIUMF’s science program.  They will be students who are **known amongst peers and teachers as exceptional individuals with a demonstrated track record of talent, passion, and leadership**. The Azuma Fellowship is seeking not only students with stellar undergraduate records, but also those with diverse backgrounds, collaborative spirit, creativity, and other attributes that will set them apart as future researchers."
