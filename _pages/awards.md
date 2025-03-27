@@ -49,8 +49,6 @@ author_profile: true
 
 * 2nd Place Poster Presentation in TRIUMF Summer Students Research Symposium (2024, joint with Mahip Singh)
 
-* Best Presentation Award for Team Canada at US Joint Special Operations Command 2021 Data Challenge (2021, awarded to team I was one of presentors for)
-
 ## Hackathons
 
 * 1st Place Overall for Galaxy Hunters at Space Apps 2022 Canadian Space Agency Moonwalker Challenges (2023, awarded to team I was lead of)

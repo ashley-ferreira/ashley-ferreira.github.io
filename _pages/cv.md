@@ -155,34 +155,19 @@ summary span {
 <img src="../../images/CERN_work2.jpg" alt="Image 3" style="max-width: 47%; display: inline-block;">
 <img src="../../images/CERN_work3.jpeg" alt="Image 4" style="max-width: 47%; display: inline-block;">
 
-### University of Waterloo - 1.6 years
+### University of Waterloo - 2.3 years
 
-* Residence Don 
+* Various Roles
  <br>
   <details>
-    <summary> <strong>Residence University College</strong> | <span>08/2022 - 04/2023</span></summary>
-    <p>As a don, I lived in residence at a small college and engaged in various tasks to help make students' university experience as good as possible.</p>
+    <summary> <strong>University Housing & Athletics</strong> | <span>09/2018 - 12/2024 (w/ breaks)</span></summary>
+    <p>When attending school in-person, I worked various roles from Residence Ambassador, Climbing Wall Staff, and Residence Don. As a don, I lived in residence at a small college and engaged in various tasks to help make students' university experience as good as possible.</p>
     <ul>
       <li>Was directly responsible for the 19 students on my floor and we won the floor of the year award.</li>
       <li>Patrolled the entire college and responded to emergencies (medical, mental health, etc.) when on duty.</li>
       <li>Provided support to students and resolved conflicts among residents.</li>
       <li>Planned residence-wide events and captained the college intramural team.</li>
     </ul>
-  </details>
-
-
-* Climbing Wall Staff 
- <br>
-  <details>
-    <summary> <strong>Athletics</strong> | <span>01/2022 - 04/2022</span></summary>
-    <p>Helped run the climbing wall and take care of the equipment.</p>
-  </details>
-
-* Residence Ambassador 
- <br>
-  <details>
-    <summary> <strong>Campus Housing</strong> | <span>09/2018 - 04/2019</span></summary>
-    <p>Gave tours of residence to prospective students.</p>
   </details>
 
 
@@ -203,9 +188,9 @@ summary span {
   <details>
     <summary>click to expand</summary>
     <ul>
-      <li>Most of this work experience was gained through the University of Waterloo co-op program, where we would alternate between school and work each 4 months for throughout our degree.</li>
+      <li>Most of this work experience was gained through the University of Waterloo co-op program, where we would alternate between school and work each 4 months for throughout our degree and were encouraged to try new things. This led to me doing placements at the Government of Canada, TRIUMF, and MDA.</li>
       <li>You can learn more about my co-op work experiences through an <a href="https://uwaterloo.ca/co-operative-education/blog/post/co-op-time-try-things">article</a> the University of Waterloo co-op program wrote about me.</li>
-      <li>Pretty much all of my technical roles (Government of Canada, TRIUMF, MDA) heavily involved <strong>Python</strong> programming, version control with <strong>git</strong> (e.g. GitHub, GitLab, and both GUI's and command line tools), as well as working in <strong>Linux-like</strong> systems (e.g. Linux).</li>
+      <li>Pretty much all of my technical roles heavily involved <strong>Python</strong> programming, version control with <strong>git</strong> (e.g. GitHub, GitLab, and both GUI's and command line tools), as well as working in <strong>Linux-like</strong> systems.</li>
       <li>I then also worked for my University directly during most of my in-person school terms.</li>
       <li>Also note that so far, most of my non co-op term work has been part-time as I was juggling classes at the same time and for my role at the Canadian Space Agency I took a couple of months off in the summer to pursue research abroad at CERN.</li>
     </ul>

@@ -9,7 +9,11 @@ author_profile: true
 
 Some of my written work, varying from reports and blogs to actual papers.
 
-**Ferreira, A.**, Mahip, S., Capra, A., Carli, I., Duque Quiceno, D., Fedorko, W. T., Fujiwara, M., Li, M., Martin, L., Saito, Y., Smith, G., Xu, A. (2025). Vertex reconstruction with Deep Learning for ALPHA-g Radial Time Projection Chamber [Pre-print]. [Access](https://arxiv.org/abs/2502.12169).
+Heesters, N., Chemaly, D., Muller, O., Sola, E., **Ferreira, A.**, Fabbro, S., McConnachie, A., Magnier, E., Hudson, M., Chambers, K., Hammer, F.  (2025). Dwarf Galaxies in the UNIONS Survey [In prep].
+
+**Ferreira, A.** (2025). Are LLMs Actually Getting Safer? [Pre-print].
+
+**Ferreira, A.**, Mahip, S., Capra, A., Carli, I., Duque Quiceno, D., Fedorko, W. T., Fujiwara, M., Li, M., Martin, L., Saito, Y., Smith, G., Xu, A. (2025). Antimatter Annihilation Vertex Reconstruction with Deep Learning for ALPHA-g Radial Time Projection Chamber [Pre-print]. [Access](https://arxiv.org/abs/2502.12169).
 
 **Ferreira, A.**, Mahip, S., Capra, A., Carli, I., Duque Quiceno, D., Fedorko, W. T., Fujiwara, M., Li, M., Martin, L., Saito, Y., Smith, G., Xu, A. (2024). AI Meets Antimatter: Unveiling Antihydrogen Annihilations [Workshop paper]. Machine Learning and the Physical Sciences Workshop at NeurIPS 2024. Available on [arXiv](https://arxiv.org/abs/2412.00961) and [workshop website](https://ml4physicalsciences.github.io/2024/#:~:text=AI%20Meets%20Antimatter%3A%20Unveiling%20Antihydrogen%20Annihilations).
 
@@ -20,9 +24,9 @@ Northern Survey with Simple Masked Image Modeling [PHYS 437B report]. [Access](h
 
 **Ferreira, A.** (2023). Applying Self-Supervised Representation Learning to the Ultraviolet Near Infrared Optical Northern Survey [PHYS 437A report]. [Access](https://drive.google.com/file/d/1YZd7P2o3J_OBjZ67idPWFj379PoHv0-J/view).\\(^1\\)
 
-**Ferreira, A** (2023) Implications of Explainable of Artificial Intelligence to the Ethics of Automated Warfare [Policy brief]. University of Waterloo Defence and Security Foresight Group AI, Ethics, and Warfare Series Publications. [Access](https://uwaterloo.ca/defence-security-foresight-group/sites/default/files/uploads/documents/ferreira_implications-of-explainable.pdf).
+**Ferreira, A** (2023) Implications of Explainable of Artificial Intelligence to the Ethics of Automated Warfare [Policy brief]. University of Waterloo Defence and Security Foresight Group AI, Ethics, and Warfare Series Publications. [Access](https://uwaterloo.ca/defence-security-foresight-group/sites/default/files/uploads/documents/ferreira_implications-of-explainable.pdf).  (Note: looking back, I see many ways to criticize this paper...) 
 
-Sun, Y., & **Ferreira, A.** (2023). Empirical Investigations on Influencer Detection on Twitter [Scientific report]. Defence Research and Development Canada Research Reports. 
+Sun, Y., & **Ferreira, A.** (2023). Empirical Investigations on Influencer Detection on Twitter [Scientific report]. Defence Research and Development Canada Research Reports.
 
 **Ferreira, A** (2023). Can Artificial Intelligence Bots Sail Better than Humans? [Medium blog]. UWaterloo Data Science Medium Page. [Access](https://medium.com/@waterloodatascience/can-artificial-intelligence-bots-sail-better-than-humans-e24ae73b2097).\\(^2\\)
 

@@ -7,4 +7,4 @@ redirect_from:
   - /AISE2025/
 ---
 
-## TBC 
+A (very early stage) draft of this work is available [here](https://drive.google.com/drive/folders/1pgshBgfEOW9p4yh6cQAly7R13TLGmq-Q?usp=sharing) that includes references for the poster.
