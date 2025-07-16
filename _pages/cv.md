@@ -37,17 +37,7 @@ summary span {
 
 ## Work Experience
 
-### Government of Canada - 3.3+ years
-
-* Computational Analyst <br>
-  <details>
-    <summary> <strong>Defence Research and Development Canada</strong> | <span>Incoming!</span></summary>
-    <p>
-    [Bridged as an IT-02]<br>
-    
-    Returning to the Center for Operational Research and Analysis.
-    </p>
-  </details>
+### Government of Canada - 3.3 years
 
 * Junior Data Scientist <br>
   <details>
@@ -74,7 +64,7 @@ summary span {
     Made models and visualizations to enhance data-driven decision-making on various files in the Asia Pacific Branch and in support of the Centre for China Policy Research and Coherence.</p>
     <ul>
       <li>Used <strong>Python</strong> to fine-tune <strong>GPT-3</strong> and used GPT-3 <strong>embeddings</strong> for a variety of national security projects including Retrieval Augmented Generation (<strong>RAG</strong>) to aid with text summarization and grounded question answering using reports from missions abroad.</li>
-      <li>Investigated correlation between the amount of Chinese economic exposure a country has and variables such as their voting trends in the United Nations using <strong>Python</strong> and <strong>PowerBI</strong> dashboards.</li>
+      <li>Investigated correlation between economic exposure and variables such as their voting trends in the United Nations using <strong>Python</strong> and <strong>PowerBI</strong> dashboards.</li>
       <li>Used <strong>R</strong> for timeseries forecasting of budget use of diplomatic missions abroad.</li>
     </ul>
   </details>
@@ -97,8 +87,8 @@ summary span {
     <summary> <strong>Defence Research and Development Canada</strong> | <span>01/2021 - 04/2021 (co-op)</span></summary>
     <p>Was part of the Center for Operational Research and Analysis.</p>
     <ul>
-      <li>Developed Social Network Analysis (SNA) algorithm in <strong>Python</strong> to produce a novel way of analyzing Twitter data.</li>
-      <li>One of the presenting team members for international Data Challenge where we won the best presentation award out of 22 teams.</li>
+      <li>Developed novel graph-based algorithms in <strong>Python</strong> to analyze open source information.</li>
+      <li>One of the presenting team members for international hackathon where we won the best presentation award out of 22 teams.</li>
     </ul>
   </details> 
 
@@ -118,26 +108,15 @@ summary span {
 
 * Machine Learning Architect Student <br>
   <details>
-    <summary> <strong>Particle Physics Group</strong> | <span>05/2024 - 09/2024</span></summary>
-    <p>Continuing my work with the ALPHA collaboration (see position below).</p>
+    <summary> <strong>Particle Physics Group</strong> | <span>05/2023 - 01/2023, 05/2024 - 09/2024</span></summary>
+    <p>Joined Antihydrogen Laser PHysics Apparatus (ALPHA), the leading antimatter collaboration at CERN as part of the Azuma Fellowship.</p>
     <ul>
-      <li>Together with another student, we have improved the model to reconstruct the vertical position (z) of antimatter annihilation events in ALPHA-g with to a precision twice as good as the conventional method and near-zero bias (on simulation) and extended the work to predict the full set of cartesian coordinates (x,y,z) as well.</li>
-      <li>Summary paper has been accepted to NeurIPS 2024 workshop and full paper is undergoing internal review and going to be submitted to a physics journal shortly.</li>
-    </ul>
-  </details>
-
-* Student Researcher  <br>
-  <details>
-    <summary> <strong>Particle Physics Group</strong> | <span>05/2023 - 01/2023</span></summary>
-    <p>Joined Antihydrogen Laser PHysics Apparatus (ALPHA), the leading antimatter collaboration at CERN as part of the Azuma Fellowship and then stayed on to work on a similar project for Super-Kamiokande Tokai to Kamioka (T2K) neutrino experiment.</p>
-    <ul>
-      <li>Designed and trained PointNet-like models in <strong>PyTorch</strong> to do regression to reconstruct the vertical position of antimatter annihilation events in the ALPHA-g detector based on Monte Carlo simulations.</li>
-      <li>Presenting the above project led me to winning the Canadian Astroparticle Summer Student Talk Competition and being awarded best Particle Physics talk at Canadian Conference for Undergraduate Women in Physics.</li>
+      <li>Designed and trained PointNet-like models in <strong>PyTorch</strong> to do regression to reconstruct the vertical position of antimatter annihilation events in the ALPHA-g detector based on Monte Carlo simulations, resulting in a model that is able to reconstruct this position to a precision twice as good as the conventional method and near-zero bias (on simulation)</li>
       <li>Participated in shift work for the ALPHA-2 experiment for 2 months which largely involved running physics experiments from the control room and doing real-time data analysis at CERN.</li>
-      <li>Attended the CERN Summer Student Lecture Programme 2023.</li>
+      <li>Attended the CERN Summer Student Lecture Programme.</li>
       <li>Then continued in the fall part-time in the fall to work on a similar project for T2K and having my first introduction to more high performance computing using <strong>multi-GPU</strong> training on our national compute cluster.</li>
     </ul>
-  </details> 
+  </details>
 
 * Photosensor Detector Researcher  <br>
   <details>
@@ -206,7 +185,6 @@ summary span {
     <ul>
       <li>Edited podcasts with guests from OpenAI and Weights & Biases.</li>
       <li>Hosted podcasts with guests from Cohere and Google DeepMind.</li>
-      <li>The podcast season I played a leading role in has gone on to be internally referred to as our best season yet!</li>
     </ul>
   </details>
 
