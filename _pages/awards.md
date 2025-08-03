@@ -57,16 +57,20 @@ author_profile: true
 
 ## Conference Travel 
 
-* Conference on Computer Vision and Pattern Recognition (CVPR) DEI funding to participate in CVPR (2024)
+* TRIUMF & Machine Learning and the Physical Sciences Workshop funding to present at NeurIPS 2024
 
-* SNOLAB & McDonald Institute funding to participate in Canadian Association of Physicists Congress (2024)
+* Conference on Computer Vision and Pattern Recognition (CVPR) DEI funding to present at CVPR (2024)
 
-* University of Waterloo funding to participate in: 
+* SNOLAB & McDonald Institute funding to present at Canadian Association of Physicists Congress (2024)
+
+* University of Waterloo funding to present at: 
     * Canadian Undergraduate Physics Conference (2022)
     * Canadian Undergraduate Physics Conference (2023)
     * Canadian Conference for Undergraduate Women in Physics (2024)
 
 ## Fully-Funded Summer Schools
+
+* AI Red-Teaming Bootcamp (2025), run the Berkeley Risk and Security Lab 
 
 * Astromatic (2022), run by the Ciela Institute
     * "the first edition of a week-long undergrad hackathon combining machine learning and astrophysics. 15 outstanding undergraduate students from 8 different countries"

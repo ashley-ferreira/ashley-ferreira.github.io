@@ -73,7 +73,7 @@ summary span {
   <details>
     <summary> <strong>Herzberg Astronomy & Astrophysics Research Centre</strong> | <span>09/2021 - 04/2022</span></summary>
     <p>
-    [Part of the NSERC-CREATE New Technologies for Canadian Observatories Training Program]
+    [Part of the NSERC-CREATE New Technologies for Canadian Observatories Training Program]  <br>
 
     Applied machine learning techniques in <strong>Python</strong>, using <strong>Keras</strong>, to astronomy data processing.</p>
     <ul>
