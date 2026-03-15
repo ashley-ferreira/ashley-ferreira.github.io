@@ -1,0 +1,23 @@
+---
+layout: archive
+title: "Presentations"
+permalink: /talks/
+author_profile: true
+---
+
+<img src="../images/ccuwip.jpeg" alt="Image 1" style="max-width: 100%; display: inline-block;">
+
+{% if site.talkmap_link == true %}
+
+<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+
+{% endif %}
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+
+<br>
+<br>
+Note that while I was the presentor for all the talks listed above, I was often representing work done by a larger group and not just my own work.
+
